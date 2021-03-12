@@ -1,2 +1,2 @@
-# token-registry
-Registry of endorsed tokens for IRIS Hub
+# coin-registry
+Registry of endorsed coins for the IRISnet ecosystem
