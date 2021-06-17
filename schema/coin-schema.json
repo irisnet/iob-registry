@@ -48,7 +48,7 @@
           "type": "string",
           "description": "CoinGecko id"
         },
-        "protocal": {
+        "protocol": {
           "type": "string",
           "enum": [
             "native",
@@ -73,7 +73,7 @@
         "description",
         "symbol",
         "scale",
-        "protocal"
+        "protocol"
       ]
     }
   }
