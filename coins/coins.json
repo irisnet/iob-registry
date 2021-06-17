@@ -4,9 +4,9 @@
     "denom": "uiris",
     "symbol": "iris",
     "scale": 6,
-    "description": "irishub main token",
+    "description": "IRIS Hub main token",
     "coin_id": "iris-network",
-    "protocal": "native",
+    "protocol": "native",
     "traces": []
   },
   {
@@ -14,9 +14,9 @@
     "denom": "htltbcbnb",
     "symbol": "bnb",
     "scale": 8,
-    "description": "bnb token was transferred from binance chain via htlt",
+    "description": "BNB token transferred from Binance Chain via HTLT",
     "coin_id": "binancecoin",
-    "protocal": "htlt",
+    "protocol": "htlt",
     "traces": [
       {
         "platform": "binancecoin",
@@ -29,9 +29,9 @@
     "denom": "htltbcbusd",
     "symbol": "busd",
     "scale": 8,
-    "description": "busd token was transferred from binance chain via htlt",
+    "description": "BUSD token transferred from Binance Chain via HTLT",
     "coin_id": "binance-usd",
-    "protocal": "htlt",
+    "protocol": "htlt",
     "traces": [
       {
         "platform": "binancecoin",
