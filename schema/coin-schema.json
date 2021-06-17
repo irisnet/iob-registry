@@ -1,0 +1,80 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "description": "irisnet coin registry",
+  "type": "array",
+  "items": {
+    "$ref": "#/definitions/coin_info"
+  },
+  "minItems": 1,
+  "uniqueItems": true,
+  "definitions": {
+    "trace": {
+      "type": "object",
+      "properties": {
+        "platform": {
+          "type": "string",
+          "description": "platform"
+        },
+        "denom": {
+          "type": "string",
+          "description": "denom"
+        }
+      }
+    },
+    "coin_info": {
+      "type": "object",
+      "properties": {
+        "platform": {
+          "type": "string",
+          "description": "platform"
+        },
+        "denom": {
+          "type": "string",
+          "description": "denom"
+        },
+        "symbol": {
+          "type": "string",
+          "description": "coin symbol"
+        },
+        "scale": {
+          "type": "integer",
+          "description": "coin scale"
+        },
+        "description": {
+          "type": "string",
+          "description": "coin description"
+        },
+        "coin_id": {
+          "type": "string",
+          "description": "CoinGecko id"
+        },
+        "protocal": {
+          "type": "string",
+          "enum": [
+            "native",
+            "htlt",
+            "ibc",
+            "peg"
+          ]
+        },
+        "traces": {
+          "type": "array",
+          "items": {
+            "$ref": "#/definitions/trace"
+          },
+          "default": [
+          ]
+        }
+      },
+      "required": [
+        "platform",
+        "denom",
+        "coin_id",
+        "description",
+        "symbol",
+        "scale",
+        "protocal"
+      ]
+    }
+  }
+}
