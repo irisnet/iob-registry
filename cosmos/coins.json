@@ -1,0 +1,28 @@
+[
+  {
+    "platform": "cosmos",
+    "denom": "uatom",
+    "symbol": "atom",
+    "scale": 6,
+    "description": "cosmoshub main token",
+    "coin_id": "cosmos",
+    "protocal": "native",
+    "traces": [
+    ]
+  },
+  {
+    "platform": "cosmos",
+    "denom": "ibc/9FBA79F830617D8C17C6D22BA1BB069C0515DAF2F942C5D82863552832E00F01",
+    "symbol": "iris",
+    "scale": 6,
+    "description": "iris token was transferred from irisnet through channel-0 via ibc",
+    "coin_id": "iris-network",
+    "protocal": "ibc",
+    "traces": [
+      {
+        "platform": "iris-network",
+        "denom": "uiris"
+      }
+    ]
+  }
+]

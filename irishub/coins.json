@@ -1,0 +1,57 @@
+[
+  {
+    "platform": "iris-network",
+    "denom": "uiris",
+    "symbol": "iris",
+    "scale": 6,
+    "description": "irishub main token",
+    "coin_id": "iris-network",
+    "protocal": "native",
+    "traces": []
+  },
+  {
+    "platform": "iris-network",
+    "denom": "htltbcbnb",
+    "symbol": "bnb",
+    "scale": 8,
+    "description": "bnb token was transferred from binance chain via hashlock",
+    "coin_id": "binancecoin",
+    "protocal": "hashlock",
+    "traces": [
+      {
+        "platform": "binancecoin",
+        "denom": "bnb"
+      }
+    ]
+  },
+  {
+    "platform": "iris-network",
+    "denom": "htltbcbusd",
+    "symbol": "busd",
+    "scale": 8,
+    "description": "busd token was transferred from binance chain via hashlock",
+    "coin_id": "binance-usd",
+    "protocal": "hashlock",
+    "traces": [
+      {
+        "platform": "binancecoin",
+        "denom": "busd-bd1"
+      }
+    ]
+  },
+  {
+    "platform": "iris-network",
+    "denom": "ibc/27394FB092D2ECCD56123C74F36E4C1F926001CEADA9CA97EA622B25F41E5EB2",
+    "symbol": "atom",
+    "scale": 6,
+    "description": "atom token was transferred from cosmoshub through channel-91 via ibc",
+    "coin_id": "cosmos",
+    "protocal": "ibc",
+    "traces": [
+      {
+        "platform": "cosmos",
+        "denom": "uatom"
+      }
+    ]
+  }
+]
