@@ -4,9 +4,9 @@
     "denom": "uiris",
     "symbol": "iris",
     "scale": 6,
-    "description": "irishub main token",
+    "description": "IRIS Hub main token",
     "coin_id": "iris-network",
-    "protocal": "native",
+    "protocol": "native",
     "traces": []
   },
   {
