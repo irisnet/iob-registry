@@ -6,7 +6,7 @@
     "scale": 8,
     "description": "binance chain main token",
     "coin_id": "binancecoin",
-    "protocal": "native",
+    "protocol": "native",
     "traces": [
     ]
   },
@@ -17,7 +17,7 @@
     "scale": 8,
     "description": "binance chain usd",
     "coin_id": "binance-usd",
-    "protocal": "native",
+    "protocol": "native",
     "traces": [
     ]
   },
@@ -26,9 +26,9 @@
     "denom": "iris-d88",
     "symbol": "iris",
     "scale": 8,
-    "description": "iris token was transferred from irisnet via gateway",
+    "description": "iris token transferred from irishub via gateway",
     "coin_id": "iris-network",
-    "protocal": "gateway",
+    "protocol": "gateway",
     "traces": [
       {
         "platform": "iris-network",
