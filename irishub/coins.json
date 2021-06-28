@@ -16,7 +16,7 @@
     "scale": 8,
     "description": "bnb token was transferred from binance chain via hashlock",
     "coin_id": "binancecoin",
-    "protocal": "hashlock",
+    "protocol": "hashlock",
     "traces": [
       {
         "platform": "binancecoin",
@@ -31,7 +31,7 @@
     "scale": 8,
     "description": "busd token was transferred from binance chain via hashlock",
     "coin_id": "binance-usd",
-    "protocal": "hashlock",
+    "protocol": "hashlock",
     "traces": [
       {
         "platform": "binancecoin",
@@ -46,7 +46,7 @@
     "scale": 6,
     "description": "atom token was transferred from cosmoshub through channel-91 via ibc",
     "coin_id": "cosmos",
-    "protocal": "ibc",
+    "protocol": "ibc",
     "traces": [
       {
         "platform": "cosmos",
