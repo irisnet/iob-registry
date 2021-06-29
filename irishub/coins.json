@@ -41,10 +41,25 @@
   },
   {
     "platform": "iris-network",
+    "denom": "uatom",
+    "symbol": "atom",
+    "scale": 6,
+    "description": "denom in RecvPacket representing atom being transferred from cosmoshub",
+    "coin_id": "cosmos",
+    "protocol": "ibc",
+    "traces": [
+      {
+        "platform": "cosmos",
+        "denom": "uatom"
+      }
+    ]
+  },  
+  {
+    "platform": "iris-network",
     "denom": "ibc/27394FB092D2ECCD56123C74F36E4C1F926001CEADA9CA97EA622B25F41E5EB2",
     "symbol": "atom",
     "scale": 6,
-    "description": "atom token was transferred from cosmoshub through channel-91 via ibc",
+    "description": "atom token received from cosmoshub through channel-91 via ibc",
     "coin_id": "cosmos",
     "protocol": "ibc",
     "traces": [
