@@ -12,10 +12,25 @@
   },
   {
     "platform": "cosmos",
+    "denom": "uiris",
+    "symbol": "iris",
+    "scale": 6,
+    "description": "denom in RecvPacket representing iris token being transferred from irishub",
+    "coin_id": "iris-network",
+    "protocol": "ibc",
+    "traces": [
+      {
+        "platform": "iris-network",
+        "denom": "uiris"
+      }
+    ]
+  },
+  {
+    "platform": "cosmos",
     "denom": "ibc/9FBA79F830617D8C17C6D22BA1BB069C0515DAF2F942C5D82863552832E00F01",
     "symbol": "iris",
     "scale": 6,
-    "description": "iris token transferred from irishub through channel-0 via ibc",
+    "description": "iris token received from irishub through channel-0 via ibc",
     "coin_id": "iris-network",
     "protocol": "ibc",
     "traces": [
