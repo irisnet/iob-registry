@@ -53,5 +53,15 @@
         "denom": "uatom"
       }
     ]
+  },
+  {
+    "platform": "iris-network",
+    "denom": "uwdt",
+    "symbol": "wdt",
+    "scale": 9,
+    "description": "Winner RDC",
+    "coin_id": "iris-uwdt",
+    "protocol": "native",
+    "traces": []
   }
 ]
