@@ -106,7 +106,7 @@
     "denom":"ibc/81D08BC39FB520EBD948CF017910DD69702D34BF5AC160F76D3B5CFC444EBCE0",
     "symbol":"xprt",
     "scale":6,
-    "description":"persistence token received from sentinel via ibc",
+    "description":"persistence token received from persistence via ibc",
     "coin_id":"persistence",
     "protocol":"ibc",
     "traces":[
