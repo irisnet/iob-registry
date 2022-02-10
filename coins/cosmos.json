@@ -2,7 +2,7 @@
   {
     "platform":"cosmos",
     "denom":"uatom",
-    "symbol":"atom",
+    "symbol":"ATOM",
     "scale":6,
     "description":"Cosmos Hub main token",
     "coin_id":"cosmos",
@@ -13,7 +13,7 @@
   {
     "platform":"cosmos",
     "denom":"ibc/12DA42304EE1CE96071F712AA4D58186AD11C3165C0DCDA71E017A54F3935E66",
-    "symbol":"iris",
+    "symbol":"IRIS",
     "scale":6,
     "description":"IRIS token used by the Gravity DEX application",
     "coin_id":"iris-network",
@@ -34,7 +34,7 @@
   {
     "platform":"cosmos",
     "denom":"ibc/14F9BC3E44B8A9C1BE1FB08980FAB87034C9905EF17CF2F5008FC085218811CC",
-    "symbol":"osmo",
+    "symbol":"OSMO",
     "scale":6,
     "description":"osmosis token received from osmosis network via ibc",
     "coin_id":"osmosis",
@@ -49,7 +49,7 @@
   {
     "platform":"cosmos",
     "denom":"ibc/2181AAB0218EAC24BC9F86BD1364FBBFA3E6E3FCC25E88E3E68C15DC6E752D86",
-    "symbol":"akt",
+    "symbol":"AKT",
     "scale":6,
     "description":"akt token received from akash network via ibc",
     "coin_id":"akash-network",
@@ -64,7 +64,7 @@
   {
     "platform":"cosmos",
     "denom":"ibc/C932ADFE2B4216397A4F17458B6E4468499B86C3BC8116180F85D799D6F5CC1B",
-    "symbol":"cro",
+    "symbol":"CRO",
     "scale":8,
     "description":"Crypto.com token received from Crypto.com via ibc",
     "coin_id":"crypto-com-chain",
@@ -79,7 +79,7 @@
   {
     "platform":"cosmos",
     "denom":"ibc/1FBDD58D438B4D04D26CBFB2E722C18984A0F1A52468C4F42F37D102F3D3F399",
-    "symbol":"regen",
+    "symbol":"REGEN",
     "scale":6,
     "description":"regen token received from regen network via ibc",
     "coin_id":"regen",
@@ -94,7 +94,7 @@
   {
     "platform":"cosmos",
     "denom":"ibc/42E47A5BA708EBE6E0C227006254F2784E209F4DBD3C6BB77EDC4B29EF875E8E",
-    "symbol":"dvpn",
+    "symbol":"DVPN",
     "scale":6,
     "description":"sentinel token received from sentinel via ibc",
     "coin_id":"sentinel",
@@ -109,7 +109,7 @@
   {
     "platform":"cosmos",
     "denom":"ibc/81D08BC39FB520EBD948CF017910DD69702D34BF5AC160F76D3B5CFC444EBCE0",
-    "symbol":"xprt",
+    "symbol":"XRPT",
     "scale":6,
     "description":"persistence token received from persistence via ibc",
     "coin_id":"persistence",
@@ -118,6 +118,246 @@
       {
         "platform":"persistence",
         "denom":"uxprt"
+      }
+    ]
+  },
+  {
+    "platform":"cosmos",
+    "denom":"ibc/",
+    "symbol":"XKI",
+    "scale":6,
+    "description":"ki token received from ki via ibc",
+    "coin_id":"ki",
+    "protocol":"ibc",
+    "traces":[
+      {
+        "platform":"ki",
+        "denom":"uxki"
+      }
+    ]
+  },
+  {
+    "platform":"cosmos",
+    "denom":"ibc/",
+    "symbol":"STARS",
+    "scale":6,
+    "description":"stargaze token received from stargaze via ibc",
+    "coin_id":"stargaze",
+    "protocol":"ibc",
+    "traces":[
+      {
+        "platform":"stargaze",
+        "denom":"ustars"
+      }
+    ]
+  },
+  {
+    "platform":"cosmos",
+    "denom":"ibc/",
+    "symbol":"SOMM",
+    "scale":6,
+    "description":"sommelier token received from sommelier via ibc",
+    "coin_id":"sommelier",
+    "protocol":"ibc",
+    "traces":[
+      {
+        "platform":"sommelier",
+        "denom":"usomm"
+      }
+    ]
+  },
+  {
+    "platform":"cosmos",
+    "denom":"ibc/",
+    "symbol":"LUM",
+    "scale":6,
+    "description":"lum token received from lum via ibc",
+    "coin_id":"lum-network",
+    "protocol":"ibc",
+    "traces":[
+      {
+        "platform":"lum",
+        "denom":"ulum"
+      }
+    ]
+  },
+  {
+    "platform":"cosmos",
+    "denom":"ibc/",
+    "symbol":"IXO",
+    "scale":6,
+    "description":"ixo token received from ixo via ibc",
+    "coin_id":"ixo",
+    "protocol":"ibc",
+    "traces":[
+      {
+        "platform":"ixo",
+        "denom":"uixo"
+      }
+    ]
+  },
+  {
+    "platform":"cosmos",
+    "denom":"ibc/",
+    "symbol":"HUAHUA",
+    "scale":6,
+    "description":"chihuahua token received from chihuahua via ibc",
+    "coin_id":"chihuahua-token",
+    "protocol":"ibc",
+    "traces":[
+      {
+        "platform":"chihuahua",
+        "denom":"uhuahua"
+      }
+    ]
+  },
+  {
+    "platform":"cosmos",
+    "denom":"ibc/",
+    "symbol":"DSM",
+    "scale":6,
+    "description":"desmos token received from desmos via ibc",
+    "coin_id":"desmos",
+    "protocol":"ibc",
+    "traces":[
+      {
+        "platform":"desmos",
+        "denom":"udsm"
+      }
+    ]
+  },
+  {
+    "platform":"cosmos",
+    "denom":"ibc/",
+    "symbol":"CHEQ",
+    "scale":6,
+    "description":"cheqd token received from cheqd via ibc",
+    "coin_id":"cheqd-network",
+    "protocol":"ibc",
+    "traces":[
+      {
+        "platform":"cheqd",
+        "denom":"ucheq"
+      }
+    ]
+  },
+  {
+    "platform":"cosmos",
+    "denom":"ibc/",
+    "symbol":"BCNA",
+    "scale":6,
+    "description":"bitcanna token received from bitcanna via ibc",
+    "coin_id":"bitcanna",
+    "protocol":"ibc",
+    "traces":[
+      {
+        "platform":"bitcanna",
+        "denom":"ubcna"
+      }
+    ]
+  },
+  {
+    "platform":"cosmos",
+    "denom":"ibc/",
+    "symbol":"TICK",
+    "scale":6,
+    "description":"microtick token received from microtick via ibc",
+    "coin_id":"microtick",
+    "protocol":"ibc",
+    "traces":[
+      {
+        "platform":"microtick",
+        "denom":"utick"
+      }
+    ]
+  },
+  {
+    "platform":"cosmos",
+    "denom":"ibc/",
+    "symbol":"ION",
+    "scale":6,
+    "description":"osmosis token received from osmosis via ibc",
+    "coin_id":"ion",
+    "protocol":"ibc",
+    "traces":[
+      {
+        "platform":"osmosis",
+        "denom":"uion"
+      }
+    ]
+  },
+  {
+    "platform":"cosmos",
+    "denom":"ibc/",
+    "symbol":"BTSG",
+    "scale":6,
+    "description":"bitsong token received from bitsong via ibc",
+    "coin_id":"bitsong",
+    "protocol":"ibc",
+    "traces":[
+      {
+        "platform":"bitsong",
+        "denom":"ubtsg"
+      }
+    ]
+  },
+  {
+    "platform":"cosmos",
+    "denom":"ibc/",
+    "symbol":"LIKE",
+    "scale":9,
+    "description":"likecoin token received from likecoin via ibc",
+    "coin_id":"likecoin",
+    "protocol":"ibc",
+    "traces":[
+      {
+        "platform":"likecoin",
+        "denom":"nanolike"
+      }
+    ]
+  },
+  {
+    "platform":"cosmos",
+    "denom":"ibc/",
+    "symbol":"NGM",
+    "scale":6,
+    "description":"e-money token received from e-money via ibc",
+    "coin_id":"e-money",
+    "protocol":"ibc",
+    "traces":[
+      {
+        "platform":"e-money",
+        "denom":"ungm"
+      }
+    ]
+  },
+  {
+    "platform":"cosmos",
+    "denom":"ibc/",
+    "symbol":"ATOLO",
+    "scale":6,
+    "description":"rizon token received from rizon via ibc",
+    "coin_id":"rizon",
+    "protocol":"ibc",
+    "traces":[
+      {
+        "platform":"rizon",
+        "denom":"uatolo"
+      }
+    ]
+  },
+  {
+    "platform":"cosmos",
+    "denom":"ibc/",
+    "symbol":"JUNO",
+    "scale":6,
+    "description":"juno token received from juno via ibc",
+    "coin_id":"juno-network",
+    "protocol":"ibc",
+    "traces":[
+      {
+        "platform":"juno",
+        "denom":"ujuno"
       }
     ]
   }
