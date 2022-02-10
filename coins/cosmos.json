@@ -39,10 +39,12 @@
     "description":"osmosis token received from osmosis network via ibc",
     "coin_id":"osmosis",
     "protocol":"ibc",
+    "in_path":"transfer/channel-141",
     "traces":[
       {
         "platform":"osmosis",
-        "denom":"uosmo"
+        "denom":"uosmo",
+        "out_path":"transfer/channel-0"
       }
     ]
   },
@@ -54,10 +56,12 @@
     "description":"akt token received from akash network via ibc",
     "coin_id":"akash-network",
     "protocol":"ibc",
+    "in_path":"transfer/channel-184",
     "traces":[
       {
         "platform":"akash-network",
-        "denom":"uakt"
+        "denom":"uakt",
+        "out_path":"transfer/channel-17"
       }
     ]
   },
@@ -69,10 +73,12 @@
     "description":"Crypto.com token received from Crypto.com via ibc",
     "coin_id":"crypto-com-chain",
     "protocol":"ibc",
+    "in_path":"transfer/channel-187",
     "traces":[
       {
         "platform":"crypto.com",
-        "denom":"basecro"
+        "denom":"basecro",
+        "out_path":"transfer/channel-27"
       }
     ]
   },
@@ -84,10 +90,12 @@
     "description":"regen token received from regen network via ibc",
     "coin_id":"regen",
     "protocol":"ibc",
+    "in_path":"transfer/channel-185",
     "traces":[
       {
         "platform":"regen",
-        "denom":"uregen"
+        "denom":"uregen",
+        "out_path":"transfer/channel-11"
       }
     ]
   },
@@ -99,10 +107,12 @@
     "description":"sentinel token received from sentinel via ibc",
     "coin_id":"sentinel",
     "protocol":"ibc",
+    "in_path":"transfer/channel-186",
     "traces":[
       {
         "platform":"sentinel",
-        "denom":"udvpn"
+        "denom":"udvpn",
+        "out_path":"transfer/channel-12"
       }
     ]
   },
@@ -114,25 +124,29 @@
     "description":"persistence token received from persistence via ibc",
     "coin_id":"persistence",
     "protocol":"ibc",
+    "in_path":"transfer/channel-190",
     "traces":[
       {
         "platform":"persistence",
-        "denom":"uxprt"
+        "denom":"uxprt",
+        "out_path":"transfer/channel-24"
       }
     ]
   },
   {
     "platform":"cosmos",
-    "denom":"ibc/",
+    "denom":"ibc/533E5FFC606FD11B8DCA309C66AFD6A1F046EF784A73F323A332CF6823F0EA87",
     "symbol":"XKI",
     "scale":6,
     "description":"ki token received from ki via ibc",
     "coin_id":"ki",
     "protocol":"ibc",
+    "in_path":"transfer/channel-223",
     "traces":[
       {
         "platform":"ki",
-        "denom":"uxki"
+        "denom":"uxki",
+        "out_path":"transfer/channel-1"
       }
     ]
   },
@@ -183,16 +197,19 @@
   },
   {
     "platform":"cosmos",
-    "denom":"ibc/",
+    "denom":"ibc/B2B5AEE174062FA7804AC95223D8169852F8F58962C51C66391C272C838258B7",
     "symbol":"IXO",
     "scale":6,
     "description":"ixo token received from ixo via ibc",
     "coin_id":"ixo",
     "protocol":"ibc",
+    "base_denom":"uixo",
+    "in_path":"transfer/channel-204",
     "traces":[
       {
         "platform":"ixo",
-        "denom":"uixo"
+        "denom":"uixo",
+        "out_path":"transfer/channel-1"
       }
     ]
   },
@@ -243,16 +260,18 @@
   },
   {
     "platform":"cosmos",
-    "denom":"ibc/",
+    "denom":"ibc/ADBEC1A7AC2FEF73E06B066A1C94DAB6C27924EF7EA3F5A43378150009620284",
     "symbol":"BCNA",
     "scale":6,
     "description":"bitcanna token received from bitcanna via ibc",
     "coin_id":"bitcanna",
     "protocol":"ibc",
+    "in_path":"transfer/channel-232",
     "traces":[
       {
         "platform":"bitcanna",
-        "denom":"ubcna"
+        "denom":"ubcna",
+        "out_path":"transfer/channel-3"
       }
     ]
   },
@@ -264,10 +283,12 @@
     "description":"microtick token received from microtick via ibc",
     "coin_id":"microtick",
     "protocol":"ibc",
+    "in_path":"",
     "traces":[
       {
         "platform":"microtick",
-        "denom":"utick"
+        "denom":"utick",
+        "out_path":""
       }
     ]
   },
@@ -279,25 +300,29 @@
     "description":"osmosis token received from osmosis via ibc",
     "coin_id":"ion",
     "protocol":"ibc",
+    "in_path":"",
     "traces":[
       {
         "platform":"osmosis",
-        "denom":"uion"
+        "denom":"uion",
+        "out_path":""
       }
     ]
   },
   {
     "platform":"cosmos",
-    "denom":"ibc/",
+    "denom":"ibc/E7D5E9D0E9BF8B7354929A817DD28D4D017E745F638954764AA88522A7A409EC",
     "symbol":"BTSG",
     "scale":6,
     "description":"bitsong token received from bitsong via ibc",
     "coin_id":"bitsong",
     "protocol":"ibc",
+    "in_path":"transfer/channel-229",
     "traces":[
       {
         "platform":"bitsong",
-        "denom":"ubtsg"
+        "denom":"ubtsg",
+        "out_path":"transfer/channel-1"
       }
     ]
   },
@@ -318,16 +343,18 @@
   },
   {
     "platform":"cosmos",
-    "denom":"ibc/",
+    "denom":"ibc/E070CE91CC4BD15AEC9B5788C0826755AAD35052A3037E9AC62BE70B4C9A7DBB",
     "symbol":"NGM",
     "scale":6,
     "description":"e-money token received from e-money via ibc",
     "coin_id":"e-money",
     "protocol":"ibc",
+    "in_path":"transfer/channel-202",
     "traces":[
       {
         "platform":"e-money",
-        "denom":"ungm"
+        "denom":"ungm",
+        "out_path":"transfer/channel-1"
       }
     ]
   },
@@ -348,16 +375,18 @@
   },
   {
     "platform":"cosmos",
-    "denom":"ibc/",
+    "denom":"ibc/CDAB23DA5495290063363BD1C3499E26189036302DC689985A7E23F8DF8D8DB0",
     "symbol":"JUNO",
     "scale":6,
     "description":"juno token received from juno via ibc",
     "coin_id":"juno-network",
     "protocol":"ibc",
+    "in_path":"transfer/channel-207",
     "traces":[
       {
         "platform":"juno",
-        "denom":"ujuno"
+        "denom":"ujuno",
+        "out_path":"transfer/channel-1"
       }
     ]
   }
