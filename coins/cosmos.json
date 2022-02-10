@@ -12,24 +12,6 @@
   },
   {
     "platform":"cosmos",
-    "denom":"ibc/9FBA79F830617D8C17C6D22BA1BB069C0515DAF2F942C5D82863552832E00F01",
-    "symbol":"iris",
-    "scale":6,
-    "description":"IRIS token over the IBC protocol",
-    "coin_id":"iris-network",
-    "protocol":"ibc",
-    "base_denom":"uiris",
-    "in_path":"transfer/channel-91",
-    "traces":[
-      {
-        "platform":"iris-network",
-        "denom":"uiris",
-        "out_path":"transfer/channel-0"
-      }
-    ]
-  },
-  {
-    "platform":"cosmos",
     "denom":"ibc/12DA42304EE1CE96071F712AA4D58186AD11C3165C0DCDA71E017A54F3935E66",
     "symbol":"iris",
     "scale":6,
