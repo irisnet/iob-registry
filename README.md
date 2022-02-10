@@ -1,2 +1,2 @@
-# coin-registry
-Registry of endorsed coins for the IRISnet ecosystem
+# iob-registry
+Registry for the Internet of Blockchains
