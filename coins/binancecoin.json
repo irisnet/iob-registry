@@ -1,0 +1,39 @@
+[
+  {
+    "platform": "binancecoin",
+    "denom": "bnb",
+    "symbol": "bnb",
+    "scale": 8,
+    "description": "Binance Chain main token",
+    "coin_id": "binancecoin",
+    "protocol": "native",
+    "traces": [
+    ]
+  },
+  {
+    "platform": "binancecoin",
+    "denom": "busd-bd1",
+    "symbol": "busd",
+    "scale": 8,
+    "description": "Binance Chain stablecoin: BUSD",
+    "coin_id": "binance-usd",
+    "protocol": "native",
+    "traces": [
+    ]
+  },
+  {
+    "platform": "binancecoin",
+    "denom": "iris-d88",
+    "symbol": "iris",
+    "scale": 8,
+    "description": "BEP2 token for IRIS",
+    "coin_id": "iris-network",
+    "protocol": "gateway",
+    "traces": [
+      {
+        "platform": "iris-network",
+        "denom": "uiris"
+      }
+    ]
+  }
+]

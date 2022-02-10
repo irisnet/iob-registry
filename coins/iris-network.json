@@ -1,0 +1,81 @@
+[
+  {
+    "platform":"iris-network",
+    "denom":"uiris",
+    "symbol":"iris",
+    "scale":6,
+    "description":"IRIS Hub main token",
+    "coin_id":"iris-network",
+    "protocol":"native",
+    "traces":[
+    ]
+  },
+  {
+    "platform":"iris-network",
+    "denom":"uwdt",
+    "symbol":"wdt",
+    "scale":9,
+    "description":"IRIS Hub token: Winner RDC",
+    "coin_id":"iris-uwdt",
+    "protocol":"native",
+    "traces":[
+    ]
+  },
+  {
+    "platform":"iris-network",
+    "denom":"htltbcbnb",
+    "symbol":"bnb",
+    "scale":8,
+    "description":"BNB token used by the CoinSwap application",
+    "coin_id":"binancecoin",
+    "apps":[
+      "coinswap"
+    ],
+    "protocol":"hashlock",
+    "traces":[
+      {
+        "platform":"binancecoin",
+        "denom":"bnb"
+      }
+    ]
+  },
+  {
+    "platform":"iris-network",
+    "denom":"htltbcbusd",
+    "symbol":"busd",
+    "scale":8,
+    "description":"BUSD token used by the CoinSwap application",
+    "coin_id":"binance-usd",
+    "apps":[
+      "coinswap"
+    ],
+    "protocol":"hashlock",
+    "traces":[
+      {
+        "platform":"binancecoin",
+        "denom":"busd-bd1"
+      }
+    ]
+  },
+  {
+    "platform":"iris-network",
+    "denom":"ibc/27394FB092D2ECCD56123C74F36E4C1F926001CEADA9CA97EA622B25F41E5EB2",
+    "symbol":"atom",
+    "scale":6,
+    "description":"ATOM token used by the CoinSwap application",
+    "coin_id":"cosmos",
+    "apps":[
+      "coinswap"
+    ],
+    "protocol":"ibc",
+    "base_denom":"uatom",
+    "in_path":"transfer/channel-0",
+    "traces":[
+      {
+        "platform":"cosmos",
+        "denom":"uatom",
+        "out_path":"transfer/channel-91"
+      }
+    ]
+  }
+]
