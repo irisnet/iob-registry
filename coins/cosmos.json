@@ -152,46 +152,52 @@
   },
   {
     "platform":"cosmos",
-    "denom":"ibc/",
+    "denom":"",
     "symbol":"stars",
     "scale":6,
     "description":"stargaze token received from stargaze via ibc",
     "coin_id":"stargaze",
     "protocol":"ibc",
+    "in_path":"",
     "traces":[
       {
         "platform":"stargaze",
-        "denom":"ustars"
+        "denom":"ustars",
+        "out_path":""
       }
     ]
   },
   {
     "platform":"cosmos",
-    "denom":"ibc/",
+    "denom":"",
     "symbol":"somm",
     "scale":6,
     "description":"sommelier token received from sommelier via ibc",
     "coin_id":"sommelier",
     "protocol":"ibc",
+    "in_path":"",
     "traces":[
       {
         "platform":"sommelier",
-        "denom":"usomm"
+        "denom":"usomm",
+        "out_path":""
       }
     ]
   },
   {
     "platform":"cosmos",
-    "denom":"ibc/",
+    "denom":"",
     "symbol":"lum",
     "scale":6,
     "description":"lum token received from lum via ibc",
     "coin_id":"lum-network",
     "protocol":"ibc",
+    "in_path":"",
     "traces":[
       {
         "platform":"lum",
-        "denom":"ulum"
+        "denom":"ulum",
+        "out_path":""
       }
     ]
   },
@@ -215,46 +221,52 @@
   },
   {
     "platform":"cosmos",
-    "denom":"ibc/",
+    "denom":"ibc/2FDD14D0C8102ED1E70F10B4413A03A54A1F91B913EB5E380E63F37325C69B92",
     "symbol":"huahua",
     "scale":6,
     "description":"chihuahua token received from chihuahua via ibc",
     "coin_id":"chihuahua-token",
     "protocol":"ibc",
+    "in_path":"transfer/channel-229",
     "traces":[
       {
         "platform":"chihuahua",
-        "denom":"uhuahua"
+        "denom":"uhuahua",
+        "out_path":""
       }
     ]
   },
   {
     "platform":"cosmos",
-    "denom":"ibc/",
+    "denom":"",
     "symbol":"dsm",
     "scale":6,
     "description":"desmos token received from desmos via ibc",
     "coin_id":"desmos",
     "protocol":"ibc",
+    "in_path":"",
     "traces":[
       {
         "platform":"desmos",
-        "denom":"udsm"
+        "denom":"udsm",
+        "out_path":""
       }
     ]
   },
   {
     "platform":"cosmos",
-    "denom":"ibc/",
+    "denom":"ibc/E5D29DB2145827AB4DCACBF8FD08D4842F7E29A29E46A78FCD6E9C24CE7BBA5D",
     "symbol":"cheq",
     "scale":6,
     "description":"cheqd token received from cheqd via ibc",
     "coin_id":"cheqd-network",
     "protocol":"ibc",
+    "in_path":"transfer/channel-239",
     "traces":[
       {
         "platform":"cheqd",
-        "denom":"ucheq"
+        "denom":"ucheq",
+        "out_path":"transfer/channel-1"
       }
     ]
   },
@@ -277,18 +289,18 @@
   },
   {
     "platform":"cosmos",
-    "denom":"ibc/",
+    "denom":"ibc/393D4E7397A1C3CAB7D8584AE8414E0B9CABE1E60C4F0ED11FC84EE9836816CF",
     "symbol":"tick",
     "scale":6,
     "description":"microtick token received from microtick via ibc",
     "coin_id":"microtick",
     "protocol":"ibc",
-    "in_path":"",
+    "in_path":"transfer/channel-201",
     "traces":[
       {
         "platform":"microtick",
         "denom":"utick",
-        "out_path":""
+        "out_path":"transfer/channel-6"
       }
     ]
   },
@@ -300,7 +312,7 @@
     "description":"osmosis token received from osmosis via ibc",
     "coin_id":"ion",
     "protocol":"ibc",
-    "in_path":"",
+    "in_path":"transfer/channel-141",
     "traces":[
       {
         "platform":"osmosis",
@@ -328,16 +340,18 @@
   },
   {
     "platform":"cosmos",
-    "denom":"ibc/",
+    "denom":"ibc/1D5826F7EDE6E3B13009FEF994DC9CAAF15CC24CA7A9FF436FFB2E56FD72F54F",
     "symbol":"like",
     "scale":9,
     "description":"likecoin token received from likecoin via ibc",
     "coin_id":"likecoin",
     "protocol":"ibc",
+    "in_path":"transfer/channel-217",
     "traces":[
       {
         "platform":"likecoin",
-        "denom":"nanolike"
+        "denom":"nanolike",
+        "out_path":"transfer/channel-5"
       }
     ]
   },
@@ -366,10 +380,12 @@
     "description":"rizon token received from rizon via ibc",
     "coin_id":"rizon",
     "protocol":"ibc",
+    "in_path":"",
     "traces":[
       {
         "platform":"rizon",
-        "denom":"uatolo"
+        "denom":"uatolo",
+        "out_path":""
       }
     ]
   },
