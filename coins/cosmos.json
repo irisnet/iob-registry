@@ -221,13 +221,13 @@
   },
   {
     "platform":"cosmos",
-    "denom":"ibc/2FDD14D0C8102ED1E70F10B4413A03A54A1F91B913EB5E380E63F37325C69B92",
+    "denom":"",
     "symbol":"huahua",
     "scale":6,
     "description":"chihuahua token received from chihuahua via ibc",
     "coin_id":"chihuahua-token",
     "protocol":"ibc",
-    "in_path":"transfer/channel-229",
+    "in_path":"",
     "traces":[
       {
         "platform":"chihuahua",
@@ -257,7 +257,7 @@
     "platform":"cosmos",
     "denom":"ibc/E5D29DB2145827AB4DCACBF8FD08D4842F7E29A29E46A78FCD6E9C24CE7BBA5D",
     "symbol":"cheq",
-    "scale":6,
+    "scale":9,
     "description":"cheqd token received from cheqd via ibc",
     "coin_id":"cheqd-network",
     "protocol":"ibc",
@@ -265,7 +265,7 @@
     "traces":[
       {
         "platform":"cheqd",
-        "denom":"ucheq",
+        "denom":"ncheq",
         "out_path":"transfer/channel-1"
       }
     ]
@@ -306,7 +306,7 @@
   },
   {
     "platform":"cosmos",
-    "denom":"ibc/",
+    "denom":"ibc/5BB694D466CCF099EF73F165F88472AF51D9C4991EAA42BD1168C5304712CC0D",
     "symbol":"ion",
     "scale":6,
     "description":"osmosis token received from osmosis via ibc",
@@ -317,7 +317,7 @@
       {
         "platform":"osmosis",
         "denom":"uion",
-        "out_path":""
+        "out_path":"transfer/channel-0"
       }
     ]
   },
@@ -374,7 +374,7 @@
   },
   {
     "platform":"cosmos",
-    "denom":"ibc/",
+    "denom":"",
     "symbol":"atolo",
     "scale":6,
     "description":"rizon token received from rizon via ibc",
