@@ -68,13 +68,80 @@
       "coinswap"
     ],
     "protocol":"ibc",
-    "base_denom":"uatom",
     "in_path":"transfer/channel-0",
     "traces":[
       {
         "platform":"cosmos",
         "denom":"uatom",
         "out_path":"transfer/channel-91"
+      }
+    ]
+  },
+  {
+    "platform":"iris-network",
+    "denom":"ibc/DDC0CE4852A53B1D3A6BF056CBB59701AC8E91798028CD7C2A7F490A753F8A88",
+    "symbol":"graviton",
+    "scale":6,
+    "description":"GRAVITON token used by the CoinSwap application",
+    "coin_id":"gravity-bridge",
+    "apps":[
+      "coinswap"
+    ],
+    "protocol":"ibc",
+    "in_path":"transfer/channel-29",
+    "traces":[
+      {
+        "platform":"gravity-bridge",
+        "denom":"ugraviton",
+        "out_path":"transfer/channel-47"
+      }
+    ]
+  },
+  {
+    "platform":"iris-network",
+    "denom":"ibc/E244B968EE0D1EC047E7516F6ABECE7B68E9FD93B4BD8D08D13642247416BB17",
+    "symbol":"weth",
+    "scale":18,
+    "description":"Bridged WETH token used by the CoinSwap application",
+    "coin_id":"weth",
+    "apps":[
+      "coinswap"
+    ],
+    "protocol":"ibc",
+    "in_path":"transfer/channel-29",
+    "traces":[
+      {
+        "platform":"gravity-bridge",
+        "denom":"gravity0xC02aaA39b223FE8D0A0e5C4F27eAD9083C756Cc2",
+        "out_path":"transfer/channel-47"
+      },
+      {
+        "platform":"ethereum",
+        "denom":"0xc02aaa39b223fe8d0a0e5c4f27ead9083c756cc2"
+      }
+    ]
+  },
+  {
+    "platform":"iris-network",
+    "denom":"ibc/A5A5EBF3B7A180FBA2A3CE133153F5B904AA8B085691F66A15BE8156B6722652",
+    "symbol":"usdc",
+    "scale":6,
+    "description":"Bridged USDC token used by the CoinSwap application",
+    "coin_id":"usd-coin",
+    "apps":[
+      "coinswap"
+    ],
+    "protocol":"ibc",
+    "in_path":"transfer/channel-29",
+    "traces":[
+      {
+        "platform":"gravity-bridge",
+        "denom":"gravity0xA0b86991c6218b36c1d19D4a2e9Eb0cE3606eB48",
+        "out_path":"transfer/channel-47"
+      },
+      {
+        "platform":"ethereum",
+        "denom":"0xc02aaa39b223fe8d0a0e5c4f27ead9083c756cc2"
       }
     ]
   }
