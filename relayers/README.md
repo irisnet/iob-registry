@@ -30,10 +30,10 @@ An example 'information.json' contains the following structure:
     "medium": "https://medium.com/irisnet-blog",
     "discord": "https://discord.com/invite/bmhu9F9xbX"
   },
-  "introduction": {
+  "introduction": [
     "IRISnet (a.k.a IRIS Hub) is designed to be the foundation for the next generation distributed applications. Built with Cosmos-SDK, IRIS Hub enables cross-chain interoperability through a unified service model, while providing a variety of modules to support DeFi applications.",
     "IRISnet dev teams include Bianjie (https://www.bianjie.ai/), a national award-winning blockchain technology team based in Shanghai, and Tendermint (https://tendermint.com/), the world-famous team that created the Tendermint consensus engine and the Cosmos project."
-  }
+  ]
 }
 ```
 
@@ -45,7 +45,7 @@ Note: when creating these files, please ensure the the chains in both the file n
 
 An example 'chain1-chain2.json' contains the following structure:
 
-```
+```json
 {
   "chain-1": {
     "address" : "iaa148zzqgulnly3wgx35s5f0z4l4vwf30tj03wgaq",
