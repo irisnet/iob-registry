@@ -1,14 +1,14 @@
 {
  "chain-1": {
-    "address" : "cosmos1cf8ufk9mqtj48zj9l4pupyfeqjwh7fjm9c7gk7",
-    "chain-id": "cosmoshub-4",
-    "channel-id": "channel-91",
+    "address" : "gravity1cf8ufk9mqtj48zj9l4pupyfeqjwh7fjmpgvsnk",
+    "chain-id": "gravity-bridge-3",
+    "channel-id": "channel-47",
     "version": "ics20-1"
   },
   "chain-2": {
     "address" : "iaa1cf8ufk9mqtj48zj9l4pupyfeqjwh7fjms67e50",
     "chain-id": "irishub-1",
-    "channel-id": "channel-0",
+    "channel-id": "channel-29",
     "version": "ics20-1"
   }
 }
