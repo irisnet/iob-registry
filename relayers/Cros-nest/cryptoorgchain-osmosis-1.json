@@ -1,0 +1,14 @@
+{
+    "chain-1": {
+        "address": "cro1jrqtzmv4sqcu37tq5fhps6c37a98s8axvq39sf", 
+        "chain-id": "crypto-org-chain-mainnet-1", 
+        "channel-id": "channel-10", 
+        "version": "ics20-1"
+    }, 
+    "chain-2": {
+        "address": "osmo19pjtx7dah2fquf7udyxjv94h0eraha78ddzwlm", 
+        "chain-id": "osmosis-1", 
+        "channel-id": "channel-5", 
+        "version": "ics20-1"
+    }
+}

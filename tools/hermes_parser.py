@@ -1,33 +1,22 @@
+#!/bin/env python3
+
 # This script parse Hermes configuration to extract registry informations
+import argparse
 import json
-from ctypes import Union
+import os.path
 from types import SimpleNamespace
+
+import requests
+
+import toml
+import urllib3.util
 
 import certifi
 import cosmpy.protos.ibc.core.channel.v1.query_pb2_grpc
 import cosmpy.protos.ibc.core.connection.v1.query_pb2_grpc
 import cosmpy.protos.ibc.core.client.v1.query_pb2_grpc
 import grpc
-import requests
 
-import toml
-import urllib3.util
-
-# chain definition schema
-# {
-#   "chain-1": {
-#     "address" : {"type": "string"},
-#     "chain-id": {"type": "string"},
-#     "channel-id": {"type": "string"},
-#     "version": {"type": "string"}
-#   },
-#   "chain-2": {
-#     "address" : {"type": "string"},
-#     "chain-id": {"type": "string"},
-#     "channel-id": {"type": "string"},
-#     "version": {"type": "string"}
-#   }
-# }
 from cosmpy.protos.ibc.core.channel.v1.channel_pb2 import Channel
 from cosmpy.protos.ibc.core.channel.v1.query_pb2 import QueryChannelRequest
 from cosmpy.protos.ibc.core.connection.v1.connection_pb2 import ConnectionEnd
@@ -35,55 +24,70 @@ from cosmpy.protos.ibc.core.connection.v1.query_pb2 import QueryConnectionReques
 from cosmpy.protos.ibc.core.client.v1.query_pb2 import QueryClientStateRequest
 from google.protobuf.json_format import MessageToJson
 
+
 class ChainChain:
     def __init__(self, chain1_name, chain2_name):
         self.chain1_name = chain1_name
         self.chain2_name = chain2_name
-        
+    
     def populate_chain_1(self, chain_id, channel, wallet, version='ics20-1'):
         self.chain1 = {
-                          "address" : wallet,
-                          "chain-id": chain_id,
-                          "channel-id": channel,
-                          "version": "ics20-1"
-                      }
+            "address": wallet,
+            "chain-id": chain_id,
+            "channel-id": channel,
+            "version": "ics20-1"
+        }
     
     def populate_chain_2(self, chain_id, channel, wallet, version='ics20-1'):
         self.chain2 = {
-                          "address": wallet,
-                          "chain-id": chain_id,
-                          "channel-id": channel,
-                          "version": "ics20-1"
-                      }
-    def to_string(self):
-        json.dumps({
+            "address": wallet,
+            "chain-id": chain_id,
+            "channel-id": channel,
+            "version": "ics20-1"
+        }
+    
+    def to_string(self) -> str:
+        return json.dumps({
             "chain-1": self.chain1,
             "chain-2": self.chain2
-        })
+        }, indent=4, separators=(", ", ": "))
+    
+    def write_as_file(self, path='.', suffix=''):
+        file_name = "{}-{}-{}.json".format(self.chain1_name, self.chain2_name, suffix)
+        print(f"write {file_name}")
+        full_path = os.path.join(path, file_name)
+        print("mkdir {}".format(os.path.dirname(full_path)))
+        os.makedirs(os.path.dirname(full_path), exist_ok=True)
+        with open(full_path, 'w+') as f:
+            json.dump({"chain-1": self.chain1, "chain-2": self.chain2},
+                      f, indent=4, separators=(", ", ": "))
+
 
 class GrpcIBC:
-    def __init__(self, url:str):
+    def __init__(self, url: str):
         self.grpc_url = urllib3.util.parse_url(url)
         self.grpc_client = None
+        client_url = "{}:{}".format(urllib3.util.get_host(str(grpc_url))[1], urllib3.util.get_host(str(grpc_url))[2])
+        print(f"connecting({client_url})")
         if 'https' in urllib3.util.get_host(str(grpc_url))[0]:
             with open(certifi.where(), "rb") as f:
                 trusted_certs = f.read()
             credentials = grpc.ssl_channel_credentials(
                 root_certificates=trusted_certs
             )
-            self.grpc_client = grpc.secure_channel(str(grpc_url), credentials)
+            self.grpc_client = grpc.secure_channel(client_url, credentials)
         else:
-            self.grpc_client = grpc.insecure_channel(str(grpc_url))
-
+            self.grpc_client = grpc.insecure_channel(client_url)
+        
         self.ibc_channel_query = cosmpy.protos.ibc.core.channel.v1.query_pb2_grpc.QueryStub(self.grpc_client)
         self.ibc_connection_query = cosmpy.protos.ibc.core.connection.v1.query_pb2_grpc.QueryStub(self.grpc_client)
         self.ibc_client_query = cosmpy.protos.ibc.core.client.v1.query_pb2_grpc.QueryStub(self.grpc_client)
-        
-    def query_channel(self, port, channel)->Channel:
+    
+    def query_channel(self, port, channel) -> Channel:
         resp = self.ibc_channel_query.Channel(QueryChannelRequest(port_id=port, channel_id=channel))
         return resp.channel
-
-    def query_connection(self, connection)->ConnectionEnd:
+    
+    def query_connection(self, connection) -> ConnectionEnd:
         resp = self.ibc_connection_query.Connection(QueryConnectionRequest(connection_id=connection))
         return resp
     
@@ -100,6 +104,7 @@ class GrpcIBC:
         mess = json.loads(string_json, object_hook=lambda d: SimpleNamespace(**d))
         return mess
 
+
 class Registry:
     chain_registry = []
     
@@ -111,15 +116,24 @@ class Registry:
         return chains
     
     def get_chain(self, chain) -> dict:
-        if isinstance(chain, dict):
-            chain_name = next(item for item in self.chain_registry if item["chain_id"] == chain['id'])['name']
-        else:
-            chain_name = next(item for item in self.chain_registry if item["chain_id"] == chain)['name']
-        chain_def_full = requests.get("https://chains.cosmos.directory/{}".format(chain_name)).json()['chain']
+        try:
+            if isinstance(chain, dict):
+                chain_name = next(item for item in self.chain_registry if item["chain_id"] == chain['id'])['name']
+            else:
+                chain_name = next(item for item in self.chain_registry if item["chain_id"] == chain)['name']
+            chain_def_full = requests.get("https://chains.cosmos.directory/{}".format(chain_name)).json()['chain']
+        except StopIteration:
+            print("chain {} not found in registry.".format(chain))
+            raise
         return chain_def_full
 
+
 def get_wallet_from_keyring(chain_id, key_name):
-    return json.loads(f".hermes/keys/{chain_id}/keyring-test/{key_name}.json")['account']
+    wallet = ""
+    with open(f".hermes/keys/{chain_id}/keyring-test/{key_name}.json", 'r') as f:
+        wallet = json.load(f)['account']
+    return wallet
+
 
 def get_counterparty_chain(ibc, port, channel):
     try:
@@ -133,47 +147,73 @@ def get_counterparty_chain(ibc, port, channel):
     
     resp = ibc.query_connection(connection)
     client_id = resp.connection.client_id
-
+    
     client = ibc.query_client(client_id)
     counterparty_chain_id = client.chainId
     return counterparty_chain_id, counterparty_port, counterparty_channel
 
+
 if __name__ == '__main__':
+    parser = argparse.ArgumentParser(description='Read Hermes configuration and generate relayer registry entries')
+    parser.add_argument('--config', type=str, default="{}/.hermes/config.toml".format(os.getenv('HOME')),
+                        help='path the the hermes configuration file')
+    parser.add_argument('--relayer_id', type=str,
+                        help='in case of multiple relayer, help identify')
+    parser.add_argument('--path', type=str, default='.',
+                        help='path to store output files')
+    
+    args = parser.parse_args()
+    
     registry = Registry()
     
-    config = toml.load(open("/home/dpierret/cros-nest/hermes_relayer1.toml", 'r'))
+    config = toml.load(open(args.config, 'r'))
     for chain in config['chains']:
         if 'packet_filter' not in chain:
             print("chain config {} not parsed, please use packet_filter.".format(chain['id']))
+            continue
         if chain['packet_filter']['policy'] != 'allow':
             print("chain config {} not parsed, please use \'allow\' packet_filter\'s policy.".format(chain['id']))
+            continue
         
-        chain_extended_definition = registry.get_chain(chain)
+        try:
+            chain_extended_definition = registry.get_chain(chain)
+        except StopIteration:
+            print("chain {} not found in registry.".format(chain))
+            continue
+
         chain_name = chain_extended_definition['name']
         chain_id = chain['id']
         port = ""
         channel = ""
-
+        
         counterparty_chain_id = ""
         counterparty_port = ""
         counterparty_channel = ""
-        
-        grpc_url = urllib3.util.parse_url(chain_extended_definition['apis']['grpc'][0]['address'])
-        # grpc_url = urllib3.util.parse_url(chain['grpc_addr'])
-        ibc = GrpcIBC(chain_extended_definition['apis']['grpc'][0]['address'])
+
+        # grpc_url = urllib3.util.parse_url(chain_extended_definition['apis']['grpc'][0]['address'])
+        grpc_url = urllib3.util.parse_url(chain['grpc_addr'])
+        ibc = GrpcIBC(str(grpc_url))
         
         channel_list = chain['packet_filter']['list']
         for port, channel in channel_list:
+            counterparty_chain_id, counterparty_port, counterparty_channel = get_counterparty_chain(ibc, port, channel)
             try:
-                counterparty_chain_id, counterparty_port, counterparty_channel = get_counterparty_chain(ibc, port, channel)
                 counterparty_chain_definition = registry.get_chain(counterparty_chain_id)
-                wallet = get_wallet_from_keyring(chain_id, chain['key_name'])
+            except StopIteration:
+                print("chain_id {} not found in config.".format(counterparty_chain_id))
+                continue
+
+            wallet = get_wallet_from_keyring(chain_id, chain['key_name'])
+            try:
                 wallet_counterparty = get_wallet_from_keyring(counterparty_chain_id,
-                                                              next(item for item in channel_list if item["id"] == counterparty_chain_id)['key_name'])
-                cc = ChainChain(chain_name, counterparty_chain_definition['name'])
-                cc.populate_chain_1(chain_id, channel, wallet)
-                cc.populate_chain_2(counterparty_chain_id, counterparty_channel, wallet_counterparty)
-                print(cc.to_string())
-                print("ok?")
-            except Exception as err:
-                pass
+                                                              next(item for item in config['chains'] if
+                                                                   item["id"] == counterparty_chain_id)['key_name'])
+            except StopIteration:
+                print("chain_id {} not found in config.".format(counterparty_chain_id))
+                continue
+
+            cc = ChainChain(chain_name, counterparty_chain_definition['name'])
+            cc.populate_chain_1(chain_id, channel, wallet)
+            cc.populate_chain_2(counterparty_chain_id, counterparty_channel, wallet_counterparty)
+            cc.write_as_file(path=args.path, suffix=args.relayer_id)
+        
