@@ -1,0 +1,14 @@
+{
+    "chain-1": {
+        "address": "cosmos1evdjzy3w9t2yu54w4dhc2cvrlc2fvnpts7qstc", 
+        "chain-id": "cosmoshub-4", 
+        "channel-id": "channel-281", 
+        "version": "ics20-1"
+    }, 
+    "chain-2": {
+        "address": "gravity1evdjzy3w9t2yu54w4dhc2cvrlc2fvnpt5wjgws", 
+        "chain-id": "gravity-bridge-3", 
+        "channel-id": "channel-17", 
+        "version": "ics20-1"
+    }
+}

@@ -1,0 +1,14 @@
+{
+    "chain-1": {
+        "address": "osmo1evdjzy3w9t2yu54w4dhc2cvrlc2fvnptc9nqa2", 
+        "chain-id": "osmosis-1", 
+        "channel-id": "channel-135", 
+        "version": "ics20-1"
+    }, 
+    "chain-2": {
+        "address": "desmos1evdjzy3w9t2yu54w4dhc2cvrlc2fvnptyxdquq", 
+        "chain-id": "desmos-mainnet", 
+        "channel-id": "channel-2", 
+        "version": "ics20-1"
+    }
+}

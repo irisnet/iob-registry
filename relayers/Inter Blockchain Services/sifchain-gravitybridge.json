@@ -1,0 +1,14 @@
+{
+    "chain-1": {
+        "address": "sif14uyfxlv00lj0qhcwt7vms2rsf7kxuld73ahy4h", 
+        "chain-id": "sifchain-1", 
+        "channel-id": "channel-60", 
+        "version": "ics20-1"
+    }, 
+    "chain-2": {
+        "address": "gravity14uyfxlv00lj0qhcwt7vms2rsf7kxuld7ss22l5", 
+        "chain-id": "gravity-bridge-3", 
+        "channel-id": "channel-66", 
+        "version": "ics20-1"
+    }
+}

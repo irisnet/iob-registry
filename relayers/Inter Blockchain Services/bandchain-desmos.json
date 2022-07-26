@@ -1,0 +1,14 @@
+{
+    "chain-1": {
+        "address": "band1evdjzy3w9t2yu54w4dhc2cvrlc2fvnptf3qjns", 
+        "chain-id": "laozi-mainnet", 
+        "channel-id": "channel-12", 
+        "version": "ics20-1"
+    }, 
+    "chain-2": {
+        "address": "desmos1evdjzy3w9t2yu54w4dhc2cvrlc2fvnptyxdquq", 
+        "chain-id": "desmos-mainnet", 
+        "channel-id": "channel-1", 
+        "version": "ics20-1"
+    }
+}

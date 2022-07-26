@@ -1,0 +1,14 @@
+{
+    "chain-1": {
+        "address": "osmo14uyfxlv00lj0qhcwt7vms2rsf7kxuld7umtzvw", 
+        "chain-id": "osmosis-1", 
+        "channel-id": "channel-115", 
+        "version": "ics20-1"
+    }, 
+    "chain-2": {
+        "address": "lum14uyfxlv00lj0qhcwt7vms2rsf7kxuld7p29m0g", 
+        "chain-id": "lum-network-1", 
+        "channel-id": "channel-3", 
+        "version": "ics20-1"
+    }
+}

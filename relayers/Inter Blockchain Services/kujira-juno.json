@@ -1,0 +1,14 @@
+{
+    "chain-1": {
+        "address": "kujira14uyfxlv00lj0qhcwt7vms2rsf7kxuld79g62hk", 
+        "chain-id": "kaiyo-1", 
+        "channel-id": "channel-1", 
+        "version": "ics20-1"
+    }, 
+    "chain-2": {
+        "address": "juno14uyfxlv00lj0qhcwt7vms2rsf7kxuld7zjmfaq", 
+        "chain-id": "juno-1", 
+        "channel-id": "channel-87", 
+        "version": "ics20-1"
+    }
+}

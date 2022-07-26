@@ -1,0 +1,14 @@
+{
+    "chain-1": {
+        "address": "bcna1evdjzy3w9t2yu54w4dhc2cvrlc2fvnpt2ws3r2", 
+        "chain-id": "bitcanna-1", 
+        "channel-id": "channel-1", 
+        "version": "ics20-1"
+    }, 
+    "chain-2": {
+        "address": "osmo1evdjzy3w9t2yu54w4dhc2cvrlc2fvnptc9nqa2", 
+        "chain-id": "osmosis-1", 
+        "channel-id": "channel-51", 
+        "version": "ics20-1"
+    }
+}
