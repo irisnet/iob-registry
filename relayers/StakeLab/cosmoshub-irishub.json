@@ -1,0 +1,14 @@
+{
+ "chain-1": {
+    "address" : "cosmos1mjq48r6435aewerpruwc8up3tz3rzan2ve7hp4",
+    "chain-id": "cosmoshub-4",
+    "channel-id": "channel-91",
+    "version": "ics20-1"
+  },
+  "chain-2": {
+    "address" : "iaa1mjq48r6435aewerpruwc8up3tz3rzan2em7xry",
+    "chain-id": "irishub-1",
+    "channel-id": "channel-0",
+    "version": "ics20-1"
+  }
+}
