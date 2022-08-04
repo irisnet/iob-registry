@@ -26,34 +26,72 @@ from google.protobuf.json_format import MessageToJson
 
 
 class ChainChain:
+    """
+    This class build configuration file.
+    """
     def __init__(self, chain1_name, chain2_name):
+        """
+
+        :param chain1_name: first chain name
+        :param chain2_name: second chain name
+        """
+        self.chain2 = None
+        self.chain1 = None
         self.chain1_name = chain1_name
         self.chain2_name = chain2_name
-    
-    def populate_chain_1(self, chain_id, channel, wallet, version='ics20-1'):
+
+    def populate_chain_1(self, chain_id:str, channel:str, wallet:str, version='ics20-1'):
+        """
+        fill parameter for the first chain
+
+        :param chain_id: chain_id
+        :param channel: IBC channel
+        :param wallet: relayer wallet
+        :param version: channel ics version
+        :return: None
+        """
         self.chain1 = {
             "address": wallet,
             "chain-id": chain_id,
             "channel-id": channel,
-            "version": "ics20-1"
+            "version": version
         }
     
-    def populate_chain_2(self, chain_id, channel, wallet, version='ics20-1'):
+    def populate_chain_2(self, chain_id:str, channel:str, wallet:str, version='ics20-1'):
+        """
+        fill parameter for the second chain
+
+        :param chain_id: chain_id
+        :param channel: IBC channel
+        :param wallet: relayer wallet
+        :param version: channel ics version
+        :return: None
+        """
         self.chain2 = {
             "address": wallet,
             "chain-id": chain_id,
             "channel-id": channel,
-            "version": "ics20-1"
+            "version": version
         }
     
     def to_string(self) -> str:
+        """
+        Convert configuration to string
+        :return: str
+        """
         return json.dumps({
             "chain-1": self.chain1,
             "chain-2": self.chain2
         }, indent=4, separators=(", ", ": "))
     
     def write_as_file(self, path='.', suffix=''):
-        file_name = "{}-{}-{}.json".format(self.chain1_name, self.chain2_name, suffix)
+        """
+        Write configuration to file
+        :param path: file directory path
+        :param suffix: optional suffix for file name
+        :return: None
+        """
+        file_name = "{}-{}-{}.json".format(self.chain1_name, self.chain2_name, f"-{suffix}" if suffix else '')
         print(f"write {file_name}")
         full_path = os.path.join(path, file_name)
         print("mkdir {}".format(os.path.dirname(full_path)))
@@ -64,7 +102,14 @@ class ChainChain:
 
 
 class GrpcIBC:
+    """
+    This class allow the query of IBC information through IBC
+    """
     def __init__(self, url: str):
+        """
+        initialize the GRPC client
+        :param url: URL to GRPC server endpoint
+        """
         self.grpc_url = urllib3.util.parse_url(url)
         self.grpc_client = None
         client_url = "{}:{}".format(urllib3.util.get_host(str(grpc_url))[1], urllib3.util.get_host(str(grpc_url))[2])
@@ -83,15 +128,31 @@ class GrpcIBC:
         self.ibc_connection_query = cosmpy.protos.ibc.core.connection.v1.query_pb2_grpc.QueryStub(self.grpc_client)
         self.ibc_client_query = cosmpy.protos.ibc.core.client.v1.query_pb2_grpc.QueryStub(self.grpc_client)
     
-    def query_channel(self, port, channel) -> Channel:
+    def query_channel(self, port:str, channel:str) -> Channel:
+        """
+        query IBC channel information
+        :param port: port name
+        :param channel: channel name
+        :return: Channel object
+        """
         resp = self.ibc_channel_query.Channel(QueryChannelRequest(port_id=port, channel_id=channel))
         return resp.channel
     
-    def query_connection(self, connection) -> ConnectionEnd:
+    def query_connection(self, connection:str) -> ConnectionEnd:
+        """
+        query IBC connection information
+        :param connection: connection name
+        :return: ConnectionEnd object
+        """
         resp = self.ibc_connection_query.Connection(QueryConnectionRequest(connection_id=connection))
         return resp
     
-    def query_client(self, client) -> dict:
+    def query_client(self, client:str) -> dict:
+        """
+        query IBC client state
+        :param client: IBC client name
+        :return: dict representation of Client state object
+        """
         from cosmpy.protos.ibc.lightclients.tendermint.v1.tendermint_pb2 import ClientState
         
         resp = self.ibc_client_query.ClientState(QueryClientStateRequest(client_id=client))
@@ -106,21 +167,35 @@ class GrpcIBC:
 
 
 class Registry:
+    """
+    this class allow to query cosmos.directory
+    """
     chain_registry = []
     
     def __init__(self):
+        """
+        """
         self.chain_registry = self.get_chains()
     
     def get_chains(self) -> dict:
+        """
+        Get all the chains referenced on cosmos.directory
+        :return: dict
+        """
         chains = requests.get("https://chains.cosmos.directory/").json()['chains']
         return chains
     
-    def get_chain(self, chain) -> dict:
+    def get_chain(self, chain:str) -> dict:
+        """
+        Get information for the provided chain
+        :param chain: chain name to query
+        :return: dict
+        """
         try:
             if isinstance(chain, dict):
-                chain_name = next(item for item in self.chain_registry if item["chain_id"] == chain['id'])['name']
+                chain_name: str = next(item for item in self.chain_registry if item["chain_id"] == chain['id'])['name']
             else:
-                chain_name = next(item for item in self.chain_registry if item["chain_id"] == chain)['name']
+                chain_name: str = next(item for item in self.chain_registry if item["chain_id"] == chain)['name']
             chain_def_full = requests.get("https://chains.cosmos.directory/{}".format(chain_name)).json()['chain']
         except StopIteration:
             print("chain {} not found in registry.".format(chain))
@@ -128,28 +203,41 @@ class Registry:
         return chain_def_full
 
 
-def get_wallet_from_keyring(chain_id, key_name):
-    wallet = ""
+def get_wallet_from_keyring(chain_id:str, key_name:str) -> str:
+    """
+    parse the Hermes keyring to extract wallet address
+    :param chain_id: chaine_id
+    :param key_name: key name
+    :return: str
+    """
+    wallet: str = ""
     with open(f".hermes/keys/{chain_id}/keyring-test/{key_name}.json", 'r') as f:
         wallet = json.load(f)['account']
     return wallet
 
 
-def get_counterparty_chain(ibc, port, channel):
+def get_counterparty_chain(ibc:GrpcIBC, port:str, channel:str):
+    """
+    get all the counterparty information for an IBC channel
+    :param ibc: initialized GrpcIBC object
+    :param port: source port name
+    :param channel: source channel name
+    :return: tuple(chain_id, port, channel)
+    """
     try:
         channel_resp = ibc.query_channel(port, channel)
     except grpc.RpcError as err:
         print("chain config {} not parsed, due to bad GRPC endpoint.".format(chain['id']))
         raise err
-    counterparty_port = channel_resp.counterparty.port_id
-    counterparty_channel = channel_resp.counterparty.channel_id
+    counterparty_port: str = channel_resp.counterparty.port_id
+    counterparty_channel: str = channel_resp.counterparty.channel_id
     connection = channel_resp.connection_hops[-1:][0]
     
     resp = ibc.query_connection(connection)
     client_id = resp.connection.client_id
     
     client = ibc.query_client(client_id)
-    counterparty_chain_id = client.chainId
+    counterparty_chain_id: str = client.chainId
     return counterparty_chain_id, counterparty_port, counterparty_channel
 
 
@@ -161,7 +249,6 @@ if __name__ == '__main__':
                         help='in case of multiple relayer, help identify')
     parser.add_argument('--path', type=str, default='.',
                         help='path to store output files')
-    
     args = parser.parse_args()
     
     registry = Registry()
@@ -216,4 +303,3 @@ if __name__ == '__main__':
             cc.populate_chain_1(chain_id, channel, wallet)
             cc.populate_chain_2(counterparty_chain_id, counterparty_channel, wallet_counterparty)
             cc.write_as_file(path=args.path, suffix=args.relayer_id)
-        
