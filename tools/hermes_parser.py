@@ -91,7 +91,9 @@ class ChainChain:
         :param suffix: optional suffix for file name
         :return: None
         """
-        file_name = "{}-{}-{}.json".format(self.chain1_name, self.chain2_name, f"-{suffix}" if suffix else '')
+        file_name = "{chain1}-{chain2}{suf}.json".format(chain1=self.chain1_name,
+                                                         chain2=self.chain2_name,
+                                                         suf=f"-{suffix}" if suffix else '')
         print(f"write {file_name}")
         full_path = os.path.join(path, file_name)
         print("mkdir {}".format(os.path.dirname(full_path)))
@@ -123,11 +125,11 @@ class GrpcIBC:
             self.grpc_client = grpc.secure_channel(client_url, credentials)
         else:
             self.grpc_client = grpc.insecure_channel(client_url)
-        
+
         self.ibc_channel_query = cosmpy.protos.ibc.core.channel.v1.query_pb2_grpc.QueryStub(self.grpc_client)
         self.ibc_connection_query = cosmpy.protos.ibc.core.connection.v1.query_pb2_grpc.QueryStub(self.grpc_client)
         self.ibc_client_query = cosmpy.protos.ibc.core.client.v1.query_pb2_grpc.QueryStub(self.grpc_client)
-    
+
     def query_channel(self, port:str, channel:str) -> Channel:
         """
         query IBC channel information
@@ -137,7 +139,7 @@ class GrpcIBC:
         """
         resp = self.ibc_channel_query.Channel(QueryChannelRequest(port_id=port, channel_id=channel))
         return resp.channel
-    
+
     def query_connection(self, connection:str) -> ConnectionEnd:
         """
         query IBC connection information
@@ -146,7 +148,7 @@ class GrpcIBC:
         """
         resp = self.ibc_connection_query.Connection(QueryConnectionRequest(connection_id=connection))
         return resp
-    
+
     def query_client(self, client:str) -> dict:
         """
         query IBC client state
@@ -154,7 +156,7 @@ class GrpcIBC:
         :return: dict representation of Client state object
         """
         from cosmpy.protos.ibc.lightclients.tendermint.v1.tendermint_pb2 import ClientState
-        
+
         resp = self.ibc_client_query.ClientState(QueryClientStateRequest(client_id=client))
         # client_state is not parsed in the answer
         try:
@@ -171,12 +173,12 @@ class Registry:
     this class allow to query cosmos.directory
     """
     chain_registry = []
-    
+
     def __init__(self):
         """
         """
         self.chain_registry = self.get_chains()
-    
+
     def get_chains(self) -> dict:
         """
         Get all the chains referenced on cosmos.directory
@@ -184,7 +186,7 @@ class Registry:
         """
         chains = requests.get("https://chains.cosmos.directory/").json()['chains']
         return chains
-    
+
     def get_chain(self, chain:str) -> dict:
         """
         Get information for the provided chain
@@ -232,10 +234,10 @@ def get_counterparty_chain(ibc:GrpcIBC, port:str, channel:str):
     counterparty_port: str = channel_resp.counterparty.port_id
     counterparty_channel: str = channel_resp.counterparty.channel_id
     connection = channel_resp.connection_hops[-1:][0]
-    
+
     resp = ibc.query_connection(connection)
     client_id = resp.connection.client_id
-    
+
     client = ibc.query_client(client_id)
     counterparty_chain_id: str = client.chainId
     return counterparty_chain_id, counterparty_port, counterparty_channel
@@ -250,9 +252,9 @@ if __name__ == '__main__':
     parser.add_argument('--path', type=str, default='.',
                         help='path to store output files')
     args = parser.parse_args()
-    
+
     registry = Registry()
-    
+
     config = toml.load(open(args.config, 'r'))
     for chain in config['chains']:
         if 'packet_filter' not in chain:
@@ -261,7 +263,7 @@ if __name__ == '__main__':
         if chain['packet_filter']['policy'] != 'allow':
             print("chain config {} not parsed, please use \'allow\' packet_filter\'s policy.".format(chain['id']))
             continue
-        
+
         try:
             chain_extended_definition = registry.get_chain(chain)
         except StopIteration:
@@ -272,15 +274,17 @@ if __name__ == '__main__':
         chain_id = chain['id']
         port = ""
         channel = ""
-        
+
         counterparty_chain_id = ""
         counterparty_port = ""
         counterparty_channel = ""
 
+        # uncomment to use chain-registry GRPC endpoint. (note that many are not working)
         # grpc_url = urllib3.util.parse_url(chain_extended_definition['apis']['grpc'][0]['address'])
+        # comment if using chain-registry GRPC endpoint
         grpc_url = urllib3.util.parse_url(chain['grpc_addr'])
         ibc = GrpcIBC(str(grpc_url))
-        
+
         channel_list = chain['packet_filter']['list']
         for port, channel in channel_list:
             counterparty_chain_id, counterparty_port, counterparty_channel = get_counterparty_chain(ibc, port, channel)
