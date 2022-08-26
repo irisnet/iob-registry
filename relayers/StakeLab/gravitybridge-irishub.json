@@ -1,0 +1,14 @@
+{
+ "chain-1": {
+    "address" : "gravity1mjq48r6435aewerpruwc8up3tz3rzan2gfv0ya",
+    "chain-id": "gravity-bridge-3",
+    "channel-id": "channel-47",
+    "version": "1.0.0-rc.0+b80bceab"
+  },
+  "chain-2": {
+    "address" : "iaa1mjq48r6435aewerpruwc8up3tz3rzan2em7xry",
+    "chain-id": "irishub-1",
+    "channel-id": "channel-29",
+    "version": "1.0.0-rc.0+b80bceab"
+  }
+}

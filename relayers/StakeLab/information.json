@@ -1,0 +1,13 @@
+{
+  "team name": "StakeLab",
+  "contact": {
+    "website" : "https://stakelab.fr",
+    "github": "https://github.com/StakeLab-Hub",
+    "telegram": "https://t.me/stakelab_fr",
+    "twitter": "https://twitter.com/StakeLab",
+    "medium": "https://stakelab.medium.com"
+  },
+  "introduction": [
+    "Staking and Relaying Hub for Cosmos ecosystem"
+  ]
+}
