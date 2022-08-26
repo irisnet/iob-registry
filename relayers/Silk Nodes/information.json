@@ -8,7 +8,7 @@
     "medium": "https://medium.com/@silknodes",
     "discord": "https://discord.com/invite/rHKPnZF5gJ"
   },
-  "introduction": {
+  "introduction": [
     "Silk Nodes is a modern organization running quality nodes for chains in the blockchain ecosystem. We aim to be a trusted provider to help projects maintain and secure their blockchains."
-  }
+  ]
 }
