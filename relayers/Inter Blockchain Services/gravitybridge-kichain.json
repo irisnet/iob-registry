@@ -1,0 +1,14 @@
+{
+    "chain-1": {
+        "address": "gravity1evdjzy3w9t2yu54w4dhc2cvrlc2fvnpt5wjgws", 
+        "chain-id": "gravity-bridge-3", 
+        "channel-id": "channel-37", 
+        "version": "ics20-1"
+    }, 
+    "chain-2": {
+        "address": "ki1evdjzy3w9t2yu54w4dhc2cvrlc2fvnptpn3l0v", 
+        "chain-id": "kichain-2", 
+        "channel-id": "channel-11", 
+        "version": "ics20-1"
+    }
+}

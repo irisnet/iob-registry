@@ -1,0 +1,14 @@
+{
+    "chain-1": {
+        "address": "pb16vmp7sz28pnvgz6f3zm6q93y39jsd33aazwg4u", 
+        "chain-id": "pio-mainnet-1", 
+        "channel-id": "channel-7", 
+        "version": "ics20-1"
+    }, 
+    "chain-2": {
+        "address": "osmo14uyfxlv00lj0qhcwt7vms2rsf7kxuld7umtzvw", 
+        "chain-id": "osmosis-1", 
+        "channel-id": "channel-222", 
+        "version": "ics20-1"
+    }
+}

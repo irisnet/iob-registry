@@ -1,0 +1,14 @@
+{
+    "chain-1": {
+        "address": "kava1evdjzy3w9t2yu54w4dhc2cvrlc2fvnptvt5dal", 
+        "chain-id": "kava_2222-10", 
+        "channel-id": "channel-3", 
+        "version": "ics20-1"
+    }, 
+    "chain-2": {
+        "address": "sif1evdjzy3w9t2yu54w4dhc2cvrlc2fvnpt4r0xyn", 
+        "chain-id": "sifchain-1", 
+        "channel-id": "channel-37", 
+        "version": "ics20-1"
+    }
+}

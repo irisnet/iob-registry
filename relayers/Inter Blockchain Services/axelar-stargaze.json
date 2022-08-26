@@ -1,0 +1,14 @@
+{
+    "chain-1": {
+        "address": "axelar14uyfxlv00lj0qhcwt7vms2rsf7kxuld7sww63a", 
+        "chain-id": "axelar-dojo-1", 
+        "channel-id": "channel-18", 
+        "version": "ics20-1"
+    }, 
+    "chain-2": {
+        "address": "stars1evdjzy3w9t2yu54w4dhc2cvrlc2fvnptyzhdqf", 
+        "chain-id": "stargaze-1", 
+        "channel-id": "channel-50", 
+        "version": "ics20-1"
+    }
+}

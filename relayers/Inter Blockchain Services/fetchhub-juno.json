@@ -1,0 +1,14 @@
+{
+    "chain-1": {
+        "address": "fetch1evdjzy3w9t2yu54w4dhc2cvrlc2fvnptrrf5f0", 
+        "chain-id": "fetchhub-4", 
+        "channel-id": "channel-12", 
+        "version": "ics20-1"
+    }, 
+    "chain-2": {
+        "address": "juno16vmp7sz28pnvgz6f3zm6q93y39jsd33az7xklu", 
+        "chain-id": "juno-1", 
+        "channel-id": "channel-77", 
+        "version": "ics20-1"
+    }
+}
