@@ -1,0 +1,14 @@
+{
+  "team name": "Silk Nodes",
+  "contact": {
+    "website" : "https://silknodes.io",
+    "github": "https://github.com/Silk-Nodes",
+    "telegram": "https://t.me/silknodes",
+    "twitter": "https://twitter.com/Silk_Nodes",
+    "medium": "https://medium.com/@silknodes",
+    "discord": "https://discord.com/invite/rHKPnZF5gJ"
+  },
+  "introduction": {
+    "Silk Nodes is a modern organization running quality nodes for chains in the blockchain ecosystem. We aim to be a trusted provider to help projects maintain and secure their blockchains."
+  }
+}
