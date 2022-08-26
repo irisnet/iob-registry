@@ -1,0 +1,14 @@
+{
+    "chain-1": {
+        "address": "cosmos19pjtx7dah2fquf7udyxjv94h0eraha789k37ff", 
+        "chain-id": "cosmoshub-4", 
+        "channel-id": "channel-277", 
+        "version": "ics20-1"
+    }, 
+    "chain-2": {
+        "address": "kava19pjtx7dah2fquf7udyxjv94h0eraha78er9rlw", 
+        "chain-id": "kava_2222-10", 
+        "channel-id": "channel-0", 
+        "version": "ics20-1"
+    }
+}
