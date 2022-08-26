@@ -15,7 +15,7 @@ We accept pull requests to add data to an existing information.json or chain1-ch
 
 # information.json
 
-The 'information.json' JSON Schema can be found [here](/information.schema.json).
+The 'information.json' JSON Schema can be found [here](/relayers/information.schema.json).
 
 An example 'information.json' contains the following structure:
 

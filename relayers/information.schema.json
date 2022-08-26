@@ -9,6 +9,9 @@
     "discord": {"type": "string"}
   },
   "introduction": {
-    "type": "string"
+    "type": "array",
+    "items": {
+      "type": "string"
+    }
   }
 }

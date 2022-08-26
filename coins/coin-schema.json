@@ -7,20 +7,7 @@
   },
   "minItems": 1,
   "uniqueItems": true,
-  "definitions": {
-    "trace": {
-      "type": "object",
-      "properties": {
-        "platform": {
-          "type": "string",
-          "description": "platform"
-        },
-        "denom": {
-          "type": "string",
-          "description": "denom"
-        }
-      }
-    },
+  "$definitions": {
     "coin_info": {
       "type": "object",
       "properties": {
@@ -58,6 +45,10 @@
             "bridge"
           ]
         },
+        "in_path": {
+          "type": "string",
+          "description": "the destnation chain path of coin ibc transfer in. example:\"transfer/channel-29\""
+        },
         "traces": {
           "type": "array",
           "items": {
@@ -76,6 +67,23 @@
         "scale",
         "protocol"
       ]
+    },
+    "trace": {
+      "type": "object",
+      "properties": {
+        "platform": {
+          "type": "string",
+          "description": "platform"
+        },
+        "denom": {
+          "type": "string",
+          "description": "denom"
+        },
+        "out_path": {
+          "type": "string",
+          "description": "the destnation chain path of coin ibc transfer in. example:\"transfer/channel-47\""
+        }
+      }
     }
   }
 }
