@@ -1,0 +1,15 @@
+{
+  "team name": "LikeCoin By LikerLand",
+  "contact": {
+    "website" : "https://like.co/",
+    "github": "https://github.com/likecoin",
+    "telegram": "https://t.me/likecoin",
+    "twitter": "https://twitter.com/likecoin",
+    "medium": "https://medium.com/likecoin",
+    "discord": "https://discord.gg/likecoin"
+  },
+  "introduction": [
+    "A blockchain company that build user-centric protocol and applications in Web 3. The core team of the LikeCoin chain.",
+    "LikeCoin decentralizes publishing by allowing everyone to publish their content as NFTs with a suite of open tools. "
+  ]
+}

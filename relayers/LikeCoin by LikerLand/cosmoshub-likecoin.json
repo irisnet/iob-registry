@@ -1,0 +1,14 @@
+{
+ "chain-1": {
+    "address" : "cosmos1s698xmm0ff4mvhxynpenx7zlf04c3x0lrp5tyz",
+    "chain-id": "cosmoshub-4",
+    "channel-id": "channel-217'",
+    "version": "ics20-1"
+  },
+  "chain-2": {
+    "address" : "like1s698xmm0ff4mvhxynpenx7zlf04c3x0lsagf8e",
+    "chain-id": "likecoin-mainnet-2",
+    "channel-id": "channel-5",
+    "version": "ics20-1"
+  }
+}
