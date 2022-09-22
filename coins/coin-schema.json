@@ -81,7 +81,7 @@
         },
         "out_path": {
           "type": "string",
-          "description": "the destnation chain path of coin ibc transfer in. example:\"transfer/channel-47\""
+          "description": "the destnation chain path of coin ibc transfer out. example:\"transfer/channel-47\""
         }
       }
     }
