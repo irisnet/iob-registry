@@ -1,0 +1,60 @@
+{
+    "$schema":"https://json-schema.org/draft/2020-12/schema",
+    "$id":"https://github.com/irisnet/iob-registry/tree/main/relayers/relayer.schema.json",
+    "title":"relayer registry",
+    "description":"relayer registry",
+    "type":"object",
+    "properties":{
+        "team_name":{
+            "type":"string"
+        },
+        "contact":{
+            "website":{
+                "type":"string"
+            },
+            "github":{
+                "type":"string"
+            },
+            "telegram":{
+                "type":"string"
+            },
+            "twitter":{
+                "type":"string"
+            },
+            "medium":{
+                "type":"string"
+            },
+            "discord":{
+                "type":"string"
+            }
+        },
+        "introduction":{
+            "type":"array",
+            "items":{
+                "type":"string"
+            }
+        },
+        "addresses":{
+            "type":"array",
+            "items":{
+                "type":"object",
+                "patternProperties":{
+                    "^[a-z]+$":{
+                        "type":"string",
+                        "description":"relayer address of chain-id"
+                    }
+                },
+                "minProperties":2,
+                "maxProperties":2
+            },
+            "minItems":1,
+            "uniqueItems":true
+        }
+    },
+    "required":[
+        "team_name",
+        "contact",
+        "introduction",
+        "addresses"
+    ]
+}
