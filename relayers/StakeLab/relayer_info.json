@@ -1,0 +1,27 @@
+{
+    "team_name": "StakeLab",
+    "contact": {
+    "website" : "https://stakelab.fr",
+    "github": "https://github.com/StakeLab-Hub",
+    "telegram": "https://t.me/stakelab_fr",
+    "twitter": "https://twitter.com/StakeLab",
+    "medium": "https://stakelab.medium.com"
+  },
+  "introduction": [
+    "Staking and Relaying Hub for Cosmos ecosystem"
+  ],
+    "addresses": [
+        {
+            "irishub-1": "iaa1mjq48r6435aewerpruwc8up3tz3rzan2em7xry",
+            "osmosis-1": "osmo1mjq48r6435aewerpruwc8up3tz3rzan2yzd8h8"
+        },
+        {
+            "irishub-1": "iaa1mjq48r6435aewerpruwc8up3tz3rzan2em7xry",
+            "cosmoshub-4": "cosmos1mjq48r6435aewerpruwc8up3tz3rzan2ve7hp4"
+        },
+        {
+            "irishub-1": "iaa1mjq48r6435aewerpruwc8up3tz3rzan2em7xry",
+            "gravity-bridge-3": "gravity1mjq48r6435aewerpruwc8up3tz3rzan2gfv0ya"
+        }
+    ]
+  }
