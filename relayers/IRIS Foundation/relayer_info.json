@@ -1,0 +1,29 @@
+{
+    "team_name": "IRIS Foundation",
+    "contact": {
+      "website" : "https://irisnet.org/",
+      "github": "https://github.com/irisnet",
+      "telegram": "https://t.me/irisnetwork",
+      "twitter": "https://twitter.com/irisnetwork",
+      "medium": "https://medium.com/irisnet-blog",
+      "discord": "https://discord.com/invite/bmhu9F9xbX"
+    },
+    "introduction": [
+      "IRISnet (a.k.a IRIS Hub) is designed to be the foundation for the next generation distributed applications. Built with Cosmos-SDK, IRIS Hub enables cross-chain interoperability through a unified service model, while providing a variety of modules to support DeFi applications.",
+      "IRISnet dev teams include Bianjie (https://www.bianjie.ai/), a national award-winning blockchain technology team based in Shanghai, and Tendermint (https://tendermint.com/), the world-famous team that created the Tendermint consensus engine and the Cosmos project."
+    ],
+    "addresses": [
+        {
+            "irishub-1": "iaa1cf8ufk9mqtj48zj9l4pupyfeqjwh7fjms67e50",
+            "osmosis-1": "osmo1cf8ufk9mqtj48zj9l4pupyfeqjwh7fjmdrdcqv"
+        },
+        {
+            "irishub-1": "iaa1cf8ufk9mqtj48zj9l4pupyfeqjwh7fjms67e50",
+            "cosmoshub-4": "cosmos1cf8ufk9mqtj48zj9l4pupyfeqjwh7fjm9c7gk7"
+        },
+        {
+            "irishub-1": "iaa1cf8ufk9mqtj48zj9l4pupyfeqjwh7fjms67e50",
+            "gravity-bridge-3": "gravity1cf8ufk9mqtj48zj9l4pupyfeqjwh7fjmpgvsnk"
+        }
+    ]
+  }
