@@ -17,7 +17,7 @@ We accept pull requests to add data to an existing relayer_info.json to add a ne
 
 The `relayer.schema.json` JSON Schema can be found [here](/relayers/relayer.schema.json).
 
-An example 'relayer_example.json' contains the following structure:
+An example `relayer_example.json` contains the following structure:
 
 ```json
 {
