@@ -1,6 +1,6 @@
 # Relayer Registry
 
-This repo contains an `relayer_info.json` for a number of cosmos-sdk based chains. 
+This repo contains a `relayer.schema.json` for a number of cosmos-sdk based chains. 
 
 Schema files containing the recommended metadata structure can be found in the `*.schema.json` files located in the root directory. Schemas are still undergoing revision as user needs are surfaced. Optional fields may be added beyond what is contained in the schema files.
 
@@ -13,15 +13,16 @@ Once schemas have matured and client needs are better understood Relayer Registr
 
 We accept pull requests to add data to an existing relayer_info.json to add a new relayer.
 
-# relayer_info.json
+# relayer.schema.json
 
-The 'relayer_info.json' JSON Schema can be found [here](/relayers/information.schema.json).
+The `relayer.schema.json` JSON Schema can be found [here](/relayers/relayer.schema.json).
 
-An example 'relayer_info.json' contains the following structure:
+An example `relayer_example.json` contains the following structure:
 
 ```json
 {
     "team_name": "IRISnet Foundation",
+    "team_logo": "",
     "contact": {
       "website" : "https://irisnet.org/",
       "github": "https://github.com/irisnet",
