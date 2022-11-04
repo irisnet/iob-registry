@@ -1,0 +1,29 @@
+{
+    "team name":"Silk Nodes",
+    "team logo":"",
+    "contact":{
+        "website":"https://silknodes.io",
+        "github":"https://github.com/Silk-Nodes",
+        "telegram":"https://t.me/silknodes",
+        "twitter":"https://twitter.com/Silk_Nodes",
+        "medium":"https://medium.com/@silknodes",
+        "discord":"https://discord.com/invite/rHKPnZF5gJ"
+    },
+    "introduction":[
+        "Silk Nodes is a modern organization running quality nodes for chains in the blockchain ecosystem. We aim to be a trusted provider to help projects maintain and secure their blockchains."
+    ],
+    "addresses":[
+        {
+            "cosmoshub-4":"cosmos17ld6vnfumezwtw36pt37l0xyuknzxgha3desfz",
+            "juno-1":"juno17ld6vnfumezwtw36pt37l0xyuknzxgha8l6tw7"
+        },
+        {
+            "cosmoshub-4":"cosmos17ld6vnfumezwtw36pt37l0xyuknzxgha3desfz",
+            "osmosis-1":"osmo17ld6vnfumezwtw36pt37l0xyuknzxghaek2qls"
+        },
+        {
+            "juno-1":"juno17ld6vnfumezwtw36pt37l0xyuknzxgha8l6tw7",
+            "osmosis-1":"osmo17ld6vnfumezwtw36pt37l0xyuknzxghaek2qls"
+        }
+    ]
+}
