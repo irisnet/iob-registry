@@ -8,6 +8,9 @@
         "team_name":{
             "type":"string"
         },
+         "team_logo":{
+            "type":"string"
+        },
         "contact":{
             "website":{
                 "type":"string"
