@@ -1,0 +1,30 @@
+{
+    "team name":"LikeCoin By LikerLand",
+    "team_lgoo":"",
+    "contact":{
+        "website":"https://like.co/",
+        "github":"https://github.com/likecoin",
+        "telegram":"https://t.me/likecoin",
+        "twitter":"https://twitter.com/likecoin",
+        "medium":"https://medium.com/likecoin",
+        "discord":"https://discord.gg/likecoin"
+    },
+    "introduction":[
+        "A blockchain company that build user-centric protocol and applications in Web 3. The core team of the LikeCoin chain.",
+        "LikeCoin decentralizes publishing by allowing everyone to publish their content as NFTs with a suite of open tools. "
+    ],
+    "addresses":[
+        {
+            "cosmoshub-4":"cosmos1s698xmm0ff4mvhxynpenx7zlf04c3x0lrp5tyz",
+            "likecoin-mainnet-2":"like1s698xmm0ff4mvhxynpenx7zlf04c3x0lsagf8e"
+        },
+        {
+            "osmosis-1":"osmo19vpyrq9wt7hecx6czp7x8lkspnyy64v7zpkl6m",
+            "desmos-mainnet":"desmos19vpyrq9wt7hecx6czp7x8lkspnyy64v77zglm3"
+        },
+        {
+            "osmosis-1":"osmo19vpyrq9wt7hecx6czp7x8lkspnyy64v7zpkl6m",
+            "likecoin-mainnet-2":"like1s698xmm0ff4mvhxynpenx7zlf04c3x0lsagf8e"
+        }
+    ]
+}
