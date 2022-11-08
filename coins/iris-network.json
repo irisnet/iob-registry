@@ -144,5 +144,25 @@
         "denom":"0xa0b86991c6218b36c1d19d4a2e9eb0ce3606eb48"
       }
     ]
+  },
+  {
+    "platform":"iris-network",
+    "denom":"ibc/6DF82C1C886C15A5D1F514D30318C7C1431B08EABE7658E6A582CCFC52D8E0AB",
+    "symbol":"iov",
+    "scale":6,
+    "description":"starname staking token",
+    "coin_id":"starname",
+    "apps":[
+      "coinswap"
+    ],
+    "protocol":"ibc",
+    "in_path":"transfer/channel-19",
+    "traces":[
+      {
+        "platform":"starname",
+        "denom":"uiov",
+        "out_path":"transfer/channel-32"
+      }
+    ]
   }
 ]
