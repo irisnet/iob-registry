@@ -2,15 +2,15 @@
     "team_name":"Inter Blockchain Services",
     "team_logo":"",
     "contact":{
-    "website" : "https://ibs.team/",
-    "github": "https://github.com/Inter-Blockchain-Service",
-    "telegram": "https://t.me/+3gWaJBip3FhiYjI0",
-    "twitter": "https://twitter.com/IBSvalidator",
-    "medium": "https://medium.com/@ibs.team",
-    "discord": "https://discord.gg/Tyn2xTj2c9"
+        "website":"https://ibs.team/",
+        "github":"https://github.com/Inter-Blockchain-Service",
+        "telegram":"https://t.me/+3gWaJBip3FhiYjI0",
+        "twitter":"https://twitter.com/IBSvalidator",
+        "medium":"https://medium.com/@ibs.team",
+        "discord":"https://discord.gg/Tyn2xTj2c9"
     },
     "introduction":[
-    "IBS provides trusted validator services, relayer infrastructure, statesync servers, public RPC and API for cosmos ecosystem",
+        "IBS provides trusted validator services, relayer infrastructure, statesync servers, public RPC and API for cosmos ecosystem"
     ],
     "addresses":[
         {
@@ -53,7 +53,7 @@
             "laozi-mainnet":"band1evdjzy3w9t2yu54w4dhc2cvrlc2fvnptf3qjns",
             "kaiyo-1":"kujira1evdjzy3w9t2yu54w4dhc2cvrlc2fvnptpkzgxj"
         },
-         {
+        {
             "laozi-mainnet":"band1evdjzy3w9t2yu54w4dhc2cvrlc2fvnptf3qjns",
             "osmosis-1":"osmo1evdjzy3w9t2yu54w4dhc2cvrlc2fvnptc9nqa2"
         },
@@ -61,7 +61,7 @@
             "bitcanna-1":"bcna1evdjzy3w9t2yu54w4dhc2cvrlc2fvnpt2ws3r2",
             "cosmoshub-4":"cosmos1evdjzy3w9t2yu54w4dhc2cvrlc2fvnpts7qstc"
         },
-         {
+        {
             "bitcanna-1":"bcna1evdjzy3w9t2yu54w4dhc2cvrlc2fvnpt2ws3r2",
             "gravity-bridge-3":"gravity1evdjzy3w9t2yu54w4dhc2cvrlc2fvnpt5wjgws"
         },
@@ -139,123 +139,123 @@
         },
         {
             "galaxy-1":"galaxy16vmp7sz28pnvgz6f3zm6q93y39jsd33agnrdnj",
-             "osmosis-1":"osmo16vmp7sz28pnvgz6f3zm6q93y39jsd33auhkawj"
+            "osmosis-1":"osmo16vmp7sz28pnvgz6f3zm6q93y39jsd33auhkawj"
         },
         {
             "gravity-bridge-3":"gravity16vmp7sz28pnvgz6f3zm6q93y39jsd33asuh4ag",
-             "impacthub-3":"ixo1evdjzy3w9t2yu54w4dhc2cvrlc2fvnpt0t7z0t"
+            "impacthub-3":"ixo1evdjzy3w9t2yu54w4dhc2cvrlc2fvnpt0t7z0t"
         },
         {
             "gravity-bridge-3":"gravity1evdjzy3w9t2yu54w4dhc2cvrlc2fvnpt5wjgws",
-             "juno-1":"juno1evdjzy3w9t2yu54w4dhc2cvrlc2fvnptxvrtvy"
+            "juno-1":"juno1evdjzy3w9t2yu54w4dhc2cvrlc2fvnptxvrtvy"
         },
         {
-             "gravity-bridge-3":"gravity1evdjzy3w9t2yu54w4dhc2cvrlc2fvnpt5wjgws",
-             "kichain-2":"ki1evdjzy3w9t2yu54w4dhc2cvrlc2fvnptpn3l0v"
-        },
-        {
-            "gravity-bridge-3":"gravity14uyfxlv00lj0qhcwt7vms2rsf7kxuld7ss22l5",
-             "kaiyo-1":"kujira14uyfxlv00lj0qhcwt7vms2rsf7kxuld79g62hk"
+            "gravity-bridge-3":"gravity1evdjzy3w9t2yu54w4dhc2cvrlc2fvnpt5wjgws",
+            "kichain-2":"ki1evdjzy3w9t2yu54w4dhc2cvrlc2fvnptpn3l0v"
         },
         {
             "gravity-bridge-3":"gravity14uyfxlv00lj0qhcwt7vms2rsf7kxuld7ss22l5",
-             "osmosis-1":"osmo14uyfxlv00lj0qhcwt7vms2rsf7kxuld7umtzvw"
+            "kaiyo-1":"kujira14uyfxlv00lj0qhcwt7vms2rsf7kxuld79g62hk"
         },
         {
             "gravity-bridge-3":"gravity14uyfxlv00lj0qhcwt7vms2rsf7kxuld7ss22l5",
-             "titan-1":"rizon16vmp7sz28pnvgz6f3zm6q93y39jsd33ah3eu5c"
+            "osmosis-1":"osmo14uyfxlv00lj0qhcwt7vms2rsf7kxuld7umtzvw"
         },
         {
             "gravity-bridge-3":"gravity14uyfxlv00lj0qhcwt7vms2rsf7kxuld7ss22l5",
-             "sifchain-1":"sif14uyfxlv00lj0qhcwt7vms2rsf7kxuld73ahy4h"
+            "titan-1":"rizon16vmp7sz28pnvgz6f3zm6q93y39jsd33ah3eu5c"
+        },
+        {
+            "gravity-bridge-3":"gravity14uyfxlv00lj0qhcwt7vms2rsf7kxuld7ss22l5",
+            "sifchain-1":"sif14uyfxlv00lj0qhcwt7vms2rsf7kxuld73ahy4h"
         },
         {
             "gravity-bridge-3":"gravity16vmp7sz28pnvgz6f3zm6q93y39jsd33asuh4ag",
-             "stargaze-1":"stars1evdjzy3w9t2yu54w4dhc2cvrlc2fvnptyzhdqf"
+            "stargaze-1":"stars1evdjzy3w9t2yu54w4dhc2cvrlc2fvnptyzhdqf"
         },
         {
             "impacthub-3":"ixo1evdjzy3w9t2yu54w4dhc2cvrlc2fvnpt0t7z0t",
-             "osmosis-1":"osmo16vmp7sz28pnvgz6f3zm6q93y39jsd33auhkawj"
+            "osmosis-1":"osmo16vmp7sz28pnvgz6f3zm6q93y39jsd33auhkawj"
         },
         {
-             "impacthub-3":"ixo1evdjzy3w9t2yu54w4dhc2cvrlc2fvnpt0t7z0t",
-             "sifchain-1":"sif16vmp7sz28pnvgz6f3zm6q93y39jsd33a332mht"
+            "impacthub-3":"ixo1evdjzy3w9t2yu54w4dhc2cvrlc2fvnpt0t7z0t",
+            "sifchain-1":"sif16vmp7sz28pnvgz6f3zm6q93y39jsd33a332mht"
         },
         {
             "juno-1":"juno1evdjzy3w9t2yu54w4dhc2cvrlc2fvnptxvrtvy",
-             "kichain-2":"ki1evdjzy3w9t2yu54w4dhc2cvrlc2fvnptpn3l0v"
+            "kichain-2":"ki1evdjzy3w9t2yu54w4dhc2cvrlc2fvnptpn3l0v"
         },
         {
             "juno-1":"juno14uyfxlv00lj0qhcwt7vms2rsf7kxuld7zjmfaq",
-             "kaiyo-1":"kujira14uyfxlv00lj0qhcwt7vms2rsf7kxuld79g62hk"
+            "kaiyo-1":"kujira14uyfxlv00lj0qhcwt7vms2rsf7kxuld79g62hk"
         },
         {
             "juno-1":"juno14uyfxlv00lj0qhcwt7vms2rsf7kxuld7zjmfaq",
-             "titan-1":"rizon16vmp7sz28pnvgz6f3zm6q93y39jsd33ah3eu5c"
+            "titan-1":"rizon16vmp7sz28pnvgz6f3zm6q93y39jsd33ah3eu5c"
         },
         {
             "juno-1":"juno14uyfxlv00lj0qhcwt7vms2rsf7kxuld7zjmfaq",
-             "sifchain-1":"sif14uyfxlv00lj0qhcwt7vms2rsf7kxuld73ahy4h"
+            "sifchain-1":"sif14uyfxlv00lj0qhcwt7vms2rsf7kxuld73ahy4h"
         },
         {
             "juno-1":"juno16vmp7sz28pnvgz6f3zm6q93y39jsd33az7xklu",
-             "stargaze-1":"stars1evdjzy3w9t2yu54w4dhc2cvrlc2fvnptyzhdqf"
+            "stargaze-1":"stars1evdjzy3w9t2yu54w4dhc2cvrlc2fvnptyzhdqf"
         },
         {
             "kava_2222-10":"kava1evdjzy3w9t2yu54w4dhc2cvrlc2fvnptvt5dal",
-             "osmosis-1":"osmo1evdjzy3w9t2yu54w4dhc2cvrlc2fvnptc9nqa2"
+            "osmosis-1":"osmo1evdjzy3w9t2yu54w4dhc2cvrlc2fvnptc9nqa2"
         },
         {
             "kava_2222-10":"kava1evdjzy3w9t2yu54w4dhc2cvrlc2fvnptvt5dal",
-             "sifchain-1":"sif1evdjzy3w9t2yu54w4dhc2cvrlc2fvnpt4r0xyn"
+            "sifchain-1":"sif1evdjzy3w9t2yu54w4dhc2cvrlc2fvnpt4r0xyn"
         },
         {
             "kichain-2":"ki1evdjzy3w9t2yu54w4dhc2cvrlc2fvnptpn3l0v",
-             "osmosis-1":"osmo1evdjzy3w9t2yu54w4dhc2cvrlc2fvnptc9nqa2"
+            "osmosis-1":"osmo1evdjzy3w9t2yu54w4dhc2cvrlc2fvnptc9nqa2"
         },
         {
             "kichain-2":"ki1evdjzy3w9t2yu54w4dhc2cvrlc2fvnptpn3l0v",
-             "sifchain-1":"sif1evdjzy3w9t2yu54w4dhc2cvrlc2fvnpt4r0xyn"
+            "sifchain-1":"sif1evdjzy3w9t2yu54w4dhc2cvrlc2fvnpt4r0xyn"
         },
         {
             "kaiyo-1":"kujira14uyfxlv00lj0qhcwt7vms2rsf7kxuld79g62hk",
-             "lum-network-1":"lum14uyfxlv00lj0qhcwt7vms2rsf7kxuld7p29m0g"
+            "lum-network-1":"lum14uyfxlv00lj0qhcwt7vms2rsf7kxuld7p29m0g"
         },
         {
             "kaiyo-1":"kujira14uyfxlv00lj0qhcwt7vms2rsf7kxuld79g62hk",
-             "osmosis-1":"osmo14uyfxlv00lj0qhcwt7vms2rsf7kxuld7umtzvw"
+            "osmosis-1":"osmo14uyfxlv00lj0qhcwt7vms2rsf7kxuld7umtzvw"
         },
         {
             "kaiyo-1":"kujira14uyfxlv00lj0qhcwt7vms2rsf7kxuld79g62hk",
-             "stargaze-1":"stars1evdjzy3w9t2yu54w4dhc2cvrlc2fvnptyzhdqf"
+            "stargaze-1":"stars1evdjzy3w9t2yu54w4dhc2cvrlc2fvnptyzhdqf"
         },
         {
             "lum-network-1":"lum14uyfxlv00lj0qhcwt7vms2rsf7kxuld7p29m0g",
-             "osmosis-1":"osmo14uyfxlv00lj0qhcwt7vms2rsf7kxuld7umtzvw"
+            "osmosis-1":"osmo14uyfxlv00lj0qhcwt7vms2rsf7kxuld7umtzvw"
         },
         {
             "microtick-1":"micro1evdjzy3w9t2yu54w4dhc2cvrlc2fvnptzxahjv",
-             "osmosis-1":"osmo16vmp7sz28pnvgz6f3zm6q93y39jsd33auhkawj"
+            "osmosis-1":"osmo16vmp7sz28pnvgz6f3zm6q93y39jsd33auhkawj"
         },
         {
             "osmosis-1":"osmo16vmp7sz28pnvgz6f3zm6q93y39jsd33auhkawj",
-             "stargaze-1":"stars1evdjzy3w9t2yu54w4dhc2cvrlc2fvnptyzhdqf"
+            "stargaze-1":"stars1evdjzy3w9t2yu54w4dhc2cvrlc2fvnptyzhdqf"
         },
         {
             "osmosis-1":"osmo14uyfxlv00lj0qhcwt7vms2rsf7kxuld7umtzvw",
-             "sifchain-1":"sif14uyfxlv00lj0qhcwt7vms2rsf7kxuld73ahy4h"
+            "sifchain-1":"sif14uyfxlv00lj0qhcwt7vms2rsf7kxuld73ahy4h"
         },
         {
             "osmosis-1":"osmo14uyfxlv00lj0qhcwt7vms2rsf7kxuld7umtzvw",
-             "titan-1":"rizon16vmp7sz28pnvgz6f3zm6q93y39jsd33ah3eu5c"
+            "titan-1":"rizon16vmp7sz28pnvgz6f3zm6q93y39jsd33ah3eu5c"
         },
         {
             "osmosis-1":"osmo14uyfxlv00lj0qhcwt7vms2rsf7kxuld7umtzvw",
-             "pio-mainnet-1":"pb16vmp7sz28pnvgz6f3zm6q93y39jsd33aazwg4u"
+            "pio-mainnet-1":"pb16vmp7sz28pnvgz6f3zm6q93y39jsd33aazwg4u"
         },
         {
             "sifchain-1":"sif16vmp7sz28pnvgz6f3zm6q93y39jsd33a332mht",
-             "stargaze-1":"stars1evdjzy3w9t2yu54w4dhc2cvrlc2fvnptyzhdqf"
-        },
+            "stargaze-1":"stars1evdjzy3w9t2yu54w4dhc2cvrlc2fvnptyzhdqf"
+        }
     ]
 }
