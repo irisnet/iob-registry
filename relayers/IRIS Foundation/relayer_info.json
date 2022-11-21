@@ -23,8 +23,20 @@
             "cosmoshub-4": "cosmos1cf8ufk9mqtj48zj9l4pupyfeqjwh7fjm9c7gk7"
         },
         {
+            "irishub-1": "iaa1n0y6k6mhelww67r8u7h8tfhnz8uejgmype5d0r",
+            "cosmoshub-4": "cosmos1n0y6k6mhelww67r8u7h8tfhnz8uejgmy5m5udj"
+        },
+        {
+            "irishub-1": "iaa1cf8ufk9mqtj48zj9l4pupyfeqjwh7fjms67e50",
+            "iov-mainnet-ibc": "star1cf8ufk9mqtj48zj9l4pupyfeqjwh7fjmyzsppj"
+        },
+        {
             "irishub-1": "iaa1cf8ufk9mqtj48zj9l4pupyfeqjwh7fjms67e50",
             "gravity-bridge-3": "gravity1cf8ufk9mqtj48zj9l4pupyfeqjwh7fjmpgvsnk"
+        },
+        {
+            "irishub-1": "iaa1n0y6k6mhelww67r8u7h8tfhnz8uejgmype5d0r",
+            "gravity-bridge-3": "gravity1n0y6k6mhelww67r8u7h8tfhnz8uejgmystxyg6"
         }
     ]
   }
