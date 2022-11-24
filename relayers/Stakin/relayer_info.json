@@ -1,0 +1,44 @@
+{
+    "team_name": "Stakin",
+    "team_logo":"",
+    "contact": {
+    "website" : "https://stakin.com",
+    "github": "https://github.com/StakinOfficial",
+    "telegram": "https://t.me/stakinofficial",
+    "twitter": "https://twitter.com/StakinOfficial",
+    "medium": "https://medium.com/stakin"
+  },
+  "introduction": [
+    "Experienced enterprise validator running Proof-of-Stake nodes for the Cosmos ecosystem and beyond. Visit our website for more information: https://stakin.com"
+  ],
+    "addresses": [
+        {
+            "irishub-1": "iaa1ptm9dyyya6erqj9h9ydurtzvla2h6lv9u5a089",
+            "osmosis-1": "osmo1ptm9dyyya6erqj9h9ydurtzvla2h6lv9pdwwnx"
+        },
+        {
+            "irishub-1": "iaa1ptm9dyyya6erqj9h9ydurtzvla2h6lv9u5a089",
+            "cosmoshub-4": "cosmos1q6cc9u0x5r3fkjcex0rgxee5qlu86w8rh2ypaj"
+        },
+        {
+            "irishub-1": "iaa1ptm9dyyya6erqj9h9ydurtzvla2h6lv9u5a089",
+            "regen-1": "regen1ptm9dyyya6erqj9h9ydurtzvla2h6lv9k5kzns"
+        },
+        {
+            "irishub-1": "iaa1ptm9dyyya6erqj9h9ydurtzvla2h6lv9u5a089",
+            "sentinelhub-2": "sent1ptm9dyyya6erqj9h9ydurtzvla2h6lv9jdt8pm"
+        },
+        {
+            "irishub-1": "iaa1ptm9dyyya6erqj9h9ydurtzvla2h6lv9u5a089",
+            "iov-mainnet-ibc": "star1ptm9dyyya6erqj9h9ydurtzvla2h6lv9gvnhjc"
+        },
+        {
+            "irishub-1": "iaa1ptm9dyyya6erqj9h9ydurtzvla2h6lv9u5a089",
+            "sifchain-1": "sif1ptm9dyyya6erqj9h9ydurtzvla2h6lv9vtjg2l"
+        },
+        {
+            "irishub-1": "iaa1ptm9dyyya6erqj9h9ydurtzvla2h6lv9u5a089",
+            "crypto-org-chain-mainnet-1": "cro1ptm9dyyya6erqj9h9ydurtzvla2h6lv93d48e9"
+        }
+    ]
+  }
