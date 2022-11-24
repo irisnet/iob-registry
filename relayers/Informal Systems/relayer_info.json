@@ -1,0 +1,39 @@
+{
+    "team_name":"Informal Systems",
+    "team_logo":"",
+    "contact":{
+        "website":"https://informal.systems/",
+        "github":"https://github.com/informalsystems/",
+        "twitter":"https://twitter.com/InformalStaking",
+        "discord":"https://discord.gg/rWedwpEy"
+    },
+    "introduction":[
+        "We are a cooperatively owned organization building technology that enable verifiable, trustworthy, and fair relationships between protocols and people."
+    ],
+    "addresses":[
+       {
+         "osmosis-1":"osmo1je4kp87c8mxv9kda9ws2ayh9357qac8t2jmgp2",
+         "cosmoshub-4":"cosmos1zz22dfpvw3zqpeyhvhmx944a588fgcalw744ts"
+       },
+       {
+         "osmosis-1":"osmo1je4kp87c8mxv9kda9ws2ayh9357qac8t2jmgp2",
+         "akashnet-2": "akash1tctqykwxyypr475mdnd83kc643tyca63xxn7sd"
+       },
+       {
+         "osmosis-1":"osmo1je4kp87c8mxv9kda9ws2ayh9357qac8t2jmgp2",
+         "crypto-org-chain-mainnet-1": "cro1vcu3xg64rz5ctev05l8wj7lgnh37q8l5tsuuzt"
+       },
+       {
+         "osmosis-1":"osmo1je4kp87c8mxv9kda9ws2ayh9357qac8t2jmgp2",
+         "impacthub-3": "ixo1tctqykwxyypr475mdnd83kc643tyca635gqtdy"
+       },
+       {
+         "osmosis-1":"osmo1je4kp87c8mxv9kda9ws2ayh9357qac8t2jmgp2",
+         "juno-1": "juno1tctqykwxyypr475mdnd83kc643tyca63a0azwt"
+       },
+       {
+         "osmosis-1":"osmo1je4kp87c8mxv9kda9ws2ayh9357qac8t2jmgp2",
+         "regen-1": "regen1tctqykwxyypr475mdnd83kc643tyca635l49ln"
+       }
+    ]
+}
