@@ -24,16 +24,34 @@ Usage of the environment vairable `PROTOCOL_BUFFERS_PYTHON_IMPLEMENTATION=python
 
 ### options
 ```bash
-usage: hermes_parser.py [-h] [--config CONFIG] [--relayer_id RELAYER_ID] [--path PATH]
+usage: hermes_parser.py [-h] [--config CONFIG] --team_name TEAM_NAME [--path PATH] [--team_logo TEAM_LOGO] [--team_website TEAM_WEBSITE] [--team_github TEAM_GITHUB] [--team_twitter TEAM_TWITTER] [--team_discord TEAM_DISCORD]
+                        [--team_medium TEAM_MEDIUM] [--team_description TEAM_DESCRIPTION]
 
 Read Hermes configuration and generate relayer registry entries
 
+  --team_name TEAM_NAME
+                        team name
+  
 optional arguments:
   -h, --help            show this help message and exit
   --config CONFIG       path the the hermes configuration file
-  --relayer_id RELAYER_ID
-                        in case of multiple relayer, help identify
   --path PATH           path to store output files
+  --team_logo TEAM_LOGO
+                        team logo
+  --team_website TEAM_WEBSITE
+                        team website
+  --team_github TEAM_GITHUB
+                        team github
+  --team_twitter TEAM_TWITTER
+                        team twitter
+  --team_discord TEAM_DISCORD
+                        team discord
+  --team_medium TEAM_MEDIUM
+                        team medium
+  --team_description TEAM_DESCRIPTION
+                        team description
 
 ```
 
+If called with `--team_xxx` argument, the field will be updated in the description.
+Each call of the script will append the config to the existing one without existance check.

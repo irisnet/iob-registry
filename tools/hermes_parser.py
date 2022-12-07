@@ -275,6 +275,7 @@ def write_ccs(team_name, team_logo, team_website, team_github, team_twitter, tea
         ],
         "addresses": ccs
     }
+
     with open(dest_file, 'w+') as f:
         json.dump(full_file, f, indent=4, separators=(",", ": "))
 
