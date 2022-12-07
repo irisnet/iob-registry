@@ -74,14 +74,19 @@ class ChainChain:
             "version": version
         }
     
+    def chain_couple(self) -> dict:
+        return {
+            self.chain1['chain-id']: self.chain1['address'],
+            self.chain2['chain-id']: self.chain2['address'],
+        }
     def to_string(self) -> str:
         """
         Convert configuration to string
         :return: str
         """
         return json.dumps({
-            "chain-1": self.chain1,
-            "chain-2": self.chain2
+            self.chain1['chain-id']: self.chain1['address'],
+            self.chain2['chain-id']: self.chain2['address'],
         }, indent=4, separators=(", ", ": "))
     
     def write_as_file(self, path='.', suffix=''):
@@ -213,7 +218,8 @@ def get_wallet_from_keyring(chain_id:str, key_name:str) -> str:
     :return: str
     """
     wallet: str = ""
-    with open(f".hermes/keys/{chain_id}/keyring-test/{key_name}.json", 'r') as f:
+    homedir = os.getenv("HOME")
+    with open(f"{homedir}/.hermes/keys/{chain_id}/keyring-test/{key_name}.json", 'r') as f:
         wallet = json.load(f)['account']
     return wallet
 
@@ -242,20 +248,78 @@ def get_counterparty_chain(ibc:GrpcIBC, port:str, channel:str):
     counterparty_chain_id: str = client.chainId
     return counterparty_chain_id, counterparty_port, counterparty_channel
 
+def write_ccs(team_name, team_logo, team_website, team_github, team_twitter, team_discord, team_desc, ccs, path='.'):
+    """
+    Write configuration to file
+    :param path: file directory path
+    :param suffix: optional suffix for file name
+    :return: None
+    """
+    if path == '.':
+        dest_file = os.path.join(os.path.dirname(os.path.abspath(__file__)),
+                                 '..', "relayers", args.team_name, "relayer_info.json")
+    else:
+        dest_file = os.path.join(path, "relayers", args.team_name, "relayer_info.json")
+    os.makedirs(os.path.dirname(os.path.abspath(dest_file)), exist_ok=True)
+    full_file = {
+        "team_name": team_name,
+        "team_logo": team_logo,
+        "contact":{
+            "website": team_website,
+            "github": team_github,
+            "twitter": team_twitter,
+            "discord": team_discord
+        },
+        "introduction":[
+            team_desc
+        ],
+        "addresses": ccs
+    }
+    with open(dest_file, 'w+') as f:
+        json.dump(full_file, f, indent=4, separators=(",", ": "))
 
 if __name__ == '__main__':
+    ccs = []
     parser = argparse.ArgumentParser(description='Read Hermes configuration and generate relayer registry entries')
     parser.add_argument('--config', type=str, default="{}/.hermes/config.toml".format(os.getenv('HOME')),
                         help='path the the hermes configuration file')
-    parser.add_argument('--relayer_id', type=str,
-                        help='in case of multiple relayer, help identify')
+    parser.add_argument('--team_name', type=str, default='',
+                        help='team name', required=True)
     parser.add_argument('--path', type=str, default='.',
                         help='path to store output files')
+    parser.add_argument('--team_logo', type=str, default='',
+                        help='team logo')
+    parser.add_argument('--team_website', type=str, default='',
+                        help='team website')
+    parser.add_argument('--team_github', type=str, default='',
+                        help='team github')
+    parser.add_argument('--team_twitter', type=str, default='',
+                        help='team twitter')
+    parser.add_argument('--team_discord', type=str, default='',
+                        help='team discord')
+    parser.add_argument('--team_medium', type=str, default='',
+                        help='team medium')
+    parser.add_argument('--team_description', type=str, default='',
+                        help='team description')
     args = parser.parse_args()
 
+    if args.team_name != '':
+        dest_file = os.path.join(os.path.dirname(os.path.abspath(__file__)),
+                                 '..', "relayers", args.team_name, "relayer_info.json")
+        if os.path.exists(dest_file):
+            existing_info = json.load(open(dest_file, 'r'))
+            args.team_logo = existing_info["team_logo"] if args.team_logo == "" else args.team_logo
+            args.team_website = existing_info["contact"].get("website","") if args.team_website == "" else args.team_website
+            args.team_github = existing_info["contact"].get("github","") if args.team_github == "" else args.team_github
+            args.team_twitter = existing_info["contact"].get("twitter","") if args.team_twitter == "" else args.team_twitter
+            args.team_discord = existing_info["contact"].get("discord","") if args.team_discord == "" else args.team_discord
+            args.team_medium = existing_info["contact"].get("medium","") if args.team_medium == "" else args.team_medium
+            args.team_description = existing_info["introduction"][0] if args.team_description == "" else args.team_description
+            ccs = existing_info["addresses"]
     registry = Registry()
 
     config = toml.load(open(args.config, 'r'))
+    
     for chain in config['chains']:
         if 'packet_filter' not in chain:
             print("chain config {} not parsed, please use packet_filter.".format(chain['id']))
@@ -306,4 +370,9 @@ if __name__ == '__main__':
             cc = ChainChain(chain_name, counterparty_chain_definition['name'])
             cc.populate_chain_1(chain_id, channel, wallet)
             cc.populate_chain_2(counterparty_chain_id, counterparty_channel, wallet_counterparty)
-            cc.write_as_file(path=args.path, suffix=args.relayer_id)
+            couple = cc.chain_couple()
+            print(f"appending {couple}")
+            ccs.append(couple)
+    write_ccs(team_name=args.team_name, team_logo=args.team_logo, team_website=args.team_website,
+              team_github=args.team_github, team_twitter=args.team_twitter, team_discord=args.team_discord,
+              team_desc=args.team_description, ccs=ccs)
