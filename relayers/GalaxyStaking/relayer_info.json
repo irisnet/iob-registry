@@ -1,0 +1,25 @@
+{
+    "team_name":"GalaxyStaking.space 🌑",
+    "contact":{
+        "website":"https://galaxystaking.space",
+        "discord":"https://discord.gg/C4dhbW23WW",
+        "telegram":"https://t.me/+CjNyaEDCtEY2YjRh"
+    },
+    "introduction":[
+        "GalaxyStaking.space is a high quality ⚡️ validation service with a fixed commission rate of 5%. Eligible for airdrops 🔥 Auto-compound (rewards restake) is supported for Ledger and Keplr wallets. 🔄 Follow us on discord and telegram 🚀"
+    ],
+    "addresses":[
+        {
+            "evmos_9001-2":"evmos14jjwzpde80hx9m97pmm5z4c0eydyrn83ndlxrh",
+            "crypto-org-chain-mainnet-1":"cro1lwymrvh7vpwzqfkgpvjtz2y5gqelw4m7tq0w3e"
+        },
+        {
+            "osmosis-1":"osmo1t76d0xn5r54v4s7n0w4t2kgpx9fce3axmz2cye",
+            "crypto-org-chain-mainnet-1":"cro1lwymrvh7vpwzqfkgpvjtz2y5gqelw4m7tq0w3e"
+        },
+        {
+            "evmos_9001-2":"evmos14jjwzpde80hx9m97pmm5z4c0eydyrn83ndlxrh",
+            "osmosis-1":"osmo1t76d0xn5r54v4s7n0w4t2kgpx9fce3axmz2cye"
+        }
+    ]
+}
