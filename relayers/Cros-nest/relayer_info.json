@@ -566,6 +566,246 @@
         {
             "secret-4": "secret19kzuzfmmy9wjr3cl0ss8wjzjup9g49hqyd3shc",
             "axelar-dojo-1": "axelar19kzuzfmmy9wjr3cl0ss8wjzjup9g49hqzxn3p9"
+        },
+        {
+            "crypto-org-chain-mainnet-1": "cro1l267dmlmprhu4p5aqslf50f495vjqlg390zaw6",
+            "kaiyo-1": "kujira1l267dmlmprhu4p5aqslf50f495vjqlg3vugulp"
+        },
+        {
+            "osmosis-1": "osmo1l267dmlmprhu4p5aqslf50f495vjqlg340e5ye",
+            "core-1": "persistence1l267dmlmprhu4p5aqslf50f495vjqlg3ncvhu0"
+        },
+        {
+            "osmosis-1": "osmo1l267dmlmprhu4p5aqslf50f495vjqlg340e5ye",
+            "kaiyo-1": "kujira1l267dmlmprhu4p5aqslf50f495vjqlg3vugulp"
+        },
+        {
+            "osmosis-1": "osmo1l267dmlmprhu4p5aqslf50f495vjqlg340e5ye",
+            "injective-1": "inj1lagtgtck8627009uw39rlmsa6ty5dhwwuujq3m"
+        },
+        {
+            "osmosis-1": "osmo1l267dmlmprhu4p5aqslf50f495vjqlg340e5ye",
+            "reb_1111-1": "rebus1l267dmlmprhu4p5aqslf50f495vjqlg3v7f3xa"
+        },
+        {
+            "osmosis-1": "osmo1l267dmlmprhu4p5aqslf50f495vjqlg340e5ye",
+            "teritori-1": "tori1l267dmlmprhu4p5aqslf50f495vjqlg3lqadfm"
+        },
+        {
+            "osmosis-1": "osmo1l267dmlmprhu4p5aqslf50f495vjqlg340e5ye",
+            "stride-1": "stride1l267dmlmprhu4p5aqslf50f495vjqlg37l2cx8"
+        },
+        {
+            "osmosis-1": "osmo1l267dmlmprhu4p5aqslf50f495vjqlg340e5ye",
+            "quicksilver-1": "quick1l267dmlmprhu4p5aqslf50f495vjqlg3ks6kte"
+        },
+        {
+            "cosmoshub-4": "cosmos1l267dmlmprhu4p5aqslf50f495vjqlg3a52yjt",
+            "core-1": "persistence1l267dmlmprhu4p5aqslf50f495vjqlg3ncvhu0"
+        },
+        {
+            "cosmoshub-4": "cosmos1l267dmlmprhu4p5aqslf50f495vjqlg3a52yjt",
+            "kaiyo-1": "kujira1l267dmlmprhu4p5aqslf50f495vjqlg3vugulp"
+        },
+        {
+            "cosmoshub-4": "cosmos1l267dmlmprhu4p5aqslf50f495vjqlg3a52yjt",
+            "injective-1": "inj1lagtgtck8627009uw39rlmsa6ty5dhwwuujq3m"
+        },
+        {
+            "cosmoshub-4": "cosmos1l267dmlmprhu4p5aqslf50f495vjqlg3a52yjt",
+            "teritori-1": "tori1l267dmlmprhu4p5aqslf50f495vjqlg3lqadfm"
+        },
+        {
+            "cosmoshub-4": "cosmos1l267dmlmprhu4p5aqslf50f495vjqlg3a52yjt",
+            "stride-1": "stride1l267dmlmprhu4p5aqslf50f495vjqlg37l2cx8"
+        },
+        {
+            "cosmoshub-4": "cosmos1l267dmlmprhu4p5aqslf50f495vjqlg3a52yjt",
+            "quicksilver-1": "quick1l267dmlmprhu4p5aqslf50f495vjqlg3ks6kte"
+        },
+        {
+            "emoney-3": "emoney19pjtx7dah2fquf7udyxjv94h0eraha7824t275",
+            "kaiyo-1": "kujira1l267dmlmprhu4p5aqslf50f495vjqlg3vugulp"
+        },
+        {
+            "juno-1": "juno1l267dmlmprhu4p5aqslf50f495vjqlg3txfl4h",
+            "core-1": "persistence1l267dmlmprhu4p5aqslf50f495vjqlg3ncvhu0"
+        },
+        {
+            "juno-1": "juno1l267dmlmprhu4p5aqslf50f495vjqlg3txfl4h",
+            "kaiyo-1": "kujira1l267dmlmprhu4p5aqslf50f495vjqlg3vugulp"
+        },
+        {
+            "juno-1": "juno1l267dmlmprhu4p5aqslf50f495vjqlg3txfl4h",
+            "kaiyo-1": "kujira1l267dmlmprhu4p5aqslf50f495vjqlg3vugulp"
+        },
+        {
+            "juno-1": "juno1l267dmlmprhu4p5aqslf50f495vjqlg3txfl4h",
+            "teritori-1": "tori1l267dmlmprhu4p5aqslf50f495vjqlg3lqadfm"
+        },
+        {
+            "juno-1": "juno1l267dmlmprhu4p5aqslf50f495vjqlg3txfl4h",
+            "stride-1": "stride1l267dmlmprhu4p5aqslf50f495vjqlg37l2cx8"
+        },
+        {
+            "comdex-1": "comdex1l267dmlmprhu4p5aqslf50f495vjqlg36mgxtu",
+            "kaiyo-1": "kujira1l267dmlmprhu4p5aqslf50f495vjqlg3vugulp"
+        },
+        {
+            "gravity-bridge-3": "gravity1l267dmlmprhu4p5aqslf50f495vjqlg3eycuhr",
+            "core-1": "persistence1l267dmlmprhu4p5aqslf50f495vjqlg3ncvhu0"
+        },
+        {
+            "gravity-bridge-3": "gravity1l267dmlmprhu4p5aqslf50f495vjqlg3eycuhr",
+            "canto_7700-1": "canto1lagtgtck8627009uw39rlmsa6ty5dhwwyry5ht"
+        },
+        {
+            "evmos_9001-2": "evmos1lagtgtck8627009uw39rlmsa6ty5dhww5552et",
+            "kaiyo-1": "kujira1l267dmlmprhu4p5aqslf50f495vjqlg3vugulp"
+        },
+        {
+            "evmos_9001-2": "evmos1lagtgtck8627009uw39rlmsa6ty5dhww5552et",
+            "injective-1": "inj1lagtgtck8627009uw39rlmsa6ty5dhwwuujq3m"
+        },
+        {
+            "phoenix-1": "terra1l267dmlmprhu4p5aqslf50f495vjqlg3mssyst",
+            "kaiyo-1": "kujira1l267dmlmprhu4p5aqslf50f495vjqlg3vugulp"
+        },
+        {
+            "kaiyo-1": "kujira1l267dmlmprhu4p5aqslf50f495vjqlg3vugulp",
+            "cosmoshub-4": "cosmos1l267dmlmprhu4p5aqslf50f495vjqlg3a52yjt"
+        },
+        {
+            "kaiyo-1": "kujira1l267dmlmprhu4p5aqslf50f495vjqlg3vugulp",
+            "juno-1": "juno1l267dmlmprhu4p5aqslf50f495vjqlg3txfl4h"
+        },
+        {
+            "kaiyo-1": "kujira1l267dmlmprhu4p5aqslf50f495vjqlg3vugulp",
+            "osmosis-1": "osmo1l267dmlmprhu4p5aqslf50f495vjqlg340e5ye"
+        },
+        {
+            "kaiyo-1": "kujira1l267dmlmprhu4p5aqslf50f495vjqlg3vugulp",
+            "phoenix-1": "terra1l267dmlmprhu4p5aqslf50f495vjqlg3mssyst"
+        },
+        {
+            "kaiyo-1": "kujira1l267dmlmprhu4p5aqslf50f495vjqlg3vugulp",
+            "crypto-org-chain-mainnet-1": "cro1l267dmlmprhu4p5aqslf50f495vjqlg390zaw6"
+        },
+        {
+            "kaiyo-1": "kujira1l267dmlmprhu4p5aqslf50f495vjqlg3vugulp",
+            "axelar-dojo-1": "axelar1l267dmlmprhu4p5aqslf50f495vjqlg3e6uve2"
+        },
+        {
+            "kaiyo-1": "kujira1l267dmlmprhu4p5aqslf50f495vjqlg3vugulp",
+            "comdex-1": "comdex1l267dmlmprhu4p5aqslf50f495vjqlg36mgxtu"
+        },
+        {
+            "kaiyo-1": "kujira1l267dmlmprhu4p5aqslf50f495vjqlg3vugulp",
+            "emoney-3": "emoney19pjtx7dah2fquf7udyxjv94h0eraha7824t275"
+        },
+        {
+            "kaiyo-1": "kujira1l267dmlmprhu4p5aqslf50f495vjqlg3vugulp",
+            "evmos_9001-2": "evmos1lagtgtck8627009uw39rlmsa6ty5dhww5552et"
+        },
+        {
+            "kaiyo-1": "kujira1l267dmlmprhu4p5aqslf50f495vjqlg3vugulp",
+            "juno-1": "juno1l267dmlmprhu4p5aqslf50f495vjqlg3txfl4h"
+        },
+        {
+            "kaiyo-1": "kujira1l267dmlmprhu4p5aqslf50f495vjqlg3vugulp",
+            "teritori-1": "tori1l267dmlmprhu4p5aqslf50f495vjqlg3lqadfm"
+        },
+        {
+            "injective-1": "inj1lagtgtck8627009uw39rlmsa6ty5dhwwuujq3m",
+            "cosmoshub-4": "cosmos1l267dmlmprhu4p5aqslf50f495vjqlg3a52yjt"
+        },
+        {
+            "injective-1": "inj1lagtgtck8627009uw39rlmsa6ty5dhwwuujq3m",
+            "osmosis-1": "osmo1l267dmlmprhu4p5aqslf50f495vjqlg340e5ye"
+        },
+        {
+            "injective-1": "inj1lagtgtck8627009uw39rlmsa6ty5dhwwuujq3m",
+            "core-1": "persistence1l267dmlmprhu4p5aqslf50f495vjqlg3ncvhu0"
+        },
+        {
+            "injective-1": "inj1lagtgtck8627009uw39rlmsa6ty5dhwwuujq3m",
+            "evmos_9001-2": "evmos1lagtgtck8627009uw39rlmsa6ty5dhww5552et"
+        },
+        {
+            "injective-1": "inj1lagtgtck8627009uw39rlmsa6ty5dhwwuujq3m",
+            "axelar-dojo-1": "axelar1l267dmlmprhu4p5aqslf50f495vjqlg3e6uve2"
+        },
+        {
+            "canto_7700-1": "canto1lagtgtck8627009uw39rlmsa6ty5dhwwyry5ht",
+            "gravity-bridge-3": "gravity1l267dmlmprhu4p5aqslf50f495vjqlg3eycuhr"
+        },
+        {
+            "axelar-dojo-1": "axelar1l267dmlmprhu4p5aqslf50f495vjqlg3e6uve2",
+            "kaiyo-1": "kujira1l267dmlmprhu4p5aqslf50f495vjqlg3vugulp"
+        },
+        {
+            "axelar-dojo-1": "axelar1l267dmlmprhu4p5aqslf50f495vjqlg3e6uve2",
+            "injective-1": "inj1lagtgtck8627009uw39rlmsa6ty5dhwwuujq3m"
+        },
+        {
+            "core-1": "persistence1l267dmlmprhu4p5aqslf50f495vjqlg3ncvhu0",
+            "osmosis-1": "osmo1l267dmlmprhu4p5aqslf50f495vjqlg340e5ye"
+        },
+        {
+            "core-1": "persistence1l267dmlmprhu4p5aqslf50f495vjqlg3ncvhu0",
+            "cosmoshub-4": "cosmos1l267dmlmprhu4p5aqslf50f495vjqlg3a52yjt"
+        },
+        {
+            "core-1": "persistence1l267dmlmprhu4p5aqslf50f495vjqlg3ncvhu0",
+            "juno-1": "juno1l267dmlmprhu4p5aqslf50f495vjqlg3txfl4h"
+        },
+        {
+            "core-1": "persistence1l267dmlmprhu4p5aqslf50f495vjqlg3ncvhu0",
+            "gravity-bridge-3": "gravity1l267dmlmprhu4p5aqslf50f495vjqlg3eycuhr"
+        },
+        {
+            "core-1": "persistence1l267dmlmprhu4p5aqslf50f495vjqlg3ncvhu0",
+            "injective-1": "inj1lagtgtck8627009uw39rlmsa6ty5dhwwuujq3m"
+        },
+        {
+            "reb_1111-1": "rebus1l267dmlmprhu4p5aqslf50f495vjqlg3v7f3xa",
+            "osmosis-1": "osmo1l267dmlmprhu4p5aqslf50f495vjqlg340e5ye"
+        },
+        {
+            "teritori-1": "tori1l267dmlmprhu4p5aqslf50f495vjqlg3lqadfm",
+            "osmosis-1": "osmo1l267dmlmprhu4p5aqslf50f495vjqlg340e5ye"
+        },
+        {
+            "teritori-1": "tori1l267dmlmprhu4p5aqslf50f495vjqlg3lqadfm",
+            "cosmoshub-4": "cosmos1l267dmlmprhu4p5aqslf50f495vjqlg3a52yjt"
+        },
+        {
+            "teritori-1": "tori1l267dmlmprhu4p5aqslf50f495vjqlg3lqadfm",
+            "juno-1": "juno1l267dmlmprhu4p5aqslf50f495vjqlg3txfl4h"
+        },
+        {
+            "teritori-1": "tori1l267dmlmprhu4p5aqslf50f495vjqlg3lqadfm",
+            "kaiyo-1": "kujira1l267dmlmprhu4p5aqslf50f495vjqlg3vugulp"
+        },
+        {
+            "stride-1": "stride1l267dmlmprhu4p5aqslf50f495vjqlg37l2cx8",
+            "cosmoshub-4": "cosmos1l267dmlmprhu4p5aqslf50f495vjqlg3a52yjt"
+        },
+        {
+            "stride-1": "stride1l267dmlmprhu4p5aqslf50f495vjqlg37l2cx8",
+            "osmosis-1": "osmo1l267dmlmprhu4p5aqslf50f495vjqlg340e5ye"
+        },
+        {
+            "stride-1": "stride1l267dmlmprhu4p5aqslf50f495vjqlg37l2cx8",
+            "juno-1": "juno1l267dmlmprhu4p5aqslf50f495vjqlg3txfl4h"
+        },
+        {
+            "quicksilver-1": "quick1l267dmlmprhu4p5aqslf50f495vjqlg3ks6kte",
+            "osmosis-1": "osmo1l267dmlmprhu4p5aqslf50f495vjqlg340e5ye"
+        },
+        {
+            "quicksilver-1": "quick1l267dmlmprhu4p5aqslf50f495vjqlg3ks6kte",
+            "cosmoshub-4": "cosmos1l267dmlmprhu4p5aqslf50f495vjqlg3a52yjt"
         }
     ]
 }
