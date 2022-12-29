@@ -19,6 +19,10 @@
             "osmosis-1": "osmo1cf8ufk9mqtj48zj9l4pupyfeqjwh7fjmdrdcqv"
         },
         {
+            "irishub-1": "iaa1wdcam6mlrneua6e8c7ef3s3v7wan29z7thd6es",
+            "osmosis-1": "osmo1wdcam6mlrneua6e8c7ef3s3v7wan29z7kw7mdn"
+        },
+        {
             "irishub-1": "iaa1cf8ufk9mqtj48zj9l4pupyfeqjwh7fjms67e50",
             "cosmoshub-4": "cosmos1cf8ufk9mqtj48zj9l4pupyfeqjwh7fjm9c7gk7"
         },
@@ -27,8 +31,16 @@
             "cosmoshub-4": "cosmos1n0y6k6mhelww67r8u7h8tfhnz8uejgmy5m5udj"
         },
         {
+            "irishub-1": "iaa1wdcam6mlrneua6e8c7ef3s3v7wan29z7thd6es",
+            "cosmoshub-4": "cosmos1wdcam6mlrneua6e8c7ef3s3v7wan29z774dtmp"
+        },
+        {
             "irishub-1": "iaa1cf8ufk9mqtj48zj9l4pupyfeqjwh7fjms67e50",
             "iov-mainnet-ibc": "star1cf8ufk9mqtj48zj9l4pupyfeqjwh7fjmyzsppj"
+        },
+        {
+            "irishub-1": "iaa1wdcam6mlrneua6e8c7ef3s3v7wan29z7thd6es",
+            "iov-mainnet-ibc": "star1wdcam6mlrneua6e8c7ef3s3v7wan29z7l0rzvd"
         },
         {
             "irishub-1": "iaa1cf8ufk9mqtj48zj9l4pupyfeqjwh7fjms67e50",
@@ -37,6 +49,10 @@
         {
             "irishub-1": "iaa1n0y6k6mhelww67r8u7h8tfhnz8uejgmype5d0r",
             "gravity-bridge-3": "gravity1n0y6k6mhelww67r8u7h8tfhnz8uejgmystxyg6"
+        },
+        {
+            "irishub-1": "iaa1wdcam6mlrneua6e8c7ef3s3v7wan29z7thd6es",
+            "gravity-bridge-3": "gravity1wdcam6mlrneua6e8c7ef3s3v7wan29z769ln7f"
         }
     ]
   }
