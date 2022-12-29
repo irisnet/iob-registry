@@ -1,44 +1,287 @@
 {
-    "team_name": "Stakin",
-    "team_logo":"",
-    "contact": {
-    "website" : "https://stakin.com",
-    "github": "https://github.com/StakinOfficial",
-    "telegram": "https://t.me/stakinofficial",
-    "twitter": "https://twitter.com/StakinOfficial",
-    "medium": "https://medium.com/stakin"
-  },
-  "introduction": [
-    "Experienced enterprise validator running Proof-of-Stake nodes for the Cosmos ecosystem and beyond. Visit our website for more information: https://stakin.com"
-  ],
-    "addresses": [
-        {
-            "irishub-1": "iaa1ptm9dyyya6erqj9h9ydurtzvla2h6lv9u5a089",
-            "osmosis-1": "osmo1ptm9dyyya6erqj9h9ydurtzvla2h6lv9pdwwnx"
-        },
-        {
-            "irishub-1": "iaa1ptm9dyyya6erqj9h9ydurtzvla2h6lv9u5a089",
-            "cosmoshub-4": "cosmos1q6cc9u0x5r3fkjcex0rgxee5qlu86w8rh2ypaj"
-        },
-        {
-            "irishub-1": "iaa1ptm9dyyya6erqj9h9ydurtzvla2h6lv9u5a089",
-            "regen-1": "regen1ptm9dyyya6erqj9h9ydurtzvla2h6lv9k5kzns"
-        },
-        {
-            "irishub-1": "iaa1ptm9dyyya6erqj9h9ydurtzvla2h6lv9u5a089",
-            "sentinelhub-2": "sent1ptm9dyyya6erqj9h9ydurtzvla2h6lv9jdt8pm"
-        },
-        {
-            "irishub-1": "iaa1ptm9dyyya6erqj9h9ydurtzvla2h6lv9u5a089",
-            "iov-mainnet-ibc": "star1ptm9dyyya6erqj9h9ydurtzvla2h6lv9gvnhjc"
-        },
-        {
-            "irishub-1": "iaa1ptm9dyyya6erqj9h9ydurtzvla2h6lv9u5a089",
-            "sifchain-1": "sif1ptm9dyyya6erqj9h9ydurtzvla2h6lv9vtjg2l"
-        },
-        {
-            "irishub-1": "iaa1ptm9dyyya6erqj9h9ydurtzvla2h6lv9u5a089",
-            "crypto-org-chain-mainnet-1": "cro1ptm9dyyya6erqj9h9ydurtzvla2h6lv93d48e9"
-        }
-    ]
-  }
+	"team_name": "Stakin",
+	"team_logo": "",
+	"contact": {
+		"website": "https://stakin.com",
+		"github": "https://github.com/StakinOfficial",
+		"telegram": "https://t.me/stakinofficial",
+		"twitter": "https://twitter.com/StakinOfficial",
+		"medium": "https://medium.com/stakin"
+	},
+	"introduction": [
+		"Experienced enterprise validator running Proof-of-Stake nodes for the Cosmos ecosystem and beyond. Visit our website for more information: https://stakin.com"
+	],
+	"addresses": [{
+			"agoric-3": "agoric1ptm9dyyya6erqj9h9ydurtzvla2h6lv9mtlp4z",
+			"cosmoshub-4": "cosmos1q6cc9u0x5r3fkjcex0rgxee5qlu86w8rh2ypaj"
+		},
+		{
+			"agoric-3": "agoric1ptm9dyyya6erqj9h9ydurtzvla2h6lv9mtlp4z",
+			"crescent-1": "cre1ptm9dyyya6erqj9h9ydurtzvla2h6lv9d7wmse"
+		},
+		{
+			"agoric-3": "agoric1ptm9dyyya6erqj9h9ydurtzvla2h6lv9mtlp4z",
+			"osmosis-1": "osmo1ptm9dyyya6erqj9h9ydurtzvla2h6lv9pdwwnx"
+		},
+		{
+			"akashnet-2": "akash1ptm9dyyya6erqj9h9ydurtzvla2h6lv9ydseuw",
+			"cosmoshub-4": "cosmos1q6cc9u0x5r3fkjcex0rgxee5qlu86w8rh2ypaj"
+		},
+		{
+			"akashnet-2": "akash1ptm9dyyya6erqj9h9ydurtzvla2h6lv9ydseuw",
+			"osmosis-1": "osmo1ptm9dyyya6erqj9h9ydurtzvla2h6lv9pdwwnx"
+		},
+		{
+			"akashnet-2": "akash1ptm9dyyya6erqj9h9ydurtzvla2h6lv9ydseuw",
+			"secret-4": "secret1ptm9dyyya6erqj9h9ydurtzvla2h6lv9tnfhcg"
+		},
+		{
+			"akashnet-2": "akash1ptm9dyyya6erqj9h9ydurtzvla2h6lv9ydseuw",
+			"sentinelhub-2": "sent1ptm9dyyya6erqj9h9ydurtzvla2h6lv9jdt8pm"
+		},
+		{
+			"akashnet-2": "akash1ptm9dyyya6erqj9h9ydurtzvla2h6lv9ydseuw",
+			"sifchain-1": "sif1ptm9dyyya6erqj9h9ydurtzvla2h6lv9vtjg2l"
+		},
+		{
+			"akashnet-2": "akash1ptm9dyyya6erqj9h9ydurtzvla2h6lv9ydseuw",
+			"iov-mainnet-ibc": "star1ptm9dyyya6erqj9h9ydurtzvla2h6lv9gvnhjc"
+		},
+		{
+			"axelar-dojo-1": "axelar1u4he0w85dlxf65t8pn3hwjsyz5p2dz694c42kp",
+			"cosmoshub-4": "cosmos1q6cc9u0x5r3fkjcex0rgxee5qlu86w8rh2ypaj"
+		},
+		{
+			"axelar-dojo-1": "axelar1u4he0w85dlxf65t8pn3hwjsyz5p2dz694c42kp",
+			"crescent-1": "cre1ptm9dyyya6erqj9h9ydurtzvla2h6lv9d7wmse"
+		},
+		{
+			"axelar-dojo-1": "axelar1u4he0w85dlxf65t8pn3hwjsyz5p2dz694c42kp",
+			"juno-1": "juno1c9gh65lukf2n7r34003jg2x8pxxwyva0jlwp9x"
+		},
+		{
+			"axelar-dojo-1": "axelar1u4he0w85dlxf65t8pn3hwjsyz5p2dz694c42kp",
+			"osmosis-1": "osmo1ptm9dyyya6erqj9h9ydurtzvla2h6lv9pdwwnx"
+		},
+		{
+			"axelar-dojo-1": "axelar1u4he0w85dlxf65t8pn3hwjsyz5p2dz694c42kp",
+			"secret-4": "secret1ptm9dyyya6erqj9h9ydurtzvla2h6lv9tnfhcg"
+		},
+		{
+			"cosmoshub-4": "cosmos1q6cc9u0x5r3fkjcex0rgxee5qlu86w8rh2ypaj",
+			"crypto-org-chain-mainnet-1": "cro1ptm9dyyya6erqj9h9ydurtzvla2h6lv93d48e9"
+		},
+		{
+			"cosmoshub-4": "cosmos1q6cc9u0x5r3fkjcex0rgxee5qlu86w8rh2ypaj",
+			"emoney-3": "emoney1ptm9dyyya6erqj9h9ydurtzvla2h6lv9x482jf"
+		},
+		{
+			"cosmoshub-4": "cosmos1q6cc9u0x5r3fkjcex0rgxee5qlu86w8rh2ypaj",
+			"irishub-1": "iaa1ptm9dyyya6erqj9h9ydurtzvla2h6lv9u5a089"
+		},
+		{
+			"cosmoshub-4": "cosmos1q6cc9u0x5r3fkjcex0rgxee5qlu86w8rh2ypaj",
+			"likecoin-mainnet-2": "like1ptm9dyyya6erqj9h9ydurtzvla2h6lv962pux0"
+		},
+		{
+			"cosmoshub-4": "cosmos1q6cc9u0x5r3fkjcex0rgxee5qlu86w8rh2ypaj",
+			"core-1": "persistence1ptm9dyyya6erqj9h9ydurtzvla2h6lv986mdts"
+		},
+		{
+			"cosmoshub-4": "cosmos1q6cc9u0x5r3fkjcex0rgxee5qlu86w8rh2ypaj",
+			"sentinelhub-2": "sent1ptm9dyyya6erqj9h9ydurtzvla2h6lv9jdt8pm"
+		},
+		{
+			"cosmoshub-4": "cosmos1q6cc9u0x5r3fkjcex0rgxee5qlu86w8rh2ypaj",
+			"iov-mainnet-ibc": "star1ptm9dyyya6erqj9h9ydurtzvla2h6lv9gvnhjc"
+		},
+		{
+			"cosmoshub-4": "cosmos1q6cc9u0x5r3fkjcex0rgxee5qlu86w8rh2ypaj",
+			"umee-1": "umee1ptm9dyyya6erqj9h9ydurtzvla2h6lv9mqqppx"
+		},
+		{
+			"crescent-1": "cre1ptm9dyyya6erqj9h9ydurtzvla2h6lv9d7wmse",
+			"cosmoshub-4": "cosmos1q6cc9u0x5r3fkjcex0rgxee5qlu86w8rh2ypaj"
+		},
+		{
+			"crescent-1": "cre1ptm9dyyya6erqj9h9ydurtzvla2h6lv9d7wmse",
+			"gravity-bridge-3": "gravity1ptm9dyyya6erqj9h9ydurtzvla2h6lv9dx0xqu"
+		},
+		{
+			"crescent-1": "cre1ptm9dyyya6erqj9h9ydurtzvla2h6lv9d7wmse",
+			"osmosis-1": "osmo1ptm9dyyya6erqj9h9ydurtzvla2h6lv9pdwwnx"
+		},
+		{
+			"crescent-1": "cre1ptm9dyyya6erqj9h9ydurtzvla2h6lv9d7wmse",
+			"secret-4": "secret1ptm9dyyya6erqj9h9ydurtzvla2h6lv9tnfhcg"
+		},
+		{
+			"crescent-1": "cre1ptm9dyyya6erqj9h9ydurtzvla2h6lv9d7wmse",
+			"stargaze-1": "stars1q6cc9u0x5r3fkjcex0rgxee5qlu86w8rrknukr"
+		},
+		{
+			"crypto-org-chain-mainnet-1": "cro1ptm9dyyya6erqj9h9ydurtzvla2h6lv93d48e9",
+			"evmos_9001-2": "evmos1fk59eyecx7h0glgnn5wcuc0r43tj8h3x66zfyq"
+		},
+		{
+			"crypto-org-chain-mainnet-1": "cro1ptm9dyyya6erqj9h9ydurtzvla2h6lv93d48e9",
+			"irishub-1": "iaa1ptm9dyyya6erqj9h9ydurtzvla2h6lv9u5a089"
+		},
+		{
+			"crypto-org-chain-mainnet-1": "cro1ptm9dyyya6erqj9h9ydurtzvla2h6lv93d48e9",
+			"osmosis-1": "osmo1ptm9dyyya6erqj9h9ydurtzvla2h6lv9pdwwnx"
+		},
+		{
+			"crypto-org-chain-mainnet-1": "cro1ptm9dyyya6erqj9h9ydurtzvla2h6lv93d48e9",
+			"core-1": "persistence1ptm9dyyya6erqj9h9ydurtzvla2h6lv986mdts"
+		},
+		{
+			"crypto-org-chain-mainnet-1": "cro1ptm9dyyya6erqj9h9ydurtzvla2h6lv93d48e9",
+			"sentinelhub-2": "sent1ptm9dyyya6erqj9h9ydurtzvla2h6lv9jdt8pm"
+		},
+		{
+			"crypto-org-chain-mainnet-1": "cro1ptm9dyyya6erqj9h9ydurtzvla2h6lv93d48e9",
+			"sifchain-1": "sif1ptm9dyyya6erqj9h9ydurtzvla2h6lv9vtjg2l"
+		},
+		{
+			"crypto-org-chain-mainnet-1": "cro1ptm9dyyya6erqj9h9ydurtzvla2h6lv93d48e9",
+			"iov-mainnet-ibc": "star1ptm9dyyya6erqj9h9ydurtzvla2h6lv9gvnhjc"
+		},
+		{
+			"emoney-3": "emoney1ptm9dyyya6erqj9h9ydurtzvla2h6lv9x482jf",
+			"osmosis-1": "osmo1ptm9dyyya6erqj9h9ydurtzvla2h6lv9pdwwnx"
+		},
+		{
+			"evmos_9001-2": "evmos1fk59eyecx7h0glgnn5wcuc0r43tj8h3x66zfyq",
+			"cosmoshub-4": "cosmos1q6cc9u0x5r3fkjcex0rgxee5qlu86w8rh2ypaj"
+		},
+		{
+			"evmos_9001-2": "evmos1fk59eyecx7h0glgnn5wcuc0r43tj8h3x66zfyq",
+			"osmosis-1": "osmo1ptm9dyyya6erqj9h9ydurtzvla2h6lv9pdwwnx"
+		},
+		{
+			"evmos_9001-2": "evmos1fk59eyecx7h0glgnn5wcuc0r43tj8h3x66zfyq",
+			"secret-4": "secret1ptm9dyyya6erqj9h9ydurtzvla2h6lv9tnfhcg"
+		},
+		{
+			"gravity-bridge-3": "gravity1ptm9dyyya6erqj9h9ydurtzvla2h6lv9dx0xqu",
+			"cosmoshub-4": "cosmos1q6cc9u0x5r3fkjcex0rgxee5qlu86w8rh2ypaj"
+		},
+		{
+			"gravity-bridge-3": "gravity1ptm9dyyya6erqj9h9ydurtzvla2h6lv9dx0xqu",
+			"osmosis-1": "osmo1ptm9dyyya6erqj9h9ydurtzvla2h6lv9pdwwnx"
+		},
+		{
+			"gravity-bridge-3": "gravity1ptm9dyyya6erqj9h9ydurtzvla2h6lv9dx0xqu",
+			"core-1": "persistence1ptm9dyyya6erqj9h9ydurtzvla2h6lv986mdts"
+		},
+		{
+			"ixo-4": "ixo1ptm9dyyya6erqj9h9ydurtzvla2h6lv9krrvp8",
+			"cosmoshub-4": "cosmos1q6cc9u0x5r3fkjcex0rgxee5qlu86w8rh2ypaj"
+		},
+		{
+			"ixo-4": "ixo1ptm9dyyya6erqj9h9ydurtzvla2h6lv9krrvp8",
+			"osmosis-1": "osmo1ptm9dyyya6erqj9h9ydurtzvla2h6lv9pdwwnx"
+		},
+		{
+			"ixo-4": "ixo1ptm9dyyya6erqj9h9ydurtzvla2h6lv9krrvp8",
+			"sifchain-1": "sif1ptm9dyyya6erqj9h9ydurtzvla2h6lv9vtjg2l"
+		},
+		{
+			"irishub-1": "iaa1ptm9dyyya6erqj9h9ydurtzvla2h6lv9u5a089",
+			"osmosis-1": "osmo1ptm9dyyya6erqj9h9ydurtzvla2h6lv9pdwwnx"
+		},
+		{
+			"irishub-1": "iaa1ptm9dyyya6erqj9h9ydurtzvla2h6lv9u5a089",
+			"regen-1": "regen1ptm9dyyya6erqj9h9ydurtzvla2h6lv9k5kzns"
+		},
+		{
+			"irishub-1": "iaa1ptm9dyyya6erqj9h9ydurtzvla2h6lv9u5a089",
+			"sentinelhub-2": "sent1ptm9dyyya6erqj9h9ydurtzvla2h6lv9jdt8pm"
+		},
+		{
+			"irishub-1": "iaa1ptm9dyyya6erqj9h9ydurtzvla2h6lv9u5a089",
+			"sifchain-1": "sif1ptm9dyyya6erqj9h9ydurtzvla2h6lv9vtjg2l"
+		},
+		{
+			"irishub-1": "iaa1ptm9dyyya6erqj9h9ydurtzvla2h6lv9u5a089",
+			"iov-mainnet-ibc": "star1ptm9dyyya6erqj9h9ydurtzvla2h6lv9gvnhjc"
+		},
+		{
+			"juno-1": "juno1c9gh65lukf2n7r34003jg2x8pxxwyva0jlwp9x",
+			"cosmoshub-4": "cosmos1q6cc9u0x5r3fkjcex0rgxee5qlu86w8rh2ypaj"
+		},
+		{
+			"juno-1": "juno1c9gh65lukf2n7r34003jg2x8pxxwyva0jlwp9x",
+			"osmosis-1": "osmo1ptm9dyyya6erqj9h9ydurtzvla2h6lv9pdwwnx"
+		},
+		{
+			"juno-1": "juno1c9gh65lukf2n7r34003jg2x8pxxwyva0jlwp9x",
+			"secret-4": "secret1ptm9dyyya6erqj9h9ydurtzvla2h6lv9tnfhcg"
+		},
+		{
+			"likecoin-mainnet-2": "like1ptm9dyyya6erqj9h9ydurtzvla2h6lv962pux0",
+			"osmosis-1": "osmo1ptm9dyyya6erqj9h9ydurtzvla2h6lv9pdwwnx"
+		},
+		{
+			"osmosis-1": "osmo1ptm9dyyya6erqj9h9ydurtzvla2h6lv9pdwwnx",
+			"cosmoshub-4": "cosmos1q6cc9u0x5r3fkjcex0rgxee5qlu86w8rh2ypaj"
+		},
+		{
+			"osmosis-1": "osmo1ptm9dyyya6erqj9h9ydurtzvla2h6lv9pdwwnx",
+			"core-1": "persistence1ptm9dyyya6erqj9h9ydurtzvla2h6lv986mdts"
+		},
+		{
+			"osmosis-1": "osmo1ptm9dyyya6erqj9h9ydurtzvla2h6lv9pdwwnx",
+			"regen-1": "regen1ptm9dyyya6erqj9h9ydurtzvla2h6lv9k5kzns"
+		},
+		{
+			"osmosis-1": "osmo1ptm9dyyya6erqj9h9ydurtzvla2h6lv9pdwwnx",
+			"sentinelhub-2": "sent1ptm9dyyya6erqj9h9ydurtzvla2h6lv9jdt8pm"
+		},
+		{
+			"osmosis-1": "osmo1ptm9dyyya6erqj9h9ydurtzvla2h6lv9pdwwnx",
+			"iov-mainnet-ibc": "star1ptm9dyyya6erqj9h9ydurtzvla2h6lv9gvnhjc"
+		},
+		{
+			"osmosis-1": "osmo1ptm9dyyya6erqj9h9ydurtzvla2h6lv9pdwwnx",
+			"umee-1": "umee1ptm9dyyya6erqj9h9ydurtzvla2h6lv9mqqppx"
+		},
+		{
+			"core-1": "persistence1ptm9dyyya6erqj9h9ydurtzvla2h6lv986mdts",
+			"regen-1": "regen1ptm9dyyya6erqj9h9ydurtzvla2h6lv9k5kzns"
+		},
+		{
+			"core-1": "persistence1ptm9dyyya6erqj9h9ydurtzvla2h6lv986mdts",
+			"sifchain-1": "sif1ptm9dyyya6erqj9h9ydurtzvla2h6lv9vtjg2l"
+		},
+		{
+			"regen-1": "regen1ptm9dyyya6erqj9h9ydurtzvla2h6lv9k5kzns",
+			"cosmoshub-4": "cosmos1q6cc9u0x5r3fkjcex0rgxee5qlu86w8rh2ypaj"
+		},
+		{
+			"regen-1": "regen1ptm9dyyya6erqj9h9ydurtzvla2h6lv9k5kzns",
+			"iov-mainnet-ibc": "star1ptm9dyyya6erqj9h9ydurtzvla2h6lv9gvnhjc"
+		},
+		{
+			"secret-4": "secret1ptm9dyyya6erqj9h9ydurtzvla2h6lv9tnfhcg",
+			"cosmoshub-4": "cosmos1q6cc9u0x5r3fkjcex0rgxee5qlu86w8rh2ypaj"
+		},
+		{
+			"secret-4": "secret1ptm9dyyya6erqj9h9ydurtzvla2h6lv9tnfhcg",
+			"osmosis-1": "osmo1ptm9dyyya6erqj9h9ydurtzvla2h6lv9pdwwnx"
+		},
+		{
+			"secret-4": "secret1ptm9dyyya6erqj9h9ydurtzvla2h6lv9tnfhcg",
+			"sifchain-1": "sif1ptm9dyyya6erqj9h9ydurtzvla2h6lv9vtjg2l"
+		},
+		{
+			"sifchain-1": "sif1ptm9dyyya6erqj9h9ydurtzvla2h6lv9vtjg2l",
+			"cosmoshub-4": "cosmos1q6cc9u0x5r3fkjcex0rgxee5qlu86w8rh2ypaj"
+		},
+		{
+			"sifchain-1": "sif1ptm9dyyya6erqj9h9ydurtzvla2h6lv9vtjg2l",
+			"osmosis-1": "osmo1ptm9dyyya6erqj9h9ydurtzvla2h6lv9pdwwnx"
+		}
+	]
+}
