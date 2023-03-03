@@ -282,6 +282,43 @@
 		{
 			"sifchain-1": "sif1ptm9dyyya6erqj9h9ydurtzvla2h6lv9vtjg2l",
 			"osmosis-1": "osmo1ptm9dyyya6erqj9h9ydurtzvla2h6lv9pdwwnx"
+		},
+		{
+			"juno-1": "juno1c9gh65lukf2n7r34003jg2x8pxxwyva0jlwp9x",
+			"evmos_9001-2": "evmos1fk59eyecx7h0glgnn5wcuc0r43tj8h3x66zfyq"
+		},
+		{
+			"juno-1": "juno1c9gh65lukf2n7r34003jg2x8pxxwyva0jlwp9x",
+			"akashnet-2": "akash1ptm9dyyya6erqj9h9ydurtzvla2h6lv9ydseuw"
+		},
+		{
+			"juno-1": "juno1c9gh65lukf2n7r34003jg2x8pxxwyva0jlwp9x",
+			"stargaze-1": "stars1q6cc9u0x5r3fkjcex0rgxee5qlu86w8rrknukr"
+		},
+		{
+			"juno-1": "juno1c9gh65lukf2n7r34003jg2x8pxxwyva0jlwp9x",
+			"crescent-1": "cre1ptm9dyyya6erqj9h9ydurtzvla2h6lv9d7wmse"
+		},
+		{
+			"juno-1": "juno1c9gh65lukf2n7r34003jg2x8pxxwyva0jlwp9x",
+			"core-1": "persistence1ptm9dyyya6erqj9h9ydurtzvla2h6lv986mdts"
+		},
+		{
+			"juno-1": "juno1c9gh65lukf2n7r34003jg2x8pxxwyva0jlwp9x",
+			"sifchain-1": "sif1ptm9dyyya6erqj9h9ydurtzvla2h6lv9vtjg2l"
+		},
+		{
+			"juno-1": "juno1c9gh65lukf2n7r34003jg2x8pxxwyva0jlwp9x",
+			"stride-1": "stride1ptm9dyyya6erqj9h9ydurtzvla2h6lv92aaz3c"
+		},
+		{
+			"stride-1": "stride1ptm9dyyya6erqj9h9ydurtzvla2h6lv92aaz3c",
+			"cosmoshub-4": "cosmos1q6cc9u0x5r3fkjcex0rgxee5qlu86w8rh2ypaj"
+		},
+		{
+			"stride-1": "stride1ptm9dyyya6erqj9h9ydurtzvla2h6lv92aaz3c",
+			"osmosis-1": "osmo1ptm9dyyya6erqj9h9ydurtzvla2h6lv9pdwwnx"
 		}
+
 	]
 }
