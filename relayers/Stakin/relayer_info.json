@@ -318,6 +318,30 @@
 		{
 			"stride-1": "stride1ptm9dyyya6erqj9h9ydurtzvla2h6lv92aaz3c",
 			"osmosis-1": "osmo1ptm9dyyya6erqj9h9ydurtzvla2h6lv9pdwwnx"
+		},
+		{
+			"injective-1": "inj1ptm9dyyya6erqj9h9ydurtzvla2h6lv9rl26hv",
+			"cosmoshub-4": "cosmos1q6cc9u0x5r3fkjcex0rgxee5qlu86w8rh2ypaj"
+		},
+		{
+			"injective-1": "inj1ptm9dyyya6erqj9h9ydurtzvla2h6lv9rl26hv",
+			"axelar-dojo-1": "axelar1u4he0w85dlxf65t8pn3hwjsyz5p2dz694c42kp"
+		},
+		{
+			"injective-1": "inj1ptm9dyyya6erqj9h9ydurtzvla2h6lv9rl26hv",
+			"crescent-1": "cre1ptm9dyyya6erqj9h9ydurtzvla2h6lv9d7wmse"
+		},
+		{
+			"injective-1": "inj1ptm9dyyya6erqj9h9ydurtzvla2h6lv9rl26hv",
+			"osmosis-1": "osmo1ptm9dyyya6erqj9h9ydurtzvla2h6lv9pdwwnx"
+		},
+		{
+			"injective-1": "inj1ptm9dyyya6erqj9h9ydurtzvla2h6lv9rl26hv",
+			"core-1": "persistence1ptm9dyyya6erqj9h9ydurtzvla2h6lv986mdts"
+		},
+		{
+			"injective-1": "inj1ptm9dyyya6erqj9h9ydurtzvla2h6lv9rl26hv",
+			"secret-4": "secret1ptm9dyyya6erqj9h9ydurtzvla2h6lv9tnfhcg"
 		}
 
 	]
