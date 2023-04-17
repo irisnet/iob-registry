@@ -1,0 +1,25 @@
+{
+  "team_name": "Uptick Network",
+  "team_logo": "https://raw.githubusercontent.com/UptickNetwork/PressKit/main/UptickNetworkLogo/Uptick_Network_logo2.png",
+  "contact": {
+    "website": "https://www.uptick.network",
+    "github": "https://github.com/UptickNetwork",
+    "telegram": "https://t.me/uptickproject",
+    "twitter": "https://twitter.com/Uptickproject",
+    "medium": "https://uptickproject.medium.com/",
+    "discord": "https://discord.com/invite/teqX78VZUV"
+  },
+  "introduction": [
+    "Uptick Network’s mission is to build business-grade infrastructure and ecosystems for NFTs while also becoming a leading force in Web3. The platform is designed with a focus on multi-chain and cross-chain interoperability and includes three key components: the NFT infrastructure, an NFT marketplace, and NFT ecosystem applications."
+  ],
+  "addresses": [
+    {
+      "uptick_117-1": "uptick13ze44vjkp4z22t5dggl423pvzndqqzrr8jww2r",
+      "irishub-1": "iaa1gpnyuyprm5qd4tukmfmur4mvlx44p66w8m5904"
+    },
+    {
+      "uptick_117-1": "uptick13ze44vjkp4z22t5dggl423pvzndqqzrr8jww2r",
+      "cosmoshub-4": "cosmos19quh9z3gqa83z2j409zy4nxrjrn843kmlgjsyf"
+    }
+  ]
+}
