@@ -354,6 +354,22 @@
 		{
 			"kyve-1": "kyve1jgcx6gkqcfee692kcqtkm3vswm6aj97mx7s30m",
 			"osmosis-1": "osmo1ptm9dyyya6erqj9h9ydurtzvla2h6lv9pdwwnx"
+		},
+		{
+			"quicksilver-2": "quick1ptm9dyyya6erqj9h9ydurtzvla2h6lv9zjdvux",
+			"osmosis-1": "osmo1ptm9dyyya6erqj9h9ydurtzvla2h6lv9pdwwnx"
+		},
+		{
+			"quicksilver-2": "quick1ptm9dyyya6erqj9h9ydurtzvla2h6lv9zjdvux",
+			"core-1": "persistence1ptm9dyyya6erqj9h9ydurtzvla2h6lv986mdts"
+		},
+		{
+			"quicksilver-2": "quick1ptm9dyyya6erqj9h9ydurtzvla2h6lv9zjdvux",
+			"secret-4": "secret1ptm9dyyya6erqj9h9ydurtzvla2h6lv9tnfhcg"
+		},
+		{
+			"quicksilver-2": "quick1ptm9dyyya6erqj9h9ydurtzvla2h6lv9zjdvux",
+			"umee-1": "umee1ptm9dyyya6erqj9h9ydurtzvla2h6lv9mqqppx"
 		}
 
 	]
