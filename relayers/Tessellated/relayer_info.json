@@ -1,0 +1,158 @@
+{
+  "team_name": "Tessellated",
+  "team_logo": "",
+  "contact": {
+    "website": "https://tessellated.io",
+    "github": "https://github.com/tessellated-io",
+    "twitter": "https://twitter.com/tessellated_io"
+  },
+  "introduction": [
+    "Tessellated is an independent and secure bare metal operator who builds and validates"
+  ],
+  "addresses": [
+    {
+      "axelar-dojo-1": "axelar15qth07rmamcue638q4fvzfrg9ra6eyknvz52xt",
+      "cosmoshub-4": "cosmos1wul6j40vghx4t4766t4vagkwwatnsxm4lcgmcj"
+    },
+    {
+      "axelar-dojo-1": "axelar15qth07rmamcue638q4fvzfrg9ra6eyknvz52xt",
+      "gravity-bridge-3": "gravity15qth07rmamcue638q4fvzfrg9ra6eyknvus6gz"
+    },
+    {
+      "axelar-dojo-1": "axelar15qth07rmamcue638q4fvzfrg9ra6eyknvz52xt",
+      "juno-1": "juno15qth07rmamcue638q4fvzfrg9ra6eykn77pe2k"
+    },
+    {
+      "axelar-dojo-1": "axelar15qth07rmamcue638q4fvzfrg9ra6eyknvz52xt",
+      "mars-1": "mars15qth07rmamcue638q4fvzfrg9ra6eykn43mmc3"
+    },
+    {
+      "axelar-dojo-1": "axelar15qth07rmamcue638q4fvzfrg9ra6eyknvz52xt",
+      "neutron-1": "neutron15qth07rmamcue638q4fvzfrg9ra6eyknvntqhd"
+    },
+    {
+      "axelar-dojo-1": "axelar15qth07rmamcue638q4fvzfrg9ra6eyknvz52xt",
+      "osmosis-1": "osmo15qth07rmamcue638q4fvzfrg9ra6eyknqh3jmc"
+    },
+    {
+      "axelar-dojo-1": "axelar15qth07rmamcue638q4fvzfrg9ra6eyknvz52xt",
+      "sommelier-3": "somm15qth07rmamcue638q4fvzfrg9ra6eyknysdwuq"
+    },
+    {
+      "axelar-dojo-1": "axelar15qth07rmamcue638q4fvzfrg9ra6eyknvz52xt",
+      "stride-1": "stride15qth07rmamcue638q4fvzfrg9ra6eyknt8z7ex"
+    },
+    {
+      "cosmoshub-4": "cosmos1wul6j40vghx4t4766t4vagkwwatnsxm4lcgmcj",
+      "gravity-bridge-3": "gravity15qth07rmamcue638q4fvzfrg9ra6eyknvus6gz"
+    },
+    {
+      "cosmoshub-4": "cosmos1wul6j40vghx4t4766t4vagkwwatnsxm4lcgmcj",
+      "juno-1": "juno15qth07rmamcue638q4fvzfrg9ra6eykn77pe2k"
+    },
+    {
+      "cosmoshub-4": "cosmos1wul6j40vghx4t4766t4vagkwwatnsxm4lcgmcj",
+      "mars-1": "mars15qth07rmamcue638q4fvzfrg9ra6eykn43mmc3"
+    },
+    {
+      "cosmoshub-4": "cosmos1wul6j40vghx4t4766t4vagkwwatnsxm4lcgmcj",
+      "neutron-1": "neutron15qth07rmamcue638q4fvzfrg9ra6eyknvntqhd"
+    },
+    {
+      "cosmoshub-4": "cosmos1wul6j40vghx4t4766t4vagkwwatnsxm4lcgmcj",
+      "osmosis-1": "osmo15qth07rmamcue638q4fvzfrg9ra6eyknqh3jmc"
+    },
+    {
+      "cosmoshub-4": "cosmos1wul6j40vghx4t4766t4vagkwwatnsxm4lcgmcj",
+      "sommelier-3": "somm15qth07rmamcue638q4fvzfrg9ra6eyknysdwuq"
+    },
+    {
+      "cosmoshub-4": "cosmos1wul6j40vghx4t4766t4vagkwwatnsxm4lcgmcj",
+      "stride-1": "stride15qth07rmamcue638q4fvzfrg9ra6eyknt8z7ex"
+    },
+    {
+      "gravity-bridge-3": "gravity15qth07rmamcue638q4fvzfrg9ra6eyknvus6gz",
+      "juno-1": "juno15qth07rmamcue638q4fvzfrg9ra6eykn77pe2k"
+    },
+    {
+      "gravity-bridge-3": "gravity15qth07rmamcue638q4fvzfrg9ra6eyknvus6gz",
+      "mars-1": "mars15qth07rmamcue638q4fvzfrg9ra6eykn43mmc3"
+    },
+    {
+      "gravity-bridge-3": "gravity15qth07rmamcue638q4fvzfrg9ra6eyknvus6gz",
+      "neutron-1": "neutron15qth07rmamcue638q4fvzfrg9ra6eyknvntqhd"
+    },
+    {
+      "gravity-bridge-3": "gravity15qth07rmamcue638q4fvzfrg9ra6eyknvus6gz",
+      "osmosis-1": "osmo15qth07rmamcue638q4fvzfrg9ra6eyknqh3jmc"
+    },
+    {
+      "gravity-bridge-3": "gravity15qth07rmamcue638q4fvzfrg9ra6eyknvus6gz",
+      "sommelier-3": "somm15qth07rmamcue638q4fvzfrg9ra6eyknysdwuq"
+    },
+    {
+      "gravity-bridge-3": "gravity15qth07rmamcue638q4fvzfrg9ra6eyknvus6gz",
+      "stride-1": "stride15qth07rmamcue638q4fvzfrg9ra6eyknt8z7ex"
+    },
+    {
+      "juno-1": "juno15qth07rmamcue638q4fvzfrg9ra6eykn77pe2k",
+      "mars-1": "mars15qth07rmamcue638q4fvzfrg9ra6eykn43mmc3"
+    },
+    {
+      "juno-1": "juno15qth07rmamcue638q4fvzfrg9ra6eykn77pe2k",
+      "neutron-1": "neutron15qth07rmamcue638q4fvzfrg9ra6eyknvntqhd"
+    },
+    {
+      "juno-1": "juno15qth07rmamcue638q4fvzfrg9ra6eykn77pe2k",
+      "osmosis-1": "osmo15qth07rmamcue638q4fvzfrg9ra6eyknqh3jmc"
+    },
+    {
+      "juno-1": "juno15qth07rmamcue638q4fvzfrg9ra6eykn77pe2k",
+      "sommelier-3": "somm15qth07rmamcue638q4fvzfrg9ra6eyknysdwuq"
+    },
+    {
+      "juno-1": "juno15qth07rmamcue638q4fvzfrg9ra6eykn77pe2k",
+      "stride-1": "stride15qth07rmamcue638q4fvzfrg9ra6eyknt8z7ex"
+    },
+    {
+      "mars-1": "mars15qth07rmamcue638q4fvzfrg9ra6eykn43mmc3",
+      "neutron-1": "neutron15qth07rmamcue638q4fvzfrg9ra6eyknvntqhd"
+    },
+    {
+      "mars-1": "mars15qth07rmamcue638q4fvzfrg9ra6eykn43mmc3",
+      "osmosis-1": "osmo15qth07rmamcue638q4fvzfrg9ra6eyknqh3jmc"
+    },
+    {
+      "mars-1": "mars15qth07rmamcue638q4fvzfrg9ra6eykn43mmc3",
+      "sommelier-3": "somm15qth07rmamcue638q4fvzfrg9ra6eyknysdwuq"
+    },
+    {
+      "mars-1": "mars15qth07rmamcue638q4fvzfrg9ra6eykn43mmc3",
+      "stride-1": "stride15qth07rmamcue638q4fvzfrg9ra6eyknt8z7ex"
+    },
+    {
+      "neutron-1": "neutron15qth07rmamcue638q4fvzfrg9ra6eyknvntqhd",
+      "osmosis-1": "osmo15qth07rmamcue638q4fvzfrg9ra6eyknqh3jmc"
+    },
+    {
+      "neutron-1": "neutron15qth07rmamcue638q4fvzfrg9ra6eyknvntqhd",
+      "sommelier-3": "somm15qth07rmamcue638q4fvzfrg9ra6eyknysdwuq"
+    },
+    {
+      "neutron-1": "neutron15qth07rmamcue638q4fvzfrg9ra6eyknvntqhd",
+      "stride-1": "stride15qth07rmamcue638q4fvzfrg9ra6eyknt8z7ex"
+    },
+    {
+      "osmosis-1": "osmo15qth07rmamcue638q4fvzfrg9ra6eyknqh3jmc",
+      "sommelier-3": "somm15qth07rmamcue638q4fvzfrg9ra6eyknysdwuq"
+    },
+    {
+      "osmosis-1": "osmo15qth07rmamcue638q4fvzfrg9ra6eyknqh3jmc",
+      "stride-1": "stride15qth07rmamcue638q4fvzfrg9ra6eyknt8z7ex"
+    },
+    {
+      "sommelier-3": "somm15qth07rmamcue638q4fvzfrg9ra6eyknysdwuq",
+      "stride-1": "stride15qth07rmamcue638q4fvzfrg9ra6eyknt8z7ex"
+    }
+  ]
+}
