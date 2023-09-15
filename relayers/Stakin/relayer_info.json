@@ -69,10 +69,6 @@
 		},
 		{
 			"akashnet-2": "akash1ptm9dyyya6erqj9h9ydurtzvla2h6lv9ydseuw",
-			"iov-mainnet-ibc": "star1ptm9dyyya6erqj9h9ydurtzvla2h6lv9gvnhjc"
-		},
-		{
-			"akashnet-2": "akash1ptm9dyyya6erqj9h9ydurtzvla2h6lv9ydseuw",
 			"archway-1": "archway1ptm9dyyya6erqj9h9ydurtzvla2h6lv9uap60r"
 		},
 		{
@@ -146,10 +142,6 @@
 		{
 			"cosmoshub-4": "cosmos1q6cc9u0x5r3fkjcex0rgxee5qlu86w8rh2ypaj",
 			"sentinelhub-2": "sent1ptm9dyyya6erqj9h9ydurtzvla2h6lv9jdt8pm"
-		},
-		{
-			"cosmoshub-4": "cosmos1q6cc9u0x5r3fkjcex0rgxee5qlu86w8rh2ypaj",
-			"iov-mainnet-ibc": "star1ptm9dyyya6erqj9h9ydurtzvla2h6lv9gvnhjc"
 		},
 		{
 			"cosmoshub-4": "cosmos1q6cc9u0x5r3fkjcex0rgxee5qlu86w8rh2ypaj",
@@ -232,10 +224,6 @@
 			"sifchain-1": "sif1ptm9dyyya6erqj9h9ydurtzvla2h6lv9vtjg2l"
 		},
 		{
-			"crypto-org-chain-mainnet-1": "cro1ptm9dyyya6erqj9h9ydurtzvla2h6lv93d48e9",
-			"iov-mainnet-ibc": "star1ptm9dyyya6erqj9h9ydurtzvla2h6lv9gvnhjc"
-		},
-		{
 			"emoney-3": "emoney1ptm9dyyya6erqj9h9ydurtzvla2h6lv9x482jf",
 			"osmosis-1": "osmo1ptm9dyyya6erqj9h9ydurtzvla2h6lv9pdwwnx"
 		},
@@ -308,10 +296,6 @@
 			"sifchain-1": "sif1ptm9dyyya6erqj9h9ydurtzvla2h6lv9vtjg2l"
 		},
 		{
-			"irishub-1": "iaa1ptm9dyyya6erqj9h9ydurtzvla2h6lv9u5a089",
-			"iov-mainnet-ibc": "star1ptm9dyyya6erqj9h9ydurtzvla2h6lv9gvnhjc"
-		},
-		{
 			"juno-1": "juno1c9gh65lukf2n7r34003jg2x8pxxwyva0jlwp9x",
 			"cosmoshub-4": "cosmos1q6cc9u0x5r3fkjcex0rgxee5qlu86w8rh2ypaj"
 		},
@@ -353,10 +337,6 @@
 		},
 		{
 			"osmosis-1": "osmo1ptm9dyyya6erqj9h9ydurtzvla2h6lv9pdwwnx",
-			"iov-mainnet-ibc": "star1ptm9dyyya6erqj9h9ydurtzvla2h6lv9gvnhjc"
-		},
-		{
-			"osmosis-1": "osmo1ptm9dyyya6erqj9h9ydurtzvla2h6lv9pdwwnx",
 			"umee-1": "umee1ptm9dyyya6erqj9h9ydurtzvla2h6lv9mqqppx"
 		},
 		{
@@ -390,10 +370,6 @@
 		{
 			"regen-1": "regen1ptm9dyyya6erqj9h9ydurtzvla2h6lv9k5kzns",
 			"sifchain-1": "sif1ptm9dyyya6erqj9h9ydurtzvla2h6lv9vtjg2l"
-		},
-		{
-			"regen-1": "regen1ptm9dyyya6erqj9h9ydurtzvla2h6lv9k5kzns",
-			"iov-mainnet-ibc": "star1ptm9dyyya6erqj9h9ydurtzvla2h6lv9gvnhjc"
 		},
 		{
 			"secret-4": "secret1ptm9dyyya6erqj9h9ydurtzvla2h6lv9tnfhcg",
