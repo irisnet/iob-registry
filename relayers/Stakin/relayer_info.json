@@ -566,6 +566,18 @@
 		{
 			"archway-1": "archway1ptm9dyyya6erqj9h9ydurtzvla2h6lv9uap60r",
 			"osmosis-1": "osmo1ptm9dyyya6erqj9h9ydurtzvla2h6lv9pdwwnx"
+		},
+		{
+			"celestia": "celestia1q6cc9u0x5r3fkjcex0rgxee5qlu86w8rxq438l",
+			"stride-1": "stride1ptm9dyyya6erqj9h9ydurtzvla2h6lv92aaz3c"
+		},
+		{
+			"celestia": "celestia1q6cc9u0x5r3fkjcex0rgxee5qlu86w8rxq438l",
+			"injective-1": "inj1ptm9dyyya6erqj9h9ydurtzvla2h6lv9rl26hv"
+		},
+		{
+			"celestia": "celestia1q6cc9u0x5r3fkjcex0rgxee5qlu86w8rxq438l",
+			"osmosis-1": "osmo1ptm9dyyya6erqj9h9ydurtzvla2h6lv9pdwwnx"
 		}
 
 	]
