@@ -1,0 +1,114 @@
+{
+    "team_name": "Qubelabs",
+    "team_logo": "https://raw.githubusercontent.com/qubelabsio/iob-registry/main/relayers/Qubelabs/images/qubelabs%20(2).png",
+    "contact": {
+        "website": "https://qubelabs.io",
+        "github": "https://github.com/qubelabsio",
+        "twitter": "https://twitter.com/qubelabs",        
+    },
+    "introduction": [
+        "Independent organization of validators, builders, network contributors and community builders."
+    ],
+    "addresses": [
+        {
+            "celestia": "celestia1eyfy0hde8t62pmkzwxpl4xjr72rs3s8t0g3gkj",
+            "osmosis-1": "osmo1n3pmvc5pvnat5ugaytu8jh6q28zc2qdctxhgww"
+        },
+        {
+            "celestia": "celestia1eyfy0hde8t62pmkzwxpl4xjr72rs3s8t0g3gkj",
+            "axelar-dojo-1": "axelar14awanvwztk4rnspjqtukq4m5lv98umw6atjnw6"
+        },
+        {
+            "celestia": "celestia1eyfy0hde8t62pmkzwxpl4xjr72rs3s8t0g3gkj",
+            "umee-1": "umee1rqaetvk3mx2cnn6guectun8a9k22mmgthhp02h"
+        },
+        {
+            "axelar-dojo-1": "axelar14awanvwztk4rnspjqtukq4m5lv98umw6atjnw6",
+            "evmos_9001-2": "evmos1w4tereqw45m2lqa3aea764la4ycnqrvvcndf0j"
+        },
+        {
+            "axelar-dojo-1": "axelar14awanvwztk4rnspjqtukq4m5lv98umw6atjnw6",
+            "agoric-3": "agoric1yjjvxayecreq4ds4ggm08jxnzlese7smhwakle"
+        },
+        {
+            "axelar-dojo-1": "axelar14awanvwztk4rnspjqtukq4m5lv98umw6atjnw6",
+            "umee-1": "umee1rqaetvk3mx2cnn6guectun8a9k22mmgthhp02h"
+        },
+        {
+            "axelar-dojo-1": "axelar14awanvwztk4rnspjqtukq4m5lv98umw6atjnw6",
+            "celestia": "celestia1eyfy0hde8t62pmkzwxpl4xjr72rs3s8t0g3gkj"
+        },
+        {
+            "axelar-dojo-1": "axelar14awanvwztk4rnspjqtukq4m5lv98umw6atjnw6",
+            "osmosis-1": "osmo1n3pmvc5pvnat5ugaytu8jh6q28zc2qdctxhgww"
+        },
+        {
+            "evmos_9001-2": "evmos1w4tereqw45m2lqa3aea764la4ycnqrvvcndf0j",
+            "osmosis-1": "osmo1n3pmvc5pvnat5ugaytu8jh6q28zc2qdctxhgww"
+        },
+        {
+            "evmos_9001-2": "evmos1w4tereqw45m2lqa3aea764la4ycnqrvvcndf0j",
+            "agoric-3": "agoric1yjjvxayecreq4ds4ggm08jxnzlese7smhwakle"
+        },
+        {
+            "evmos_9001-2": "evmos1w4tereqw45m2lqa3aea764la4ycnqrvvcndf0j",
+            "axelar-dojo-1": "axelar14awanvwztk4rnspjqtukq4m5lv98umw6atjnw6"
+        },
+        {
+            "osmosis-1": "osmo1n3pmvc5pvnat5ugaytu8jh6q28zc2qdctxhgww",
+            "agoric-3": "agoric1yjjvxayecreq4ds4ggm08jxnzlese7smhwakle"
+        },
+        {
+            "osmosis-1": "osmo1n3pmvc5pvnat5ugaytu8jh6q28zc2qdctxhgww",
+            "axelar-dojo-1": "axelar14awanvwztk4rnspjqtukq4m5lv98umw6atjnw6"
+        },
+        {
+            "osmosis-1": "osmo1n3pmvc5pvnat5ugaytu8jh6q28zc2qdctxhgww",
+            "umee-1": "umee1rqaetvk3mx2cnn6guectun8a9k22mmgthhp02h"
+        },
+        {
+            "osmosis-1": "osmo1n3pmvc5pvnat5ugaytu8jh6q28zc2qdctxhgww",
+            "celestia": "celestia1eyfy0hde8t62pmkzwxpl4xjr72rs3s8t0g3gkj"
+        },
+        {
+            "osmosis-1": "osmo1n3pmvc5pvnat5ugaytu8jh6q28zc2qdctxhgww",
+            "evmos_9001-2": "evmos1w4tereqw45m2lqa3aea764la4ycnqrvvcndf0j"
+        },
+        {
+            "agoric-3": "agoric1yjjvxayecreq4ds4ggm08jxnzlese7smhwakle",
+            "axelar-dojo-1": "axelar14awanvwztk4rnspjqtukq4m5lv98umw6atjnw6"
+        },
+        {
+            "agoric-3": "agoric1yjjvxayecreq4ds4ggm08jxnzlese7smhwakle",
+            "umee-1": "umee1rqaetvk3mx2cnn6guectun8a9k22mmgthhp02h"
+        },
+        {
+            "agoric-3": "agoric1yjjvxayecreq4ds4ggm08jxnzlese7smhwakle",
+            "evmos_9001-2": "evmos1w4tereqw45m2lqa3aea764la4ycnqrvvcndf0j"
+        },
+        {
+            "agoric-3": "agoric1yjjvxayecreq4ds4ggm08jxnzlese7smhwakle",
+            "osmosis-1": "osmo1n3pmvc5pvnat5ugaytu8jh6q28zc2qdctxhgww"
+        },
+        {
+            "umee-1": "umee1rqaetvk3mx2cnn6guectun8a9k22mmgthhp02h",
+            "axelar-dojo-1": "axelar14awanvwztk4rnspjqtukq4m5lv98umw6atjnw6"
+        },
+        {
+            "umee-1": "umee1rqaetvk3mx2cnn6guectun8a9k22mmgthhp02h",
+            "agoric-3": "agoric1yjjvxayecreq4ds4ggm08jxnzlese7smhwakle"
+        },
+        {
+            "umee-1": "umee1rqaetvk3mx2cnn6guectun8a9k22mmgthhp02h",
+            "osmosis-1": "osmo1n3pmvc5pvnat5ugaytu8jh6q28zc2qdctxhgww"
+        },
+        {
+            "umee-1": "umee1rqaetvk3mx2cnn6guectun8a9k22mmgthhp02h",
+            "celestia": "celestia1eyfy0hde8t62pmkzwxpl4xjr72rs3s8t0g3gkj"
+        },
+        {
+            "haqq_11235-1": "haqq1nyrgrhzm37ktx03ncs6ufmfc8jf7r2k6726492",
+            "axelar-dojo-1": "axelar14awanvwztk4rnspjqtukq4m5lv98umw6atjnw6"
+        }        
+    ]
+}
