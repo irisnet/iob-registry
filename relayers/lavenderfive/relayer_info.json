@@ -1,0 +1,30 @@
+{
+    "team_name":"Lavender.Five Nodes",
+    "team_logo":"",
+    "contact":{
+        "website":"https://lavenderfive.com/",
+        "github":"https://github.com/lavenderfive",
+        "twitter":"https://twitter.com/lavenderfive"
+    },
+    "introduction":[
+        "Fortifying crypto networks with Horcrux security, slash insurance, and open source contributions. Connect with us at https://linktr.ee/lavenderfive."
+    ],
+    "addresses":[
+        {
+            "osmosis-1":"osmo18xrruhq5r246mwk0yj9elnn3mte8xa9ugwga6w",
+            "cosmoshub-4":"cosmos18xrruhq5r246mwk0yj9elnn3mte8xa9uq4mdvu"
+        },
+        {
+            "osmosis-1":"osmo18xrruhq5r246mwk0yj9elnn3mte8xa9ugwga6w",
+            "stride-1":"stride18xrruhq5r246mwk0yj9elnn3mte8xa9ur7m3cs"
+        },
+        {
+            "osmosis-1":"osmo18xrruhq5r246mwk0yj9elnn3mte8xa9ugwga6w",
+            "juno-1":"juno18xrruhq5r246mwk0yj9elnn3mte8xa9uk8cktq"
+        },
+        {
+            "osmosis-1":"osmo18xrruhq5r246mwk0yj9elnn3mte8xa9ugwga6w",
+            "phoenix-1":"terra18xrruhq5r246mwk0yj9elnn3mte8xa9ux3pdwu"
+        }
+    ]
+}
