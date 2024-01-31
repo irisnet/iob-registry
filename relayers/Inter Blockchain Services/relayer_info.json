@@ -10,7 +10,7 @@
         "discord":"https://discord.gg/Tyn2xTj2c9"
     },
     "introduction":[
-        "IBS provides trusted validator services, relayer infrastructure, syncing services, public RPC and API for cosmos ecosystem"
+        "IBS provides trusted validator services, relayer infrastructure, synching services, peering , public RPC and API for cosmos ecosystem"
     ],
     "addresses":[
         {
