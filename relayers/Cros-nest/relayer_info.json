@@ -1,6 +1,6 @@
 {
-    "team_name": "Cros Nest",
-    "team_logo": "https://github.com/irisnet/iob-registry/raw/main/relayers/Cros-nest/images/logo-cronest-2-blue_transparent.png",
+    "team_name": "Crosnest",
+    "team_logo": "https://github.com/irisnet/iob-registry/raw/main/relayers/Cros-nest/images/logo-crosnest.png",
     "contact": {
         "website": "https://cros-nest.com",
         "github": "https://github.com/crosnest",
@@ -8,7 +8,7 @@
         "discord": "https://discord.gg/psDap3ed7C"
     },
     "introduction": [
-        "We are Cros Nest. Our mission is to empower individuals and companies with reliable, secure, and easy-to use cryptocurrency products,tools, and infrastructures."
+        "We are Crosnest. Our mission is to empower individuals and companies with reliable, secure, and easy-to use cryptocurrency products,tools, and infrastructures."
     ],
     "addresses": [
         {
