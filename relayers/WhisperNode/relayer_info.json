@@ -1,0 +1,356 @@
+{
+    "team_name": "WhisperNode 🤐",
+    "team_logo": "https://github.com/irisnet/iob-registry/raw/main/relayers/WhisperNode/images/WhisperNode.png",
+    "contact": {
+        "website": "https://whispernode.com",
+        "github": "https://github.com/whispernode",
+        "twitter": "https://twitter.com/whispernode",
+        "discord": "https://discord.gg/4E5KZsRtjE",
+        "telegram": "https://t.me/team_whispernode"
+    },
+    "introduction": [
+        "WhisperNode is a community validator & infrastructure provider. Consider supporting our IBC relaying efforts by delegating to our validator nodes."
+    ],
+    "addresses": [
+        {
+            "akashnet-2": "akash1ryq6zncdxpdnnwhn9h24ar48ap9zkqgl5xpdnk",
+            "archway-1": "archway1ryq6zncdxpdnnwhn9h24ar48ap9zkqglvkswqm"
+        },
+        {
+            "akashnet-2": "akash1ryq6zncdxpdnnwhn9h24ar48ap9zkqgl5xpdnk",
+            "cosmoshub-4": "cosmos1ryq6zncdxpdnnwhn9h24ar48ap9zkqgleav22v"
+        },
+        {
+            "akashnet-2": "akash1ryq6zncdxpdnnwhn9h24ar48ap9zkqgl5xpdnk",
+            "juno-1": "juno1ryq6zncdxpdnnwhn9h24ar48ap9zkqgl0003ds"
+        },
+        {
+            "akashnet-2": "akash1ryq6zncdxpdnnwhn9h24ar48ap9zkqgl5xpdnk",
+            "kaiyo-1": "kujira1ryq6zncdxpdnnwhn9h24ar48ap9zkqglg4wj8x"
+        },
+        {
+            "akashnet-2": "akash1ryq6zncdxpdnnwhn9h24ar48ap9zkqgl5xpdnk",
+            "osmosis-1": "osmo1ryq6zncdxpdnnwhn9h24ar48ap9zkqgl3xl6u7"
+        },
+        {
+            "akashnet-2": "akash1ryq6zncdxpdnnwhn9h24ar48ap9zkqgl5xpdnk",
+            "sentinelhub-2": "sent1ryq6zncdxpdnnwhn9h24ar48ap9zkqglzx6nwr"
+        },
+        {
+            "archway-1": "archway1ryq6zncdxpdnnwhn9h24ar48ap9zkqglvkswqm",
+            "axelar-dojo-1": "axelar1ryq6zncdxpdnnwhn9h24ar48ap9zkqglan6zpd"
+        },
+        {
+            "archway-1": "archway1ryq6zncdxpdnnwhn9h24ar48ap9zkqglvkswqm",
+            "cosmoshub-4": "cosmos1ryq6zncdxpdnnwhn9h24ar48ap9zkqgleav22v"
+        },
+        {
+            "archway-1": "archway1ryq6zncdxpdnnwhn9h24ar48ap9zkqglvkswqm",
+            "canine-1": "jkl1ryq6zncdxpdnnwhn9h24ar48ap9zkqglqrzmnn"
+        },
+        {
+            "archway-1": "archway1ryq6zncdxpdnnwhn9h24ar48ap9zkqglvkswqm",
+            "juno-1": "juno1ryq6zncdxpdnnwhn9h24ar48ap9zkqgl0003ds"
+        },
+        {
+            "archway-1": "archway1ryq6zncdxpdnnwhn9h24ar48ap9zkqglvkswqm",
+            "kaiyo-1": "kujira1ryq6zncdxpdnnwhn9h24ar48ap9zkqglg4wj8x"
+        },
+        {
+            "archway-1": "archway1ryq6zncdxpdnnwhn9h24ar48ap9zkqglvkswqm",
+            "neutron-1": "neutron1ryq6zncdxpdnnwhn9h24ar48ap9zkqglaz9gst"
+        },
+        {
+            "archway-1": "archway1ryq6zncdxpdnnwhn9h24ar48ap9zkqglvkswqm",
+            "osmosis-1": "osmo1ryq6zncdxpdnnwhn9h24ar48ap9zkqgl3xl6u7"
+        },
+        {
+            "archway-1": "archway1ryq6zncdxpdnnwhn9h24ar48ap9zkqglvkswqm",
+            "secret-4": "secret1xpgjd2akpc8gmwez25keftpmlgs4aa3un463s7"
+        },
+        {
+            "mantle-1": "mantle1ryq6zncdxpdnnwhn9h24ar48ap9zkqgl8eh04x",
+            "juno-1": "juno1ryq6zncdxpdnnwhn9h24ar48ap9zkqgl0003ds"
+        },
+        {
+            "mantle-1": "mantle1ryq6zncdxpdnnwhn9h24ar48ap9zkqgl8eh04x",
+            "kaiyo-1": "kujira1ryq6zncdxpdnnwhn9h24ar48ap9zkqglg4wj8x"
+        },
+        {
+            "mantle-1": "mantle1ryq6zncdxpdnnwhn9h24ar48ap9zkqgl8eh04x",
+            "osmosis-1": "osmo1ryq6zncdxpdnnwhn9h24ar48ap9zkqgl3xl6u7"
+        },
+        {
+            "axelar-dojo-1": "axelar1ryq6zncdxpdnnwhn9h24ar48ap9zkqglan6zpd",
+            "centauri-1": "centauri1ryq6zncdxpdnnwhn9h24ar48ap9zkqglahpkwl"
+        },
+        {
+            "axelar-dojo-1": "axelar1ryq6zncdxpdnnwhn9h24ar48ap9zkqglan6zpd",
+            "cosmoshub-4": "cosmos1ryq6zncdxpdnnwhn9h24ar48ap9zkqgleav22v"
+        },
+        {
+            "axelar-dojo-1": "axelar1ryq6zncdxpdnnwhn9h24ar48ap9zkqglan6zpd",
+            "empowerchain-1": "empower1ryq6zncdxpdnnwhn9h24ar48ap9zkqgl93gpsj"
+        },
+        {
+            "axelar-dojo-1": "axelar1ryq6zncdxpdnnwhn9h24ar48ap9zkqglan6zpd",
+            "injective-1": "inj1jszj9xyh2eh8lx25u88rsv7hmsytvwsvr6cne0"
+        },
+        {
+            "axelar-dojo-1": "axelar1ryq6zncdxpdnnwhn9h24ar48ap9zkqglan6zpd",
+            "canine-1": "jkl1ryq6zncdxpdnnwhn9h24ar48ap9zkqglqrzmnn"
+        },
+        {
+            "axelar-dojo-1": "axelar1ryq6zncdxpdnnwhn9h24ar48ap9zkqglan6zpd",
+            "juno-1": "juno1ryq6zncdxpdnnwhn9h24ar48ap9zkqgl0003ds"
+        },
+        {
+            "axelar-dojo-1": "axelar1ryq6zncdxpdnnwhn9h24ar48ap9zkqglan6zpd",
+            "kaiyo-1": "kujira1ryq6zncdxpdnnwhn9h24ar48ap9zkqglg4wj8x"
+        },
+        {
+            "axelar-dojo-1": "axelar1ryq6zncdxpdnnwhn9h24ar48ap9zkqglan6zpd",
+            "neutron-1": "neutron1ryq6zncdxpdnnwhn9h24ar48ap9zkqglaz9gst"
+        },
+        {
+            "axelar-dojo-1": "axelar1ryq6zncdxpdnnwhn9h24ar48ap9zkqglan6zpd",
+            "osmosis-1": "osmo1ryq6zncdxpdnnwhn9h24ar48ap9zkqgl3xl6u7"
+        },
+        {
+            "axelar-dojo-1": "axelar19kzuzfmmy9wjr3cl0ss8wjzjup9g49hqzxn3p9",
+            "secret-4": "secret1xpgjd2akpc8gmwez25keftpmlgs4aa3un463s7"
+        },
+        {
+            "axelar-dojo-1": "axelar1ryq6zncdxpdnnwhn9h24ar48ap9zkqglan6zpd",
+            "stride-1": "stride1ryq6zncdxpdnnwhn9h24ar48ap9zkqgl6kvk7q"
+        },
+        {
+            "cheqd-mainnet-1": "cheqd1ryq6zncdxpdnnwhn9h24ar48ap9zkqglhlq2pa",
+            "osmosis-1": "osmo1ryq6zncdxpdnnwhn9h24ar48ap9zkqgl3xl6u7"
+        },
+        {
+            "comdex-1": "comdex1ryq6zncdxpdnnwhn9h24ar48ap9zkqgl7jwgnm",
+            "juno-1": "juno1ryq6zncdxpdnnwhn9h24ar48ap9zkqgl0003ds"
+        },
+        {
+            "comdex-1": "comdex1ryq6zncdxpdnnwhn9h24ar48ap9zkqgl7jwgnm",
+            "kaiyo-1": "kujira1ryq6zncdxpdnnwhn9h24ar48ap9zkqglg4wj8x"
+        },
+        {
+            "comdex-1": "comdex1ryq6zncdxpdnnwhn9h24ar48ap9zkqgl7jwgnm",
+            "osmosis-1": "osmo1ryq6zncdxpdnnwhn9h24ar48ap9zkqgl3xl6u7"
+        },
+        {
+            "comdex-1": "comdex1ryq6zncdxpdnnwhn9h24ar48ap9zkqgl7jwgnm",
+            "secret-4": "secret1xpgjd2akpc8gmwez25keftpmlgs4aa3un463s7"
+        },
+        {
+            "comdex-1": "comdex1ryq6zncdxpdnnwhn9h24ar48ap9zkqgl7jwgnm",
+            "stride-1": "stride1ryq6zncdxpdnnwhn9h24ar48ap9zkqgl6kvk7q"
+        },
+        {
+            "centauri-1": "centauri1ryq6zncdxpdnnwhn9h24ar48ap9zkqglahpkwl",
+            "cosmoshub-4": "cosmos1ryq6zncdxpdnnwhn9h24ar48ap9zkqgleav22v"
+        },
+        {
+            "centauri-1": "centauri1ryq6zncdxpdnnwhn9h24ar48ap9zkqglahpkwl",
+            "injective-1": "inj1jszj9xyh2eh8lx25u88rsv7hmsytvwsvr6cne0"
+        },
+        {
+            "centauri-1": "centauri1ryq6zncdxpdnnwhn9h24ar48ap9zkqglahpkwl",
+            "juno-1": "juno1ryq6zncdxpdnnwhn9h24ar48ap9zkqgl0003ds"
+        },
+        {
+            "centauri-1": "centauri1ryq6zncdxpdnnwhn9h24ar48ap9zkqglahpkwl",
+            "kaiyo-1": "kujira1ryq6zncdxpdnnwhn9h24ar48ap9zkqglg4wj8x"
+        },
+        {
+            "centauri-1": "centauri1ryq6zncdxpdnnwhn9h24ar48ap9zkqglahpkwl",
+            "neutron-1": "neutron1ryq6zncdxpdnnwhn9h24ar48ap9zkqglaz9gst"
+        },
+        {
+            "centauri-1": "centauri1ryq6zncdxpdnnwhn9h24ar48ap9zkqglahpkwl",
+            "osmosis-1": "osmo1ryq6zncdxpdnnwhn9h24ar48ap9zkqgl3xl6u7"
+        },
+        {
+            "centauri-1": "centauri1ryq6zncdxpdnnwhn9h24ar48ap9zkqglahpkwl",
+            "secret-4": "secret1xpgjd2akpc8gmwez25keftpmlgs4aa3un463s7"
+        },
+        {
+            "centauri-1": "centauri1ryq6zncdxpdnnwhn9h24ar48ap9zkqglahpkwl",
+            "stargaze-1": "stars1ryq6zncdxpdnnwhn9h24ar48ap9zkqgldpmhpa"
+        },
+        {
+            "centauri-1": "centauri1ryq6zncdxpdnnwhn9h24ar48ap9zkqglahpkwl",
+            "stride-1": "stride1ryq6zncdxpdnnwhn9h24ar48ap9zkqgl6kvk7q"
+        },
+        {
+            "cosmoshub-4": "cosmos1ryq6zncdxpdnnwhn9h24ar48ap9zkqgleav22v",
+            "empowerchain-1": "empower1ryq6zncdxpdnnwhn9h24ar48ap9zkqgl93gpsj"
+        },
+        {
+            "cosmoshub-4": "cosmos1ryq6zncdxpdnnwhn9h24ar48ap9zkqgleav22v",
+            "injective-1": "inj1jszj9xyh2eh8lx25u88rsv7hmsytvwsvr6cne0"
+        },
+        {
+            "cosmoshub-4": "cosmos1ryq6zncdxpdnnwhn9h24ar48ap9zkqgleav22v",
+            "juno-1": "juno1ryq6zncdxpdnnwhn9h24ar48ap9zkqgl0003ds"
+        },
+        {
+            "cosmoshub-4": "cosmos1ryq6zncdxpdnnwhn9h24ar48ap9zkqgleav22v",
+            "kaiyo-1": "kujira1ryq6zncdxpdnnwhn9h24ar48ap9zkqglg4wj8x"
+        },
+        {
+            "cosmoshub-4": "cosmos1ryq6zncdxpdnnwhn9h24ar48ap9zkqgleav22v",
+            "neutron-1": "neutron1ryq6zncdxpdnnwhn9h24ar48ap9zkqglaz9gst"
+        },
+        {
+            "cosmoshub-4": "cosmos1ryq6zncdxpdnnwhn9h24ar48ap9zkqgleav22v",
+            "osmosis-1": "osmo1ryq6zncdxpdnnwhn9h24ar48ap9zkqgl3xl6u7"
+        },
+        {
+            "cosmoshub-4": "cosmos1ryq6zncdxpdnnwhn9h24ar48ap9zkqgleav22v",
+            "secret-4": "secret1xpgjd2akpc8gmwez25keftpmlgs4aa3un463s7"
+        },
+        {
+            "cosmoshub-4": "cosmos1ryq6zncdxpdnnwhn9h24ar48ap9zkqgleav22v",
+            "sentinelhub-2": "sent1ryq6zncdxpdnnwhn9h24ar48ap9zkqglzx6nwr"
+        },
+        {
+            "cosmoshub-4": "cosmos1ryq6zncdxpdnnwhn9h24ar48ap9zkqgleav22v",
+            "stride-1": "stride1ryq6zncdxpdnnwhn9h24ar48ap9zkqgl6kvk7q"
+        },
+        {
+            "empowerchain-1": "empower1ryq6zncdxpdnnwhn9h24ar48ap9zkqgl93gpsj",
+            "osmosis-1": "osmo1ryq6zncdxpdnnwhn9h24ar48ap9zkqgl3xl6u7"
+        },
+        {
+            "injective-1": "inj1jszj9xyh2eh8lx25u88rsv7hmsytvwsvr6cne0",
+            "kaiyo-1": "kujira1ryq6zncdxpdnnwhn9h24ar48ap9zkqglg4wj8x"
+        },
+        {
+            "injective-1": "inj1jszj9xyh2eh8lx25u88rsv7hmsytvwsvr6cne0",
+            "neutron-1": "neutron1ryq6zncdxpdnnwhn9h24ar48ap9zkqglaz9gst"
+        },
+        {
+            "injective-1": "inj1jszj9xyh2eh8lx25u88rsv7hmsytvwsvr6cne0",
+            "osmosis-1": "osmo1ryq6zncdxpdnnwhn9h24ar48ap9zkqgl3xl6u7"
+        },
+        {
+            "injective-1": "inj1jszj9xyh2eh8lx25u88rsv7hmsytvwsvr6cne0",
+            "secret-4": "secret1xpgjd2akpc8gmwez25keftpmlgs4aa3un463s7"
+        },
+        {
+            "injective-1": "inj1jszj9xyh2eh8lx25u88rsv7hmsytvwsvr6cne0",
+            "stride-1": "stride1ryq6zncdxpdnnwhn9h24ar48ap9zkqgl6kvk7q"
+        },
+        {
+            "canine-1": "jkl1ryq6zncdxpdnnwhn9h24ar48ap9zkqglqrzmnn",
+            "kaiyo-1": "kujira1ryq6zncdxpdnnwhn9h24ar48ap9zkqglg4wj8x"
+        },
+        {
+            "canine-1": "jkl1ryq6zncdxpdnnwhn9h24ar48ap9zkqglqrzmnn",
+            "osmosis-1": "osmo1ryq6zncdxpdnnwhn9h24ar48ap9zkqgl3xl6u7"
+        },
+        {
+            "canine-1": "jkl1ryq6zncdxpdnnwhn9h24ar48ap9zkqglqrzmnn",
+            "secret-4": "secret1xpgjd2akpc8gmwez25keftpmlgs4aa3un463s7"
+        },
+        {
+            "juno-1": "juno1ryq6zncdxpdnnwhn9h24ar48ap9zkqgl0003ds",
+            "kaiyo-1": "kujira1ryq6zncdxpdnnwhn9h24ar48ap9zkqglg4wj8x"
+        },
+        {
+            "juno-1": "juno1ryq6zncdxpdnnwhn9h24ar48ap9zkqgl0003ds",
+            "osmosis-1": "osmo1ryq6zncdxpdnnwhn9h24ar48ap9zkqgl3xl6u7"
+        },
+        {
+            "juno-1": "juno1ryq6zncdxpdnnwhn9h24ar48ap9zkqgl0003ds",
+            "secret-4": "secret1xpgjd2akpc8gmwez25keftpmlgs4aa3un463s7"
+        },
+        {
+            "juno-1": "juno1ryq6zncdxpdnnwhn9h24ar48ap9zkqgl0003ds",
+            "stargaze-1": "stars1ryq6zncdxpdnnwhn9h24ar48ap9zkqgldpmhpa"
+        },
+        {
+            "juno-1": "juno1ryq6zncdxpdnnwhn9h24ar48ap9zkqgl0003ds",
+            "stride-1": "stride1ryq6zncdxpdnnwhn9h24ar48ap9zkqgl6kvk7q"
+        },
+        {
+            "kaiyo-1": "kujira1ryq6zncdxpdnnwhn9h24ar48ap9zkqglg4wj8x",
+            "neutron-1": "neutron1ryq6zncdxpdnnwhn9h24ar48ap9zkqglaz9gst"
+        },
+        {
+            "kaiyo-1": "kujira1ryq6zncdxpdnnwhn9h24ar48ap9zkqglg4wj8x",
+            "osmosis-1": "osmo1ryq6zncdxpdnnwhn9h24ar48ap9zkqgl3xl6u7"
+        },
+        {
+            "kaiyo-1": "kujira1ryq6zncdxpdnnwhn9h24ar48ap9zkqglg4wj8x",
+            "secret-4": "secret1xpgjd2akpc8gmwez25keftpmlgs4aa3un463s7"
+        },
+        {
+            "kaiyo-1": "kujira1ryq6zncdxpdnnwhn9h24ar48ap9zkqglg4wj8x",
+            "stargaze-1": "stars1ryq6zncdxpdnnwhn9h24ar48ap9zkqgldpmhpa"
+        },
+        {
+            "kaiyo-1": "kujira1ryq6zncdxpdnnwhn9h24ar48ap9zkqglg4wj8x",
+            "stride-1": "stride1ryq6zncdxpdnnwhn9h24ar48ap9zkqgl6kvk7q"
+        },
+        {
+            "neutron-1": "neutron1ryq6zncdxpdnnwhn9h24ar48ap9zkqglaz9gst",
+            "osmosis-1": "osmo1ryq6zncdxpdnnwhn9h24ar48ap9zkqgl3xl6u7"
+        },
+        {
+            "neutron-1": "neutron1ryq6zncdxpdnnwhn9h24ar48ap9zkqglaz9gst",
+            "secret-4": "secret1xpgjd2akpc8gmwez25keftpmlgs4aa3un463s7"
+        },
+        {
+            "neutron-1": "neutron1ryq6zncdxpdnnwhn9h24ar48ap9zkqglaz9gst",
+            "stargaze-1": "stars1ryq6zncdxpdnnwhn9h24ar48ap9zkqgldpmhpa"
+        },
+        {
+            "neutron-1": "neutron1ryq6zncdxpdnnwhn9h24ar48ap9zkqglaz9gst",
+            "stride-1": "stride1ryq6zncdxpdnnwhn9h24ar48ap9zkqgl6kvk7q"
+        },
+        {
+            "osmosis-1": "osmo1ryq6zncdxpdnnwhn9h24ar48ap9zkqgl3xl6u7",
+            "passage-2": "pasg1ryq6zncdxpdnnwhn9h24ar48ap9zkqgl694s8n"
+        },
+        {
+            "osmosis-1": "osmo1ryq6zncdxpdnnwhn9h24ar48ap9zkqgl3xl6u7",
+            "quasar-1": "quasar1ryq6zncdxpdnnwhn9h24ar48ap9zkqglh7kh8f"
+        },
+        {
+            "osmosis-1": "osmo1ryq6zncdxpdnnwhn9h24ar48ap9zkqgl3xl6u7",
+            "secret-4": "secret1xpgjd2akpc8gmwez25keftpmlgs4aa3un463s7"
+        },
+        {
+            "osmosis-1": "osmo1ryq6zncdxpdnnwhn9h24ar48ap9zkqgl3xl6u7",
+            "sentinelhub-2": "sent1ryq6zncdxpdnnwhn9h24ar48ap9zkqglzx6nwr"
+        },
+        {
+            "osmosis-1": "osmo1ryq6zncdxpdnnwhn9h24ar48ap9zkqgl3xl6u7",
+            "stargaze-1": "stars1ryq6zncdxpdnnwhn9h24ar48ap9zkqgldpmhpa"
+        },
+        {
+            "osmosis-1": "osmo1ryq6zncdxpdnnwhn9h24ar48ap9zkqgl3xl6u7",
+            "stride-1": "stride1ryq6zncdxpdnnwhn9h24ar48ap9zkqgl6kvk7q"
+        },
+        {
+            "secret-4": "secret1xpgjd2akpc8gmwez25keftpmlgs4aa3un463s7",
+            "sentinelhub-2": "sent1ryq6zncdxpdnnwhn9h24ar48ap9zkqglzx6nwr"
+        },
+        {
+            "secret-4": "secret1xpgjd2akpc8gmwez25keftpmlgs4aa3un463s7",
+            "stargaze-1": "stars1ryq6zncdxpdnnwhn9h24ar48ap9zkqgldpmhpa"
+        },
+        {
+            "secret-4": "secret1xpgjd2akpc8gmwez25keftpmlgs4aa3un463s7",
+            "stride-1": "stride1ryq6zncdxpdnnwhn9h24ar48ap9zkqgl6kvk7q"
+        },
+        {
+            "stargaze-1": "stars1ryq6zncdxpdnnwhn9h24ar48ap9zkqgldpmhpa",
+            "stride-1": "stride1ryq6zncdxpdnnwhn9h24ar48ap9zkqgl6kvk7q"
+        }
+    ]
+}
