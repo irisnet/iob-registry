@@ -1,0 +1,130 @@
+{
+    "team_name": "[NODERS]TEAM",
+    "team_logo": "https://raw.githubusercontent.com/aleksandrnoders/iob-registry/main/relayers/%5BNODERS%5DTEAM/images/logo.png",
+    "contact": {
+        "website": "https://noders.team",
+        "github": "https://github.com/nodersteam",
+        "twitter": "https://twitter.com/NODERS_TEAM"
+    },
+    "introduction": [
+        "Trusted blockchain validator and web3 developer team"
+    ],
+    "addresses": [
+        {
+            "archway-1": "archway14n8p425hz5l6xxcrq4ml00djkmwezm0m0uunqz",
+            "agoric-3": "agoric14n8p425hz5l6xxcrq4ml00djkmwezm0mg2zg6r"
+        },
+        {
+            "archway-1": "archway14n8p425hz5l6xxcrq4ml00djkmwezm0m0uunqz",
+            "juno-1": "juno14n8p425hz5l6xxcrq4ml00djkmwezm0mv9rvdf"
+        },
+        {
+            "archway-1": "archway14n8p425hz5l6xxcrq4ml00djkmwezm0m0uunqz",
+            "stargaze-1": "stars14n8p425hz5l6xxcrq4ml00djkmwezm0mwth2py"
+        },
+        {
+            "archway-1": "archway14n8p425hz5l6xxcrq4ml00djkmwezm0m0uunqz",
+            "noble-1": "noble14n8p425hz5l6xxcrq4ml00djkmwezm0mj54ljm"
+        },
+        {
+            "neutron-1": "neutron14n8p425hz5l6xxcrq4ml00djkmwezm0m7gf4sj",
+            "archway-1": "archway14n8p425hz5l6xxcrq4ml00djkmwezm0m0uunqz"
+        },
+        {
+            "archway-1": "archway14n8p425hz5l6xxcrq4ml00djkmwezm0m0uunqz",
+            "phoenix-1": "terra14n8p425hz5l6xxcrq4ml00djkmwezm0mun6hg4"
+        },
+        {
+            "archway-1": "archway14n8p425hz5l6xxcrq4ml00djkmwezm0m0uunqz",
+            "osmosis-1": "osmo14n8p425hz5l6xxcrq4ml00djkmwezm0mjvn8u8"
+        },
+        {
+            "axelar-dojo-1": "axelar14n8p425hz5l6xxcrq4ml00djkmwezm0m7eklp5",
+            "celestia": "celestia14n8p425hz5l6xxcrq4ml00djkmwezm0mta38sc"
+        },
+        {
+            "axelar-dojo-1": "axelar14n8p425hz5l6xxcrq4ml00djkmwezm0m7eklp5",
+            "injective-1": "inj14n8p425hz5l6xxcrq4ml00djkmwezm0ms7hncd"
+        },
+        {
+            "axelar-dojo-1": "axelar14n8p425hz5l6xxcrq4ml00djkmwezm0m7eklp5",
+            "jackal-1": "jkl14n8p425hz5l6xxcrq4ml00djkmwezm0mrfwxn2"
+        },
+        {
+            "axelar-dojo-1": "axelar14n8p425hz5l6xxcrq4ml00djkmwezm0m7eklp5",
+            "dymension_1100-1": "dym14n8p425hz5l6xxcrq4ml00djkmwezm0mg2v30m"
+        },
+        {
+            "celestia": "celestia14n8p425hz5l6xxcrq4ml00djkmwezm0mta38sc",
+            "osmosis-1": "osmo14n8p425hz5l6xxcrq4ml00djkmwezm0mjvn8u8"
+        },
+        {
+            "celestia": "celestia14n8p425hz5l6xxcrq4ml00djkmwezm0mta38sc",
+            "injective-1": "inj14n8p425hz5l6xxcrq4ml00djkmwezm0ms7hncd"
+        },
+        {
+            "celestia": "celestia14n8p425hz5l6xxcrq4ml00djkmwezm0mta38sc",
+            "jackal-1": "jkl14n8p425hz5l6xxcrq4ml00djkmwezm0mrfwxn2"
+        },
+        {
+            "celestia": "celestia14n8p425hz5l6xxcrq4ml00djkmwezm0mta38sc",
+            "dymension_1100-1": "dym14n8p425hz5l6xxcrq4ml00djkmwezm0mg2v30m"
+        },
+        {
+            "cosmoshub-4": "cosmos14n8p425hz5l6xxcrq4ml00djkmwezm0m6hqh24",
+            "injective-1": "inj14n8p425hz5l6xxcrq4ml00djkmwezm0ms7hncd"
+        },
+        {
+            "cosmoshub-4": "cosmos14n8p425hz5l6xxcrq4ml00djkmwezm0m6hqh24",
+            "humans_1089-1": "human14n8p425hz5l6xxcrq4ml00djkmwezm0mccwe32"
+        },
+        {
+            "cosmoshub-4": "cosmos14n8p425hz5l6xxcrq4ml00djkmwezm0m6hqh24",
+            "dymension_1100-1": "dym14n8p425hz5l6xxcrq4ml00djkmwezm0mg2v30m"
+        },
+        {
+            "dymension_1100-1": "dym14n8p425hz5l6xxcrq4ml00djkmwezm0mg2v30m",
+            "kava_2222-10": "kava14n8p425hz5l6xxcrq4ml00djkmwezm0mxz52uj"
+        },
+        {
+            "fetchhub-4": "fetch14n8p425hz5l6xxcrq4ml00djkmwezm0mf2fngz",
+            "humans_1089-1": "human14n8p425hz5l6xxcrq4ml00djkmwezm0mccwe32"
+        },
+        {
+            "humans_1089-1": "human14n8p425hz5l6xxcrq4ml00djkmwezm0mccwe32",
+            "osmosis-1": "osmo14n8p425hz5l6xxcrq4ml00djkmwezm0mjvn8u8"
+        },
+        {
+            "injective-1": "inj14n8p425hz5l6xxcrq4ml00djkmwezm0ms7hncd",
+            "stride-1": "stride14n8p425hz5l6xxcrq4ml00djkmwezm0meuqt7e"
+        },
+        {
+            "jackal-1": "jkl14n8p425hz5l6xxcrq4ml00djkmwezm0mrfwxn2",
+            "osmosis-1": "osmo14n8p425hz5l6xxcrq4ml00djkmwezm0mjvn8u8"
+        },
+        {
+            "jackal-1": "jkl14n8p425hz5l6xxcrq4ml00djkmwezm0mrfwxn2",
+            "kaiyo-1": "kujira14n8p425hz5l6xxcrq4ml00djkmwezm0mtlz08l"
+        },
+        {
+            "jackal-1": "jkl14n8p425hz5l6xxcrq4ml00djkmwezm0mrfwxn2",
+            "stargaze-1": "stars14n8p425hz5l6xxcrq4ml00djkmwezm0mwth2py"
+        },
+        {
+            "kava_2222-10": "kava14n8p425hz5l6xxcrq4ml00djkmwezm0mxz52uj",
+            "injective-1": "inj14n8p425hz5l6xxcrq4ml00djkmwezm0ms7hncd"
+        },
+        {
+            "noble-1": "noble14n8p425hz5l6xxcrq4ml00djkmwezm0mj54ljm",
+            "dymension_1100-1": "dym14n8p425hz5l6xxcrq4ml00djkmwezm0mg2v30m"
+        },
+        {
+            "osmosis-1": "osmo14n8p425hz5l6xxcrq4ml00djkmwezm0mjvn8u8",
+            "injective-1": "inj14n8p425hz5l6xxcrq4ml00djkmwezm0ms7hncd"
+        },
+        {
+            "xstaxy-1": "aura14n8p425hz5l6xxcrq4ml00djkmwezm0mpph4gv",
+            "osmosis-1": "osmo14n8p425hz5l6xxcrq4ml00djkmwezm0mjvn8u8"
+        }
+    ]
+}
