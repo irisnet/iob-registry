@@ -1,0 +1,22 @@
+{
+    "team_name": "MKV.one",
+    "team_logo": "",
+    "contact": {
+        "website": "https://mkv.one",
+        "github": "https://github.com/mkvone",
+        "telegram": "https://t.me/wooseong_jung"
+    },
+    "introduction": [
+        "MKV provides validator services, relayer infrastructure, synching services, peering , public RPC and API for cosmos ecosystem"
+    ],
+    "addresses": [
+        {
+            "kava_2222-10": "kava1z9gcnn72fcd93nxkat3pgncwmdqvcdpfd99p9r",
+            "osmosis-1": "osmo13a4ayjk9sea92qfkvss0u48th9wjarft32fvpc"
+        },
+        {
+            "osmosis-1": "osmo13a4ayjk9sea92qfkvss0u48th9wjarft32fvpc",
+            "kava_2222-10": "kava1z9gcnn72fcd93nxkat3pgncwmdqvcdpfd99p9r"
+        }
+    ]
+}
