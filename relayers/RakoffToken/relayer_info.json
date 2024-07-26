@@ -1,0 +1,34 @@
+{
+    "team_name": "Rakoff Token",
+    "team_logo": "https://raw.githubusercontent.com/irisnet/iob-registry/main/relayers/RakoffToken/images/logo.png",
+    "contact": {
+        "website": "https://rakofftoken.com",
+        "github": "https://github.com/RakoffToken",
+        "twitter": "https://x.com/rakofftoken"        
+    },
+    "introduction": [
+        "Rakoff Token. The meme token for Terra Classic. Providing block validation and relaying services for the Terra Classic Network... And some unity and fun along the way."
+    ],
+    "addresses": [
+        {
+            "columbus-5": "terra1hfhr4uup3n8wca6ksl2fs07w4hmx3qytaqyvj4",
+            "migaloo-1": "migaloo1k5pp46xyhu4w9sa6dlzjs5yaw9py078du5lv4v"
+        },
+        {
+            "columbus-5": "terra1hfhr4uup3n8wca6ksl2fs07w4hmx3qytaqyvj4",
+            "kaiyo-1": "kujira1k5pp46xyhu4w9sa6dlzjs5yaw9py078dqg5wdg"
+        },
+        {
+            "columbus-5": "terra1hfhr4uup3n8wca6ksl2fs07w4hmx3qytaqyvj4",
+            "osmosis-1": "osmo1k5pp46xyhu4w9sa6dlzjs5yaw9py078dem9xks"
+        },
+        {
+            "columbus-5": "terra1hfhr4uup3n8wca6ksl2fs07w4hmx3qytaqyvj4",
+            "stargaze-1": "stars1k5pp46xyhu4w9sa6dlzjs5yaw9py078d9upttn"
+        },
+        {
+            "columbus-5": "terra1hfhr4uup3n8wca6ksl2fs07w4hmx3qytaqyvj4",
+            "axelar-dojo-1": "axelar1k5pp46xyhu4w9sa6dlzjs5yaw9py078d4wq7tr"
+        }    
+    ]
+}
