@@ -21,6 +21,10 @@
         {
             "celestia": "celestia1eyfy0hde8t62pmkzwxpl4xjr72rs3s8t0g3gkj",
             "umee-1": "umee1rqaetvk3mx2cnn6guectun8a9k22mmgthhp02h"
+        }, 
+        {
+            "celestia": "celestia1eyfy0hde8t62pmkzwxpl4xjr72rs3s8t0g3gkj",
+            "dymension_1100-1": "dym1wu8kmhrefk334x3kxt752uy47p0ezyts6wd3a0"
         },
         {
             "axelar-dojo-1": "axelar14awanvwztk4rnspjqtukq4m5lv98umw6atjnw6",
@@ -41,6 +45,10 @@
         {
             "axelar-dojo-1": "axelar14awanvwztk4rnspjqtukq4m5lv98umw6atjnw6",
             "osmosis-1": "osmo1n3pmvc5pvnat5ugaytu8jh6q28zc2qdctxhgww"
+        },
+        {
+            "axelar-dojo-1": "axelar14awanvwztk4rnspjqtukq4m5lv98umw6atjnw6",
+            "dymension_1100-1": "dym1wu8kmhrefk334x3kxt752uy47p0ezyts6wd3a0"
         },
         {
             "evmos_9001-2": "evmos1w4tereqw45m2lqa3aea764la4ycnqrvvcndf0j",
@@ -73,6 +81,10 @@
         {
             "osmosis-1": "osmo1n3pmvc5pvnat5ugaytu8jh6q28zc2qdctxhgww",
             "evmos_9001-2": "evmos1w4tereqw45m2lqa3aea764la4ycnqrvvcndf0j"
+        },
+        {
+            "osmosis-1": "osmo1n3pmvc5pvnat5ugaytu8jh6q28zc2qdctxhgww",
+            "dymension_1100-1": "dym1wu8kmhrefk334x3kxt752uy47p0ezyts6wd3a0"
         },
         {
             "agoric-3": "agoric1yjjvxayecreq4ds4ggm08jxnzlese7smhwakle",
@@ -109,6 +121,18 @@
         {
             "haqq_11235-1": "haqq1nyrgrhzm37ktx03ncs6ufmfc8jf7r2k6726492",
             "axelar-dojo-1": "axelar14awanvwztk4rnspjqtukq4m5lv98umw6atjnw6"
-        }        
+        },
+        {
+            "dymension_1100-1": "dym1wu8kmhrefk334x3kxt752uy47p0ezyts6wd3a0"
+            "axelar-dojo-1": "axelar14awanvwztk4rnspjqtukq4m5lv98umw6atjnw6"
+        },
+        {
+            "dymension_1100-1": "dym1wu8kmhrefk334x3kxt752uy47p0ezyts6wd3a0"
+            "celestia": "celestia1eyfy0hde8t62pmkzwxpl4xjr72rs3s8t0g3gkj"
+        },
+        {
+            "dymension_1100-1": "dym1wu8kmhrefk334x3kxt752uy47p0ezyts6wd3a0"
+            "osmosis-1": "osmo1n3pmvc5pvnat5ugaytu8jh6q28zc2qdctxhgww",
+        }              
     ]
 }
