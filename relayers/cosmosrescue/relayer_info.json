@@ -3,7 +3,9 @@
     "team_logo": "https://raw.githubusercontent.com/irisnet/iob-registry/main/relayers/cosmosrescue/logo.png",
     "contact": {
         "website": "https://cosmosrescue.com",
-        "twitter": "https://x.com/cosmosrescue"
+        "telegram": "https://t.me/cosmosrescue",
+        "twitter": "https://x.com/cosmosrescue",
+        "discord": "https://discord.cosmosrescue.com"
     },
     "introduction": [
         "Bare metal validator and relayer committed to user safety and preventing scams. We provide tools for users and validators, help prevent scams with our Telegram bot Cosmobot, and relay many chains in the ecosystem. Those who have fallen victim to scams can also rely on us to help save their unstaking assets."
