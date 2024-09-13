@@ -1,0 +1,627 @@
+{
+    "team_name": "cosmosrescue",
+    "team_logo": "https://raw.githubusercontent.com/irisnet/iob-registry/main/relayers/cosmosrescue/logo.png",
+    "contact": {
+        "website": "https://cosmosrescue.com",
+        "telegram": "https://t.me/cosmosrescue",
+        "twitter": "https://x.com/cosmosrescue",
+        "discord": "https://discord.cosmosrescue.com"
+    },
+    "introduction": [
+        "Bare metal validator and relayer committed to user safety and preventing scams. We provide tools for users and validators, help prevent scams with our Telegram bot Cosmobot, and relay many chains in the ecosystem. Those who have fallen victim to scams can also rely on us to help save their unstaking assets."
+    ],
+    "addresses": [
+        {
+            "akashnet-2": "akash1p4557mdpc2qk8vcemeqgrcg55gs2uyznfd6276",
+            "cosmoshub-4": "cosmos13rw0xgyu0fqgdsjsrwlrf49j74us9l5n3erxhz"
+        },
+        {
+            "akashnet-2": "akash1p4557mdpc2qk8vcemeqgrcg55gs2uyznfd6276",
+            "juno-1": "juno1p4557mdpc2qk8vcemeqgrcg55gs2uyznjy5kqu"
+        },
+        {
+            "akashnet-2": "akash1p4557mdpc2qk8vcemeqgrcg55gs2uyznfd6276",
+            "kaiyo-1": "kujira1p4557mdpc2qk8vcemeqgrcg55gs2uyzn474422"
+        },
+        {
+            "akashnet-2": "akash1p4557mdpc2qk8vcemeqgrcg55gs2uyznfd6276",
+            "osmosis-1": "osmo1p4557mdpc2qk8vcemeqgrcg55gs2uyznvdya3j"
+        },
+        {
+            "akashnet-2": "akash1p4557mdpc2qk8vcemeqgrcg55gs2uyznfd6276",
+            "core-1": "persistence1p4557mdpc2qk8vcemeqgrcg55gs2uyzn2637fy"
+        },
+        {
+            "akashnet-2": "akash1p4557mdpc2qk8vcemeqgrcg55gs2uyznfd6276",
+            "secret-4": "secret1u4rm5gqswjyqhtyatu56q42avnzlg0gxklj3v9"
+        },
+        {
+            "akashnet-2": "akash1p4557mdpc2qk8vcemeqgrcg55gs2uyznfd6276",
+            "phoenix-1": "terra1zr5a4asqa7l0994lypjrf8zrzafdxtv6ev9v9l"
+        },
+        {
+            "axelar-dojo-1": "axelar1p4557mdpc2qk8vcemeqgrcg55gs2uyznqcp9vp",
+            "celestia": "celestia1p4557mdpc2qk8vcemeqgrcg55gs2uyzn4uxaad"
+        },
+        {
+            "axelar-dojo-1": "axelar1p4557mdpc2qk8vcemeqgrcg55gs2uyznqcp9vp",
+            "coreum-mainnet-1": "core1jnavat7gf0s2gce5g5sk0s3c7x3xf26yppdthr"
+        },
+        {
+            "axelar-dojo-1": "axelar1p4557mdpc2qk8vcemeqgrcg55gs2uyznqcp9vp",
+            "cosmoshub-4": "cosmos13rw0xgyu0fqgdsjsrwlrf49j74us9l5n3erxhz"
+        },
+        {
+            "axelar-dojo-1": "axelar1p4557mdpc2qk8vcemeqgrcg55gs2uyznqcp9vp",
+            "dymension_1100-1": "dym1w29rwsjjpcmen347qdugjfusun4xshq66arcly"
+        },
+        {
+            "axelar-dojo-1": "axelar1p4557mdpc2qk8vcemeqgrcg55gs2uyznqcp9vp",
+            "injective-1": "inj1w29rwsjjpcmen347qdugjfusun4xshq6zfc6gj"
+        },
+        {
+            "axelar-dojo-1": "axelar1p4557mdpc2qk8vcemeqgrcg55gs2uyznqcp9vp",
+            "juno-1": "juno1p4557mdpc2qk8vcemeqgrcg55gs2uyznjy5kqu"
+        },
+        {
+            "axelar-dojo-1": "axelar1p4557mdpc2qk8vcemeqgrcg55gs2uyznqcp9vp",
+            "kaiyo-1": "kujira1p4557mdpc2qk8vcemeqgrcg55gs2uyzn474422"
+        },
+        {
+            "axelar-dojo-1": "axelar1p4557mdpc2qk8vcemeqgrcg55gs2uyznqcp9vp",
+            "migaloo-1": "migaloo1p4557mdpc2qk8vcemeqgrcg55gs2uyznfz7hjw"
+        },
+        {
+            "axelar-dojo-1": "axelar1p4557mdpc2qk8vcemeqgrcg55gs2uyznqcp9vp",
+            "neutron-1": "neutron1p4557mdpc2qk8vcemeqgrcg55gs2uyznqf70a8"
+        },
+        {
+            "axelar-dojo-1": "axelar1p4557mdpc2qk8vcemeqgrcg55gs2uyznqcp9vp",
+            "osmosis-1": "osmo1p4557mdpc2qk8vcemeqgrcg55gs2uyznvdya3j"
+        },
+        {
+            "axelar-dojo-1": "axelar1p4557mdpc2qk8vcemeqgrcg55gs2uyznqcp9vp",
+            "secret-4": "secret1u4rm5gqswjyqhtyatu56q42avnzlg0gxklj3v9"
+        },
+        {
+            "axelar-dojo-1": "axelar1p4557mdpc2qk8vcemeqgrcg55gs2uyznqcp9vp",
+            "stride-1": "stride1p4557mdpc2qk8vcemeqgrcg55gs2uyzn8ah3nv"
+        },
+        {
+            "axelar-dojo-1": "axelar1p4557mdpc2qk8vcemeqgrcg55gs2uyznqcp9vp",
+            "umee-1": "umee1p4557mdpc2qk8vcemeqgrcg55gs2uyznkq2jrj"
+        },
+        {
+            "celestia": "celestia1p4557mdpc2qk8vcemeqgrcg55gs2uyzn4uxaad",
+            "dymension_1100-1": "dym1w29rwsjjpcmen347qdugjfusun4xshq66arcly"
+        },
+        {
+            "celestia": "celestia1p4557mdpc2qk8vcemeqgrcg55gs2uyzn4uxaad",
+            "injective-1": "inj1w29rwsjjpcmen347qdugjfusun4xshq6zfc6gj"
+        },
+        {
+            "celestia": "celestia1p4557mdpc2qk8vcemeqgrcg55gs2uyzn4uxaad",
+            "kava_2222-10": "kava1k9jg0f6rtp6vengjjnzd27plvygsr9r0wuu0qt"
+        },
+        {
+            "celestia": "celestia1p4557mdpc2qk8vcemeqgrcg55gs2uyzn4uxaad",
+            "kaiyo-1": "kujira1p4557mdpc2qk8vcemeqgrcg55gs2uyzn474422"
+        },
+        {
+            "celestia": "celestia1p4557mdpc2qk8vcemeqgrcg55gs2uyzn4uxaad",
+            "neutron-1": "neutron1p4557mdpc2qk8vcemeqgrcg55gs2uyznqf70a8"
+        },
+        {
+            "celestia": "celestia1p4557mdpc2qk8vcemeqgrcg55gs2uyzn4uxaad",
+            "osmosis-1": "osmo1p4557mdpc2qk8vcemeqgrcg55gs2uyznvdya3j"
+        },
+        {
+            "celestia": "celestia1p4557mdpc2qk8vcemeqgrcg55gs2uyzn4uxaad",
+            "secret-4": "secret1u4rm5gqswjyqhtyatu56q42avnzlg0gxklj3v9"
+        },
+        {
+            "celestia": "celestia1p4557mdpc2qk8vcemeqgrcg55gs2uyzn4uxaad",
+            "stargaze-1": "stars1p4557mdpc2qk8vcemeqgrcg55gs2uyzns2qsv3"
+        },
+        {
+            "celestia": "celestia1p4557mdpc2qk8vcemeqgrcg55gs2uyzn4uxaad",
+            "stride-1": "stride1p4557mdpc2qk8vcemeqgrcg55gs2uyzn8ah3nv"
+        },
+        {
+            "celestia": "celestia1p4557mdpc2qk8vcemeqgrcg55gs2uyzn4uxaad",
+            "phoenix-1": "terra1zr5a4asqa7l0994lypjrf8zrzafdxtv6ev9v9l"
+        },
+        {
+            "celestia": "celestia1p4557mdpc2qk8vcemeqgrcg55gs2uyzn4uxaad",
+            "umee-1": "umee1p4557mdpc2qk8vcemeqgrcg55gs2uyznkq2jrj"
+        },
+        {
+            "coreum-mainnet-1": "core1jnavat7gf0s2gce5g5sk0s3c7x3xf26yppdthr",
+            "cosmoshub-4": "cosmos13rw0xgyu0fqgdsjsrwlrf49j74us9l5n3erxhz"
+        },
+        {
+            "coreum-mainnet-1": "core1jnavat7gf0s2gce5g5sk0s3c7x3xf26yppdthr",
+            "dydx-mainnet-1": "dydx1p4557mdpc2qk8vcemeqgrcg55gs2uyznd0ef8h"
+        },
+        {
+            "coreum-mainnet-1": "core1jnavat7gf0s2gce5g5sk0s3c7x3xf26yppdthr",
+            "kava_2222-10": "kava1k9jg0f6rtp6vengjjnzd27plvygsr9r0wuu0qt"
+        },
+        {
+            "coreum-mainnet-1": "core1jnavat7gf0s2gce5g5sk0s3c7x3xf26yppdthr",
+            "kaiyo-1": "kujira1p4557mdpc2qk8vcemeqgrcg55gs2uyzn474422"
+        },
+        {
+            "coreum-mainnet-1": "core1jnavat7gf0s2gce5g5sk0s3c7x3xf26yppdthr",
+            "noble-1": "noble1p4557mdpc2qk8vcemeqgrcg55gs2uyznv4z9lw"
+        },
+        {
+            "coreum-mainnet-1": "core1jnavat7gf0s2gce5g5sk0s3c7x3xf26yppdthr",
+            "osmosis-1": "osmo1p4557mdpc2qk8vcemeqgrcg55gs2uyznvdya3j"
+        },
+        {
+            "coreum-mainnet-1": "core1jnavat7gf0s2gce5g5sk0s3c7x3xf26yppdthr",
+            "secret-4": "secret1u4rm5gqswjyqhtyatu56q42avnzlg0gxklj3v9"
+        },
+        {
+            "cosmoshub-4": "cosmos13rw0xgyu0fqgdsjsrwlrf49j74us9l5n3erxhz",
+            "dymension_1100-1": "dym1w29rwsjjpcmen347qdugjfusun4xshq66arcly"
+        },
+        {
+            "cosmoshub-4": "cosmos13rw0xgyu0fqgdsjsrwlrf49j74us9l5n3erxhz",
+            "injective-1": "inj1w29rwsjjpcmen347qdugjfusun4xshq6zfc6gj"
+        },
+        {
+            "cosmoshub-4": "cosmos13rw0xgyu0fqgdsjsrwlrf49j74us9l5n3erxhz",
+            "juno-1": "juno1p4557mdpc2qk8vcemeqgrcg55gs2uyznjy5kqu"
+        },
+        {
+            "cosmoshub-4": "cosmos13rw0xgyu0fqgdsjsrwlrf49j74us9l5n3erxhz",
+            "kava_2222-10": "kava1k9jg0f6rtp6vengjjnzd27plvygsr9r0wuu0qt"
+        },
+        {
+            "cosmoshub-4": "cosmos13rw0xgyu0fqgdsjsrwlrf49j74us9l5n3erxhz",
+            "kaiyo-1": "kujira1p4557mdpc2qk8vcemeqgrcg55gs2uyzn474422"
+        },
+        {
+            "cosmoshub-4": "cosmos13rw0xgyu0fqgdsjsrwlrf49j74us9l5n3erxhz",
+            "neutron-1": "neutron1p4557mdpc2qk8vcemeqgrcg55gs2uyznqf70a8"
+        },
+        {
+            "cosmoshub-4": "cosmos13rw0xgyu0fqgdsjsrwlrf49j74us9l5n3erxhz",
+            "noble-1": "noble1p4557mdpc2qk8vcemeqgrcg55gs2uyznv4z9lw"
+        },
+        {
+            "cosmoshub-4": "cosmos13rw0xgyu0fqgdsjsrwlrf49j74us9l5n3erxhz",
+            "osmosis-1": "osmo1p4557mdpc2qk8vcemeqgrcg55gs2uyznvdya3j"
+        },
+        {
+            "cosmoshub-4": "cosmos13rw0xgyu0fqgdsjsrwlrf49j74us9l5n3erxhz",
+            "core-1": "persistence1p4557mdpc2qk8vcemeqgrcg55gs2uyzn2637fy"
+        },
+        {
+            "cosmoshub-4": "cosmos13rw0xgyu0fqgdsjsrwlrf49j74us9l5n3erxhz",
+            "secret-4": "secret1u4rm5gqswjyqhtyatu56q42avnzlg0gxklj3v9"
+        },
+        {
+            "cosmoshub-4": "cosmos13rw0xgyu0fqgdsjsrwlrf49j74us9l5n3erxhz",
+            "stargaze-1": "stars1p4557mdpc2qk8vcemeqgrcg55gs2uyzns2qsv3"
+        },
+        {
+            "cosmoshub-4": "cosmos13rw0xgyu0fqgdsjsrwlrf49j74us9l5n3erxhz",
+            "stride-1": "stride1p4557mdpc2qk8vcemeqgrcg55gs2uyzn8ah3nv"
+        },
+        {
+            "cosmoshub-4": "cosmos13rw0xgyu0fqgdsjsrwlrf49j74us9l5n3erxhz",
+            "phoenix-1": "terra1zr5a4asqa7l0994lypjrf8zrzafdxtv6ev9v9l"
+        },
+        {
+            "cosmoshub-4": "cosmos13rw0xgyu0fqgdsjsrwlrf49j74us9l5n3erxhz",
+            "umee-1": "umee1p4557mdpc2qk8vcemeqgrcg55gs2uyznkq2jrj"
+        },
+        {
+            "dydx-mainnet-1": "dydx1p4557mdpc2qk8vcemeqgrcg55gs2uyznd0ef8h",
+            "kava_2222-10": "kava1k9jg0f6rtp6vengjjnzd27plvygsr9r0wuu0qt"
+        },
+        {
+            "dydx-mainnet-1": "dydx1p4557mdpc2qk8vcemeqgrcg55gs2uyznd0ef8h",
+            "kaiyo-1": "kujira1p4557mdpc2qk8vcemeqgrcg55gs2uyzn474422"
+        },
+        {
+            "dydx-mainnet-1": "dydx1p4557mdpc2qk8vcemeqgrcg55gs2uyznd0ef8h",
+            "neutron-1": "neutron1p4557mdpc2qk8vcemeqgrcg55gs2uyznqf70a8"
+        },
+        {
+            "dydx-mainnet-1": "dydx1p4557mdpc2qk8vcemeqgrcg55gs2uyznd0ef8h",
+            "noble-1": "noble1p4557mdpc2qk8vcemeqgrcg55gs2uyznv4z9lw"
+        },
+        {
+            "dydx-mainnet-1": "dydx1p4557mdpc2qk8vcemeqgrcg55gs2uyznd0ef8h",
+            "osmosis-1": "osmo1p4557mdpc2qk8vcemeqgrcg55gs2uyznvdya3j"
+        },
+        {
+            "dydx-mainnet-1": "dydx1p4557mdpc2qk8vcemeqgrcg55gs2uyznd0ef8h",
+            "core-1": "persistence1p4557mdpc2qk8vcemeqgrcg55gs2uyzn2637fy"
+        },
+        {
+            "dydx-mainnet-1": "dydx1p4557mdpc2qk8vcemeqgrcg55gs2uyznd0ef8h",
+            "stride-1": "stride1p4557mdpc2qk8vcemeqgrcg55gs2uyzn8ah3nv"
+        },
+        {
+            "dydx-mainnet-1": "dydx1p4557mdpc2qk8vcemeqgrcg55gs2uyznd0ef8h",
+            "phoenix-1": "terra1zr5a4asqa7l0994lypjrf8zrzafdxtv6ev9v9l"
+        },
+        {
+            "dydx-mainnet-1": "dydx1p4557mdpc2qk8vcemeqgrcg55gs2uyznd0ef8h",
+            "umee-1": "umee1p4557mdpc2qk8vcemeqgrcg55gs2uyznkq2jrj"
+        },
+        {
+            "dymension_1100-1": "dym1w29rwsjjpcmen347qdugjfusun4xshq66arcly",
+            "kava_2222-10": "kava1k9jg0f6rtp6vengjjnzd27plvygsr9r0wuu0qt"
+        },
+        {
+            "dymension_1100-1": "dym1w29rwsjjpcmen347qdugjfusun4xshq66arcly",
+            "kaiyo-1": "kujira1p4557mdpc2qk8vcemeqgrcg55gs2uyzn474422"
+        },
+        {
+            "dymension_1100-1": "dym1w29rwsjjpcmen347qdugjfusun4xshq66arcly",
+            "neutron-1": "neutron1p4557mdpc2qk8vcemeqgrcg55gs2uyznqf70a8"
+        },
+        {
+            "dymension_1100-1": "dym1w29rwsjjpcmen347qdugjfusun4xshq66arcly",
+            "noble-1": "noble1p4557mdpc2qk8vcemeqgrcg55gs2uyznv4z9lw"
+        },
+        {
+            "dymension_1100-1": "dym1w29rwsjjpcmen347qdugjfusun4xshq66arcly",
+            "osmosis-1": "osmo1p4557mdpc2qk8vcemeqgrcg55gs2uyznvdya3j"
+        },
+        {
+            "dymension_1100-1": "dym1w29rwsjjpcmen347qdugjfusun4xshq66arcly",
+            "secret-4": "secret1u4rm5gqswjyqhtyatu56q42avnzlg0gxklj3v9"
+        },
+        {
+            "dymension_1100-1": "dym1w29rwsjjpcmen347qdugjfusun4xshq66arcly",
+            "stride-1": "stride1p4557mdpc2qk8vcemeqgrcg55gs2uyzn8ah3nv"
+        },
+        {
+            "fetchhub-4": "fetch1p4557mdpc2qk8vcemeqgrcg55gs2uyznht7f9h",
+            "axelar-dojo-1": "axelar1p4557mdpc2qk8vcemeqgrcg55gs2uyznqcp9vp"
+        },
+        {
+            "fetchhub-4": "fetch1p4557mdpc2qk8vcemeqgrcg55gs2uyznht7f9h",
+            "osmosis-1": "osmo1p4557mdpc2qk8vcemeqgrcg55gs2uyznvdya3j"
+        },
+        {
+            "injective-1": "inj1w29rwsjjpcmen347qdugjfusun4xshq6zfc6gj",
+            "kava_2222-10": "kava1k9jg0f6rtp6vengjjnzd27plvygsr9r0wuu0qt"
+        },
+        {
+            "injective-1": "inj1w29rwsjjpcmen347qdugjfusun4xshq6zfc6gj",
+            "kaiyo-1": "kujira1p4557mdpc2qk8vcemeqgrcg55gs2uyzn474422"
+        },
+        {
+            "injective-1": "inj1w29rwsjjpcmen347qdugjfusun4xshq6zfc6gj",
+            "migaloo-1": "migaloo1p4557mdpc2qk8vcemeqgrcg55gs2uyznfz7hjw"
+        },
+        {
+            "injective-1": "inj1w29rwsjjpcmen347qdugjfusun4xshq6zfc6gj",
+            "neutron-1": "neutron1p4557mdpc2qk8vcemeqgrcg55gs2uyznqf70a8"
+        },
+        {
+            "injective-1": "inj1w29rwsjjpcmen347qdugjfusun4xshq6zfc6gj",
+            "noble-1": "noble1p4557mdpc2qk8vcemeqgrcg55gs2uyznv4z9lw"
+        },
+        {
+            "injective-1": "inj1w29rwsjjpcmen347qdugjfusun4xshq6zfc6gj",
+            "osmosis-1": "osmo1p4557mdpc2qk8vcemeqgrcg55gs2uyznvdya3j"
+        },
+        {
+            "injective-1": "inj1w29rwsjjpcmen347qdugjfusun4xshq6zfc6gj",
+            "core-1": "persistence1p4557mdpc2qk8vcemeqgrcg55gs2uyzn2637fy"
+        },
+        {
+            "injective-1": "inj1w29rwsjjpcmen347qdugjfusun4xshq6zfc6gj",
+            "secret-4": "secret1u4rm5gqswjyqhtyatu56q42avnzlg0gxklj3v9"
+        },
+        {
+            "injective-1": "inj1w29rwsjjpcmen347qdugjfusun4xshq6zfc6gj",
+            "stride-1": "stride1p4557mdpc2qk8vcemeqgrcg55gs2uyzn8ah3nv"
+        },
+        {
+            "injective-1": "inj1w29rwsjjpcmen347qdugjfusun4xshq6zfc6gj",
+            "phoenix-1": "terra1zr5a4asqa7l0994lypjrf8zrzafdxtv6ev9v9l"
+        },
+        {
+            "injective-1": "inj1w29rwsjjpcmen347qdugjfusun4xshq6zfc6gj",
+            "umee-1": "umee1p4557mdpc2qk8vcemeqgrcg55gs2uyznkq2jrj"
+        },
+        {
+            "juno-1": "juno1p4557mdpc2qk8vcemeqgrcg55gs2uyznjy5kqu",
+            "kaiyo-1": "kujira1p4557mdpc2qk8vcemeqgrcg55gs2uyzn474422"
+        },
+        {
+            "juno-1": "juno1p4557mdpc2qk8vcemeqgrcg55gs2uyznjy5kqu",
+            "mars-1": "mars1p4557mdpc2qk8vcemeqgrcg55gs2uyznetw5jm"
+        },
+        {
+            "juno-1": "juno1p4557mdpc2qk8vcemeqgrcg55gs2uyznjy5kqu",
+            "migaloo-1": "migaloo1p4557mdpc2qk8vcemeqgrcg55gs2uyznfz7hjw"
+        },
+        {
+            "juno-1": "juno1p4557mdpc2qk8vcemeqgrcg55gs2uyznjy5kqu",
+            "noble-1": "noble1p4557mdpc2qk8vcemeqgrcg55gs2uyznv4z9lw"
+        },
+        {
+            "juno-1": "juno1p4557mdpc2qk8vcemeqgrcg55gs2uyznjy5kqu",
+            "osmosis-1": "osmo1p4557mdpc2qk8vcemeqgrcg55gs2uyznvdya3j"
+        },
+        {
+            "juno-1": "juno1p4557mdpc2qk8vcemeqgrcg55gs2uyznjy5kqu",
+            "core-1": "persistence1p4557mdpc2qk8vcemeqgrcg55gs2uyzn2637fy"
+        },
+        {
+            "juno-1": "juno1p4557mdpc2qk8vcemeqgrcg55gs2uyznjy5kqu",
+            "secret-4": "secret1u4rm5gqswjyqhtyatu56q42avnzlg0gxklj3v9"
+        },
+        {
+            "juno-1": "juno1p4557mdpc2qk8vcemeqgrcg55gs2uyznjy5kqu",
+            "stargaze-1": "stars1p4557mdpc2qk8vcemeqgrcg55gs2uyzns2qsv3"
+        },
+        {
+            "juno-1": "juno1p4557mdpc2qk8vcemeqgrcg55gs2uyznjy5kqu",
+            "stride-1": "stride1p4557mdpc2qk8vcemeqgrcg55gs2uyzn8ah3nv"
+        },
+        {
+            "juno-1": "juno1p4557mdpc2qk8vcemeqgrcg55gs2uyznjy5kqu",
+            "phoenix-1": "terra1zr5a4asqa7l0994lypjrf8zrzafdxtv6ev9v9l"
+        },
+        {
+            "kava_2222-10": "kava1k9jg0f6rtp6vengjjnzd27plvygsr9r0wuu0qt",
+            "kaiyo-1": "kujira1p4557mdpc2qk8vcemeqgrcg55gs2uyzn474422"
+        },
+        {
+            "kava_2222-10": "kava1k9jg0f6rtp6vengjjnzd27plvygsr9r0wuu0qt",
+            "migaloo-1": "migaloo1p4557mdpc2qk8vcemeqgrcg55gs2uyznfz7hjw"
+        },
+        {
+            "kava_2222-10": "kava1k9jg0f6rtp6vengjjnzd27plvygsr9r0wuu0qt",
+            "neutron-1": "neutron1p4557mdpc2qk8vcemeqgrcg55gs2uyznqf70a8"
+        },
+        {
+            "kava_2222-10": "kava1k9jg0f6rtp6vengjjnzd27plvygsr9r0wuu0qt",
+            "osmosis-1": "osmo1p4557mdpc2qk8vcemeqgrcg55gs2uyznvdya3j"
+        },
+        {
+            "kava_2222-10": "kava1k9jg0f6rtp6vengjjnzd27plvygsr9r0wuu0qt",
+            "core-1": "persistence1p4557mdpc2qk8vcemeqgrcg55gs2uyzn2637fy"
+        },
+        {
+            "kava_2222-10": "kava1k9jg0f6rtp6vengjjnzd27plvygsr9r0wuu0qt",
+            "phoenix-1": "terra1zr5a4asqa7l0994lypjrf8zrzafdxtv6ev9v9l"
+        },
+        {
+            "kava_2222-10": "kava1k9jg0f6rtp6vengjjnzd27plvygsr9r0wuu0qt",
+            "umee-1": "umee1p4557mdpc2qk8vcemeqgrcg55gs2uyznkq2jrj"
+        },
+        {
+            "kaiyo-1": "kujira1p4557mdpc2qk8vcemeqgrcg55gs2uyzn474422",
+            "mars-1": "mars1p4557mdpc2qk8vcemeqgrcg55gs2uyznetw5jm"
+        },
+        {
+            "kaiyo-1": "kujira1p4557mdpc2qk8vcemeqgrcg55gs2uyzn474422",
+            "migaloo-1": "migaloo1p4557mdpc2qk8vcemeqgrcg55gs2uyznfz7hjw"
+        },
+        {
+            "kaiyo-1": "kujira1p4557mdpc2qk8vcemeqgrcg55gs2uyzn474422",
+            "neutron-1": "neutron1p4557mdpc2qk8vcemeqgrcg55gs2uyznqf70a8"
+        },
+        {
+            "kaiyo-1": "kujira1p4557mdpc2qk8vcemeqgrcg55gs2uyzn474422",
+            "noble-1": "noble1p4557mdpc2qk8vcemeqgrcg55gs2uyznv4z9lw"
+        },
+        {
+            "kaiyo-1": "kujira1p4557mdpc2qk8vcemeqgrcg55gs2uyzn474422",
+            "osmosis-1": "osmo1p4557mdpc2qk8vcemeqgrcg55gs2uyznvdya3j"
+        },
+        {
+            "kaiyo-1": "kujira1p4557mdpc2qk8vcemeqgrcg55gs2uyzn474422",
+            "core-1": "persistence1p4557mdpc2qk8vcemeqgrcg55gs2uyzn2637fy"
+        },
+        {
+            "kaiyo-1": "kujira1p4557mdpc2qk8vcemeqgrcg55gs2uyzn474422",
+            "secret-4": "secret1u4rm5gqswjyqhtyatu56q42avnzlg0gxklj3v9"
+        },
+        {
+            "kaiyo-1": "kujira1p4557mdpc2qk8vcemeqgrcg55gs2uyzn474422",
+            "stargaze-1": "stars1p4557mdpc2qk8vcemeqgrcg55gs2uyzns2qsv3"
+        },
+        {
+            "kaiyo-1": "kujira1p4557mdpc2qk8vcemeqgrcg55gs2uyzn474422",
+            "stride-1": "stride1p4557mdpc2qk8vcemeqgrcg55gs2uyzn8ah3nv"
+        },
+        {
+            "kaiyo-1": "kujira1p4557mdpc2qk8vcemeqgrcg55gs2uyzn474422",
+            "phoenix-1": "terra1zr5a4asqa7l0994lypjrf8zrzafdxtv6ev9v9l"
+        },
+        {
+            "kaiyo-1": "kujira1p4557mdpc2qk8vcemeqgrcg55gs2uyzn474422",
+            "umee-1": "umee1p4557mdpc2qk8vcemeqgrcg55gs2uyznkq2jrj"
+        },
+        {
+            "mars-1": "mars1p4557mdpc2qk8vcemeqgrcg55gs2uyznetw5jm",
+            "neutron-1": "neutron1p4557mdpc2qk8vcemeqgrcg55gs2uyznqf70a8"
+        },
+        {
+            "mars-1": "mars1p4557mdpc2qk8vcemeqgrcg55gs2uyznetw5jm",
+            "osmosis-1": "osmo1p4557mdpc2qk8vcemeqgrcg55gs2uyznvdya3j"
+        },
+        {
+            "mars-1": "mars1p4557mdpc2qk8vcemeqgrcg55gs2uyznetw5jm",
+            "phoenix-1": "terra1zr5a4asqa7l0994lypjrf8zrzafdxtv6ev9v9l"
+        },
+        {
+            "migaloo-1": "migaloo1p4557mdpc2qk8vcemeqgrcg55gs2uyznfz7hjw",
+            "noble-1": "noble1p4557mdpc2qk8vcemeqgrcg55gs2uyznv4z9lw"
+        },
+        {
+            "migaloo-1": "migaloo1p4557mdpc2qk8vcemeqgrcg55gs2uyznfz7hjw",
+            "osmosis-1": "osmo1p4557mdpc2qk8vcemeqgrcg55gs2uyznvdya3j"
+        },
+        {
+            "migaloo-1": "migaloo1p4557mdpc2qk8vcemeqgrcg55gs2uyznfz7hjw",
+            "secret-4": "secret1u4rm5gqswjyqhtyatu56q42avnzlg0gxklj3v9"
+        },
+        {
+            "migaloo-1": "migaloo1p4557mdpc2qk8vcemeqgrcg55gs2uyznfz7hjw",
+            "stargaze-1": "stars1p4557mdpc2qk8vcemeqgrcg55gs2uyzns2qsv3"
+        },
+        {
+            "migaloo-1": "migaloo1p4557mdpc2qk8vcemeqgrcg55gs2uyznfz7hjw",
+            "phoenix-1": "terra1zr5a4asqa7l0994lypjrf8zrzafdxtv6ev9v9l"
+        },
+        {
+            "migaloo-1": "migaloo1p4557mdpc2qk8vcemeqgrcg55gs2uyznfz7hjw",
+            "umee-1": "umee1p4557mdpc2qk8vcemeqgrcg55gs2uyznkq2jrj"
+        },
+        {
+            "neutron-1": "neutron1p4557mdpc2qk8vcemeqgrcg55gs2uyznqf70a8",
+            "noble-1": "noble1p4557mdpc2qk8vcemeqgrcg55gs2uyznv4z9lw"
+        },
+        {
+            "neutron-1": "neutron1p4557mdpc2qk8vcemeqgrcg55gs2uyznqf70a8",
+            "osmosis-1": "osmo1p4557mdpc2qk8vcemeqgrcg55gs2uyznvdya3j"
+        },
+        {
+            "neutron-1": "neutron1p4557mdpc2qk8vcemeqgrcg55gs2uyznqf70a8",
+            "core-1": "persistence1p4557mdpc2qk8vcemeqgrcg55gs2uyzn2637fy"
+        },
+        {
+            "neutron-1": "neutron1p4557mdpc2qk8vcemeqgrcg55gs2uyznqf70a8",
+            "ssc-1": "saga1p4557mdpc2qk8vcemeqgrcg55gs2uyzn69wlqx"
+        },
+        {
+            "neutron-1": "neutron1p4557mdpc2qk8vcemeqgrcg55gs2uyznqf70a8",
+            "secret-4": "secret1u4rm5gqswjyqhtyatu56q42avnzlg0gxklj3v9"
+        },
+        {
+            "neutron-1": "neutron1p4557mdpc2qk8vcemeqgrcg55gs2uyznqf70a8",
+            "stargaze-1": "stars1p4557mdpc2qk8vcemeqgrcg55gs2uyzns2qsv3"
+        },
+        {
+            "neutron-1": "neutron1p4557mdpc2qk8vcemeqgrcg55gs2uyznqf70a8",
+            "stride-1": "stride1p4557mdpc2qk8vcemeqgrcg55gs2uyzn8ah3nv"
+        },
+        {
+            "neutron-1": "neutron1p4557mdpc2qk8vcemeqgrcg55gs2uyznqf70a8",
+            "phoenix-1": "terra1zr5a4asqa7l0994lypjrf8zrzafdxtv6ev9v9l"
+        },
+        {
+            "noble-1": "noble1p4557mdpc2qk8vcemeqgrcg55gs2uyznv4z9lw",
+            "osmosis-1": "osmo1p4557mdpc2qk8vcemeqgrcg55gs2uyznvdya3j"
+        },
+        {
+            "noble-1": "noble1p4557mdpc2qk8vcemeqgrcg55gs2uyznv4z9lw",
+            "core-1": "persistence1p4557mdpc2qk8vcemeqgrcg55gs2uyzn2637fy"
+        },
+        {
+            "noble-1": "noble1p4557mdpc2qk8vcemeqgrcg55gs2uyznv4z9lw",
+            "secret-4": "secret1u4rm5gqswjyqhtyatu56q42avnzlg0gxklj3v9"
+        },
+        {
+            "noble-1": "noble1p4557mdpc2qk8vcemeqgrcg55gs2uyznv4z9lw",
+            "stargaze-1": "stars1p4557mdpc2qk8vcemeqgrcg55gs2uyzns2qsv3"
+        },
+        {
+            "noble-1": "noble1p4557mdpc2qk8vcemeqgrcg55gs2uyznv4z9lw",
+            "phoenix-1": "terra1zr5a4asqa7l0994lypjrf8zrzafdxtv6ev9v9l"
+        },
+        {
+            "noble-1": "noble1p4557mdpc2qk8vcemeqgrcg55gs2uyznv4z9lw",
+            "umee-1": "umee1p4557mdpc2qk8vcemeqgrcg55gs2uyznkq2jrj"
+        },
+        {
+            "osmosis-1": "osmo1p4557mdpc2qk8vcemeqgrcg55gs2uyznvdya3j",
+            "core-1": "persistence1p4557mdpc2qk8vcemeqgrcg55gs2uyzn2637fy"
+        },
+        {
+            "osmosis-1": "osmo1p4557mdpc2qk8vcemeqgrcg55gs2uyznvdya3j",
+            "ssc-1": "saga1p4557mdpc2qk8vcemeqgrcg55gs2uyzn69wlqx"
+        },
+        {
+            "osmosis-1": "osmo1p4557mdpc2qk8vcemeqgrcg55gs2uyznvdya3j",
+            "secret-4": "secret1u4rm5gqswjyqhtyatu56q42avnzlg0gxklj3v9"
+        },
+        {
+            "osmosis-1": "osmo1p4557mdpc2qk8vcemeqgrcg55gs2uyznvdya3j",
+            "stargaze-1": "stars1p4557mdpc2qk8vcemeqgrcg55gs2uyzns2qsv3"
+        },
+        {
+            "osmosis-1": "osmo1p4557mdpc2qk8vcemeqgrcg55gs2uyznvdya3j",
+            "stride-1": "stride1p4557mdpc2qk8vcemeqgrcg55gs2uyzn8ah3nv"
+        },
+        {
+            "osmosis-1": "osmo1p4557mdpc2qk8vcemeqgrcg55gs2uyznvdya3j",
+            "phoenix-1": "terra1zr5a4asqa7l0994lypjrf8zrzafdxtv6ev9v9l"
+        },
+        {
+            "osmosis-1": "osmo1p4557mdpc2qk8vcemeqgrcg55gs2uyznvdya3j",
+            "umee-1": "umee1p4557mdpc2qk8vcemeqgrcg55gs2uyznkq2jrj"
+        },
+        {
+            "core-1": "persistence1p4557mdpc2qk8vcemeqgrcg55gs2uyzn2637fy",
+            "secret-4": "secret1u4rm5gqswjyqhtyatu56q42avnzlg0gxklj3v9"
+        },
+        {
+            "core-1": "persistence1p4557mdpc2qk8vcemeqgrcg55gs2uyzn2637fy",
+            "stargaze-1": "stars1p4557mdpc2qk8vcemeqgrcg55gs2uyzns2qsv3"
+        },
+        {
+            "core-1": "persistence1p4557mdpc2qk8vcemeqgrcg55gs2uyzn2637fy",
+            "stride-1": "stride1p4557mdpc2qk8vcemeqgrcg55gs2uyzn8ah3nv"
+        },
+        {
+            "core-1": "persistence1p4557mdpc2qk8vcemeqgrcg55gs2uyzn2637fy",
+            "umee-1": "umee1p4557mdpc2qk8vcemeqgrcg55gs2uyznkq2jrj"
+        },
+        {
+            "ssc-1": "saga1p4557mdpc2qk8vcemeqgrcg55gs2uyzn69wlqx",
+            "secret-4": "secret1u4rm5gqswjyqhtyatu56q42avnzlg0gxklj3v9"
+        },
+        {
+            "ssc-1": "saga1p4557mdpc2qk8vcemeqgrcg55gs2uyzn69wlqx",
+            "stride-1": "stride1p4557mdpc2qk8vcemeqgrcg55gs2uyzn8ah3nv"
+        },
+        {
+            "secret-4": "secret1u4rm5gqswjyqhtyatu56q42avnzlg0gxklj3v9",
+            "stargaze-1": "stars1p4557mdpc2qk8vcemeqgrcg55gs2uyzns2qsv3"
+        },
+        {
+            "secret-4": "secret1u4rm5gqswjyqhtyatu56q42avnzlg0gxklj3v9",
+            "stride-1": "stride1p4557mdpc2qk8vcemeqgrcg55gs2uyzn8ah3nv"
+        },
+        {
+            "secret-4": "secret1u4rm5gqswjyqhtyatu56q42avnzlg0gxklj3v9",
+            "phoenix-1": "terra1zr5a4asqa7l0994lypjrf8zrzafdxtv6ev9v9l"
+        },
+        {
+            "secret-4": "secret1u4rm5gqswjyqhtyatu56q42avnzlg0gxklj3v9",
+            "umee-1": "umee1p4557mdpc2qk8vcemeqgrcg55gs2uyznkq2jrj"
+        },
+        {
+            "stargaze-1": "stars1p4557mdpc2qk8vcemeqgrcg55gs2uyzns2qsv3",
+            "stride-1": "stride1p4557mdpc2qk8vcemeqgrcg55gs2uyzn8ah3nv"
+        },
+        {
+            "stargaze-1": "stars1p4557mdpc2qk8vcemeqgrcg55gs2uyzns2qsv3",
+            "phoenix-1": "terra1zr5a4asqa7l0994lypjrf8zrzafdxtv6ev9v9l"
+        },
+        {
+            "stride-1": "stride1p4557mdpc2qk8vcemeqgrcg55gs2uyzn8ah3nv",
+            "phoenix-1": "terra1zr5a4asqa7l0994lypjrf8zrzafdxtv6ev9v9l"
+        },
+        {
+            "stride-1": "stride1p4557mdpc2qk8vcemeqgrcg55gs2uyzn8ah3nv",
+            "umee-1": "umee1p4557mdpc2qk8vcemeqgrcg55gs2uyznkq2jrj"
+        }
+    ]
+}
