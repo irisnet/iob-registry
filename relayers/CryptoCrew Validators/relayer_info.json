@@ -1,0 +1,260 @@
+{
+    "team_name": "CryptoCrew Validators",
+    "contact": {
+        "website": "https://ccvalidators.com",
+        "twitter": "https://x.com/crypto_crew",
+        "telegram": "https://t.me/cryptocrew_validators",
+        "github": "https://github.com/cryptocrew-validators"
+    },
+    "introduction": [
+        "We power the interchain | ccvalidators.com"
+    ],
+    "addresses": [
+        {
+            "celestia": "celestia1yghndrffay859ma2ue4pa2cltw640vta4nja9s"
+        },
+        {
+            "celestia": "celestia1f269n4mrg0s8tqveny9huulyamvdv97n70yajk"
+        },
+        {
+            "cosmoshub-4": "cosmos1yghndrffay859ma2ue4pa2cltw640vtayerdla"
+        },
+        {
+            "cosmoshub-4": "cosmos1f269n4mrg0s8tqveny9huulyamvdv97n094dgm"
+        },
+        {
+            "cosmoshub-4": "cosmos19l3pq6kg07fa4x7t88urx45t6gk2hl83gppe02"
+        },
+        {
+            "cosmoshub-4": "cosmos19c5dtp3kxl92wpeqpk8pf06rsqqggz935nlrpy"
+        },
+        {
+            "neutron-1": "neutron1yghndrffay859ma2ue4pa2cltw640vtaqx2096"
+        },
+        {
+            "neutron-1": "neutron19l3pq6kg07fa4x7t88urx45t6gk2hl83v7gm4d"
+        },
+        {
+            "neutron-1": "neutron1rgzemrwz54artpjmh6aee95zww8glnkxejec9s"
+        },
+        {
+            "osmosis-1": "osmo1yghndrffay859ma2ue4pa2cltw640vtavzsaf0"
+        },
+        {
+            "osmosis-1": "osmo1f269n4mrg0s8tqveny9huulyamvdv97n87xa7f"
+        },
+        {
+            "osmosis-1": "osmo1vh9d09ez64kxg3c9cekqj9em946evtwjv0959f"
+        },
+        {
+            "osmosis-1": "osmo19c5dtp3kxl92wpeqpk8pf06rsqqggz93ugvnhk"
+        },
+        {
+            "cosmoshub-4": "cosmos1yghndrffay859ma2ue4pa2cltw640vtayerdla"
+        },
+        {
+            "cosmoshub-4": "cosmos1f269n4mrg0s8tqveny9huulyamvdv97n094dgm"
+        },
+        {
+            "cosmoshub-4": "cosmos19l3pq6kg07fa4x7t88urx45t6gk2hl83gppe02"
+        },
+        {
+            "cosmoshub-4": "cosmos19c5dtp3kxl92wpeqpk8pf06rsqqggz935nlrpy"
+        },
+        {
+            "noble-1": "noble1yghndrffay859ma2ue4pa2cltw640vtav6k98n"
+        },
+        {
+            "noble-1": "noble1f269n4mrg0s8tqveny9huulyamvdv97n8xq9s4"
+        },
+        {
+            "osmosis-1": "osmo1yghndrffay859ma2ue4pa2cltw640vtavzsaf0"
+        },
+        {
+            "osmosis-1": "osmo1f269n4mrg0s8tqveny9huulyamvdv97n87xa7f"
+        },
+        {
+            "osmosis-1": "osmo1vh9d09ez64kxg3c9cekqj9em946evtwjv0959f"
+        },
+        {
+            "osmosis-1": "osmo19c5dtp3kxl92wpeqpk8pf06rsqqggz93ugvnhk"
+        },
+        {
+            "akashnet-2": "akash12aeyaxq699k3f4d3733dl5pstw0ulplkhwyj0k"
+        },
+        {
+            "akashnet-2": "akash1vh9d09ez64kxg3c9cekqj9em946evtwjf0mr2p"
+        },
+        {
+            "akashnet-2": "akash18hx3fcqrvynx9vvpvyv5qym82xz4suw5aa74x6"
+        },
+        {
+            "dymension_1100-1": "dym18hx3fcqrvynx9vvpvyv5qym82xz4suw5zml56w"
+        },
+        {
+            "kava_2222-10": "kava12aeyaxq699k3f4d3733dl5pstw0ulplkxqagqt"
+        },
+        {
+            "kava_2222-10": "kava18hx3fcqrvynx9vvpvyv5qym82xz4suw5vn80f8"
+        },
+        {
+            "osmosis-1": "osmo12aeyaxq699k3f4d3733dl5pstw0ulplkjw69q7"
+        },
+        {
+            "osmosis-1": "osmo1qp2jfwdez8f69h470ex9rtcd6truqqg9p2fz38"
+        },
+        {
+            "osmosis-1": "osmo18hx3fcqrvynx9vvpvyv5qym82xz4suw5caqzfj"
+        },
+        {
+            "bitsong-2b": "bitsong1yvejj22t78s2vfk7slty2d7fs5lkc8rnlzr68n"
+        },
+        {
+            "canto_7700-1": "canto10ndlvn6h7rtz8kfy626vzanyc8xely75ryajw9"
+        },
+        {
+            "chihuahua-1": "chihuahua1yvejj22t78s2vfk7slty2d7fs5lkc8rns7uuy7"
+        },
+        {
+            "cosmoshub-4": "cosmos1yvejj22t78s2vfk7slty2d7fs5lkc8rnnt3j9u"
+        },
+        {
+            "evmos_9001-2": "evmos1je8d8g73zrmp79fugdm3gn0a326ar5php3ll8j"
+        },
+        {
+            "gravity-bridge-3": "gravity1yvejj22t78s2vfk7slty2d7fs5lkc8rnhmr2q5"
+        },
+        {
+            "juno-1": "juno1yvejj22t78s2vfk7slty2d7fs5lkc8rn9ejfzq"
+        },
+        {
+            "kaiyo-1": "kujira1yvejj22t78s2vfk7slty2d7fs5lkc8rnzrn2gk"
+        },
+        {
+            "lum-network-1": "lum1yvejj22t78s2vfk7slty2d7fs5lkc8rnxpvmsg"
+        },
+        {
+            "migaloo-1": "migaloo15md2qvgma8lnvqv67w0umu2paqkqkheg57ska3"
+        },
+        {
+            "osmosis-1": "osmo1yvejj22t78s2vfk7slty2d7fs5lkc8rnmszznw"
+        },
+        {
+            "osmosis-1": "osmo15md2qvgma8lnvqv67w0umu2paqkqkheg332u7d"
+        },
+        {
+            "phoenix-1": "terra1yvejj22t78s2vfk7slty2d7fs5lkc8rn40tj8u"
+        },
+        {
+            "secret-4": "secret15md2qvgma8lnvqv67w0umu2paqkqkhegm0d94r"
+        },
+        {
+            "secret-4": "secret1yvejj22t78s2vfk7slty2d7fs5lkc8rn3w9mcq"
+        },
+        {
+            "stargaze-1": "stars1yvejj22t78s2vfk7slty2d7fs5lkc8rn8hx0wd"
+        },
+        {
+            "axelar-dojo-1": "axelar16m48j88mlw2smhc8nyurznt4jl9nqgyqvv9fu3"
+        },
+        {
+            "comdex-1": "comdex16m48j88mlw2smhc8nyurznt4jl9nqgyq0d3rw8"
+        },
+        {
+            "empowerchain-1": "empower16m48j88mlw2smhc8nyurznt4jl9nqgyq5wh2dw"
+        },
+        {
+            "laozi-mainnet": "band16m48j88mlw2smhc8nyurznt4jl9nqgyq3dnr0c"
+        },
+        {
+            "osmosis-1": "osmo16m48j88mlw2smhc8nyurznt4jl9nqgyqqeq3pz"
+        },
+        {
+            "core-1": "persistence15md2qvgma8lnvqv67w0umu2paqkqkheghxllxm"
+        },
+        {
+            "gravity-bridge-3": "gravity15md2qvgma8lnvqv67w0umu2paqkqkhega6t5dh"
+        },
+        {
+            "chihuahua-1": "chihuahua15md2qvgma8lnvqv67w0umu2paqkqkheg6l5zfa"
+        },
+        {
+            "comdex-1": "comdex16m48j88mlw2smhc8nyurznt4jl9nqgyq0d3rw8"
+        },
+        {
+            "comdex-1": "comdex15md2qvgma8lnvqv67w0umu2paqkqkheg79mw3g"
+        },
+        {
+            "core-1": "persistence15md2qvgma8lnvqv67w0umu2paqkqkheghxllxm"
+        },
+        {
+            "gravity-bridge-3": "gravity15md2qvgma8lnvqv67w0umu2paqkqkhega6t5dh"
+        },
+        {
+            "juno-1": "juno15md2qvgma8lnvqv67w0umu2paqkqkheg0c6h0r"
+        },
+        {
+            "kaiyo-1": "kujira15md2qvgma8lnvqv67w0umu2paqkqkheggzm594"
+        },
+        {
+            "omniflixhub-1": "omniflix15md2qvgma8lnvqv67w0umu2paqkqkhegy5g4lp"
+        },
+        {
+            "osmosis-1": "osmo15md2qvgma8lnvqv67w0umu2paqkqkheg332u7d"
+        },
+        {
+            "stargaze-1": "stars15md2qvgma8lnvqv67w0umu2paqkqkhegdkw3rw"
+        },
+        {
+            "agoric-3": "agoric12aeyaxq699k3f4d3733dl5pstw0ulplkggt2x6"
+        },
+        {
+            "agoric-3": "agoric18hx3fcqrvynx9vvpvyv5qym82xz4suw5zm3d0k"
+        },
+        {
+            "akashnet-2": "akash12aeyaxq699k3f4d3733dl5pstw0ulplkhwyj0k"
+        },
+        {
+            "akashnet-2": "akash1vh9d09ez64kxg3c9cekqj9em946evtwjf0mr2p"
+        },
+        {
+            "akashnet-2": "akash18hx3fcqrvynx9vvpvyv5qym82xz4suw5aa74x6"
+        },
+        {
+            "celestia": "celestia16m48j88mlw2smhc8nyurznt4jl9nqgyqegz3da"
+        },
+        {
+            "celestia": "celestia1qp2jfwdez8f69h470ex9rtcd6truqqg9cmtzac"
+        },
+        {
+            "celestia": "celestia18hx3fcqrvynx9vvpvyv5qym82xz4suw5pvzz9d"
+        },
+        {
+            "mars-1": "mars12aeyaxq699k3f4d3733dl5pstw0ulplk8gsvrh"
+        },
+        {
+            "osmosis-1": "osmo12aeyaxq699k3f4d3733dl5pstw0ulplkjw69q7"
+        },
+        {
+            "osmosis-1": "osmo1qp2jfwdez8f69h470ex9rtcd6truqqg9p2fz38"
+        },
+        {
+            "osmosis-1": "osmo18hx3fcqrvynx9vvpvyv5qym82xz4suw5caqzfj"
+        },
+        {
+            "pirin-1": "nolus12aeyaxq699k3f4d3733dl5pstw0ulplkv9e25f"
+        },
+        {
+            "quasar-1": "quasar12aeyaxq699k3f4d3733dl5pstw0ulplk5kngmf"
+        },
+        {
+            "quicksilver-2": "quick12aeyaxq699k3f4d3733dl5pstw0ulplk33e807"
+        },
+        {
+            "stride-1": "stride12aeyaxq699k3f4d3733dl5pstw0ulplke7ffzq"
+        },
+        {
+            "teritori-1": "tori12aeyaxq699k3f4d3733dl5pstw0ulplkcp7udu"
+        }
+    ]
+}
