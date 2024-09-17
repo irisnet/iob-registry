@@ -1,0 +1,53 @@
+{
+    "team_name": "kjnodes",
+    "contact": {
+        "website": "https://kjnodes.com",
+        "twitter": "https://x.com/kjnodes",
+        "telegram": "https://t.me/kjnodes",
+        "github": "https://github.com/kjnodes"
+    },
+    "introduction": [
+        "Trusted Proof of Stake validator across Cosmos universe. Active ecosystem contributor, IBC relayer and chain service provider since 2021."
+    ],
+    "addresses": [
+        {
+            "agoric-3": "agoric1twmgaeug7ymjq8c53ttstpl7rny43q8zh4rnh3"
+        },
+        {
+            "archway-1": "archway1twmgaeug7ymjq8c53ttstpl7rny43q8zsragds"
+        },
+        {
+            "bitcanna-1": "bcna1twmgaeug7ymjq8c53ttstpl7rny43q8zlc3d04"
+        },
+        {
+            "cosmoshub-4": "cosmos1twmgaeug7ymjq8c53ttstpl7rny43q8z9gpv88"
+        },
+        {
+            "jackal-1": "jkl1twmgaeug7ymjq8c53ttstpl7rny43q8zuk0a7c"
+        },
+        {
+            "kaiyo-1": "kujira1twmgaeug7ymjq8c53ttstpl7rny43q8z5qr52d"
+        },
+        {
+            "osmosis-1": "osmo1twmgaeug7ymjq8c53ttstpl7rny43q8zdnju34"
+        },
+        {
+            "pirin-1": "nolus1twmgaeug7ymjq8c53ttstpl7rny43q8znc3n9z"
+        },
+        {
+            "stride-1": "stride1twmgaeug7ymjq8c53ttstpl7rny43q8zxrpsnt"
+        },
+        {
+            "quasar-1": "quasar1twmgaeug7ymjq8c53ttstpl7rny43q8zttm32z"
+        },
+        {
+            "quicksilver-2": "quick1twmgaeug7ymjq8c53ttstpl7rny43q8zwv3774"
+        },
+        {
+            "celestia": "celestia1twmgaeug7ymjq8c53ttstpl7rny43q8z5zsua2"
+        },
+        {
+            "cataclysm-1": "nibi1twmgaeug7ymjq8c53ttstpl7rny43q8zjd94w5"
+        }
+    ]
+}
