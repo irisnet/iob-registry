@@ -1,0 +1,125 @@
+{
+    "team_name": "CroutonDigital",
+    "team_logo": "https://github.com/irisnet/iob-registry/raw/main/relayers/CroutonDigital/images/CroutonDigital_Logo.png",
+    "contact": {
+        "website": "https://crouton.digital",
+        "github": "https://github.com/CroutonDigital",
+        "telegram": "https://t.me/CroutonDigital",
+        "twitter": "https://x.com/CroutonDigital",
+        "medium": "https://medium.com/@CroutonDigital",
+        "discord": ""
+    },
+    "introduction": [
+        "Crouton Digital is a non-custodial staking provider and has been on the crypto market since 2017 as a service provider with an EU license. We have survived multiple waves of bull and bear markets, maintaining our reputation as a reliable partner. We host our infrastructure at unique geolocations. Security and reliability are our top priorities, which is why we use in-house developed monitoring tools and robust security measures."
+    ],
+    "addresses": [
+        {
+            "archway-1": "archway1ejkj6ssfuwsea0lj9g84n0fsdzkzs28v9p7ju4",
+            "osmosis-1": "osmo1q8pj4z552p9wpmq7mhlzwhtr3p97j04fpyudm9"
+        },
+        {
+            "archway-1": "archway1ejkj6ssfuwsea0lj9g84n0fsdzkzs28v9p7ju4",
+            "andromeda-1": "andr1cmnkyhzk9uuwahk6kyeg640z6lwcydzvpkk5xm"
+        },
+        {
+            "archway-1": "archway1ejkj6ssfuwsea0lj9g84n0fsdzkzs28v9p7ju4",
+            "pylons-mainnet-1": "pylo1nmy8vrf3pufhjgwzx5kd4qma4a3vmfzk9wnlh0"
+        },
+        {
+            "archway-1": "archway1ejkj6ssfuwsea0lj9g84n0fsdzkzs28v9p7ju4",
+            "celestia": "celestia1fq6ddllcan5fkmjyu93gwd7fyz06mu7xt95e9w"
+        },
+        {
+            "archway-1": "archway1ejkj6ssfuwsea0lj9g84n0fsdzkzs28v9p7ju4",
+            "injective-1": "inj1ayp0emu7pxpgpeaxq8walyyx903nkd42yqva73"
+        },
+        {
+            "archway-1": "archway1ejkj6ssfuwsea0lj9g84n0fsdzkzs28v9p7ju4",
+            "akashnet-2": "akash1qah0vkdk0lgxjtsucadvl52x2uwv3vgg9lm2cx"
+        },
+        {
+            "archway-1": "archway1ejkj6ssfuwsea0lj9g84n0fsdzkzs28v9p7ju4",
+            "dydx-mainnet-1": "dydx1d4k3ph805c7q42m3daeexycudhtgaykgjjc7ra"
+        },
+        {
+            "archway-1": "archway1ejkj6ssfuwsea0lj9g84n0fsdzkzs28v9p7ju4",
+            "stride-1": "stride1r9dujmyxtu2fhadngs02jqw4g795095fwwxg9v"
+        },
+        {
+            "archway-1": "archway1ejkj6ssfuwsea0lj9g84n0fsdzkzs28v9p7ju4",
+            "core-1": "persistence163q6acq0qcvx8adye8t46wx5pdzpfvxnejlx6m"
+        },
+        {
+            "archway-1": "archway1ejkj6ssfuwsea0lj9g84n0fsdzkzs28v9p7ju4",
+            "centauri-1": "pica16qkk5sfvrw4e5j0knj4pv8fgh53thfg793eqgr"
+        },
+        {
+            "archway-1": "archway1ejkj6ssfuwsea0lj9g84n0fsdzkzs28v9p7ju4",
+            "evmos_9001-2": "evmos1v8q6c5zz3sk222k2cx0cw4rjk2zls78m269qam"
+        },
+        {
+            "archway-1": "archway1ejkj6ssfuwsea0lj9g84n0fsdzkzs28v9p7ju4",
+            "sentinelhub-2": "sent17pns7ujcjutrxrf9u0t9znvg5x3hv8l56flmnx"
+        },
+        {
+            "archway-1": "archway1ejkj6ssfuwsea0lj9g84n0fsdzkzs28v9p7ju4",
+            "dymension_1100-1": "dym1p7ewhq483zfrj6y23n3duj7anyx558wqu860jc"
+        },
+        {
+            "archway-1": "archway1ejkj6ssfuwsea0lj9g84n0fsdzkzs28v9p7ju4",
+            "coreum-mainnet-1": "core1yzwae8sy5pxe3pkdwh9prnj0ump90yg4x2eyfk"
+        },
+        {
+            "coreum-mainnet-1": "core1yzwae8sy5pxe3pkdwh9prnj0ump90yg4x2eyfk",
+            "centauri-1": "pica16qkk5sfvrw4e5j0knj4pv8fgh53thfg793eqgr"
+        },
+        {
+            "coreum-mainnet-1": "core1yzwae8sy5pxe3pkdwh9prnj0ump90yg4x2eyfk",
+            "osmosis-1": "osmo1q8pj4z552p9wpmq7mhlzwhtr3p97j04fpyudm9"
+        },
+        {
+            "coreum-mainnet-1": "core1yzwae8sy5pxe3pkdwh9prnj0ump90yg4x2eyfk",
+            "dydx-mainnet-1": "dydx1d4k3ph805c7q42m3daeexycudhtgaykgjjc7ra"
+        },
+        {
+            "coreum-mainnet-1": "core1yzwae8sy5pxe3pkdwh9prnj0ump90yg4x2eyfk",
+            "evmos_9001-2": "evmos1v8q6c5zz3sk222k2cx0cw4rjk2zls78m269qam"
+        },
+        {
+            "coreum-mainnet-1": "core1yzwae8sy5pxe3pkdwh9prnj0ump90yg4x2eyfk",
+            "celestia": "celestia1fq6ddllcan5fkmjyu93gwd7fyz06mu7xt95e9w"
+        },
+        {
+            "coreum-mainnet-1": "core1yzwae8sy5pxe3pkdwh9prnj0ump90yg4x2eyfk",
+            "kava_2222-10": "kava1vweyyj5ng0uf9m9kydnryzn2mtnr4x9tp40w8q"
+        },
+        {
+            "coreum-mainnet-1": "core1yzwae8sy5pxe3pkdwh9prnj0ump90yg4x2eyfk",
+            "cosmoshub-4": "cosmos1m7t70kzzmnax04jwcdu38rjljtaj8cl4clz6zq"
+        },
+        {
+            "coreum-mainnet-1": "core1yzwae8sy5pxe3pkdwh9prnj0ump90yg4x2eyfk",
+            "noble-1": "noble10k90fydng3yfeeaajvn27p7gdry0gcxc3jmvqr"
+        },
+        {
+            "coreum-mainnet-1": "core1yzwae8sy5pxe3pkdwh9prnj0ump90yg4x2eyfk",
+            "gravity-bridge-3": "gravity1awqn47ns2dw7a560fpzgtv9eme40cmtwzl47u0"
+        },
+        {
+            "coreum-mainnet-1": "core1yzwae8sy5pxe3pkdwh9prnj0ump90yg4x2eyfk",
+            "kaiyo-1": "kujira16m2qfth8q8qmfzgxakdva34736kvkunfaqyklq"
+        },
+        {
+            "coreum-mainnet-1": "core1yzwae8sy5pxe3pkdwh9prnj0ump90yg4x2eyfk",
+            "axelar-dojo-1": "axelar1ph80mztw9f3g3wc4y77g8hcczkyqek8skp94vq"
+        },
+        {
+            "coreum-mainnet-1": "core1yzwae8sy5pxe3pkdwh9prnj0ump90yg4x2eyfk",
+            "laozi-mainnet": "band1eaxxxc700esh3kkega0jusw6vhvuycu47ljs27"
+        },
+        {
+            "coreum-mainnet-1": "core1yzwae8sy5pxe3pkdwh9prnj0ump90yg4x2eyfk",
+            "secret-4": "secret1zevcgku6lw9z5jpsxc3xkpwy3na03ud849l049"
+        }
+    ]
+}
